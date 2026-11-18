@@ -1,0 +1,6 @@
+DatasourceId,DatasourceName
+2,RetellInbound
+3,TwilioInbound
+4,TwilioOutbound
+5,WebForm
+6,TwilioVoicemail

@@ -1,0 +1,2 @@
+LawFirmId,LawFirmName,LawFirmPhoneNumber,FrontOfficeNumber,InternalPhoneNumbers,Specialty,DashboardSettings
+88,Marlowe & Finch Family Law,+16025550150,+16025550199,"[""+16025550199"", ""+14805550141"", ""+14805550142"", ""+14805550143"", ""+14805550151"", ""+14805550152"", ""+16025550161"", ""+16025550162"", ""+16025550163""]",Family Law,"{""timezone"": ""America/Phoenix"", ""business_hours"": ""Mon-Fri 08:30-17:30""}"

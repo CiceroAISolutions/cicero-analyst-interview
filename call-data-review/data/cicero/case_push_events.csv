@@ -1,0 +1,1477 @@
+EventId,CaseId,Integration,PushTrigger,Result,Retryable,Error,ManualPushedBy,ManualPushedAt,CreatedAt,FinishedAt
+90001,5001,hubspot,inbound,skipped,,call type not eligible,,,2026-08-31T08:08:38+00:00,2026-08-31T08:08:39+00:00
+90002,5002,hubspot,inbound,blocked,,junk call (hang_up),,,2026-08-31T13:10:04+00:00,2026-08-31T13:10:06+00:00
+90003,5003,hubspot,inbound,succeeded,,,,,2026-08-31T15:32:05+00:00,2026-08-31T15:32:06+00:00
+90004,5023,hubspot,inbound,blocked,,internal or test call,,,2026-08-31T16:40:46+00:00,2026-08-31T16:40:48+00:00
+90005,5025,hubspot,inbound,blocked,,vendor call,,,2026-08-31T16:55:51+00:00,2026-08-31T16:55:53+00:00
+90006,5027,hubspot,inbound,succeeded,,,,,2026-08-31T18:38:45+00:00,2026-08-31T18:38:48+00:00
+90007,5030,hubspot,inbound,blocked,,internal or test call,,,2026-08-31T19:54:05+00:00,2026-08-31T19:54:08+00:00
+90008,5034,hubspot,inbound,blocked,,junk call (robocall),,,2026-08-31T20:38:37+00:00,2026-08-31T20:38:38+00:00
+90009,5038,hubspot,inbound,blocked,,call shorter than 60s (12s),,,2026-08-31T22:01:06+00:00,2026-08-31T22:01:08+00:00
+90010,5040,hubspot,inbound,blocked,,internal or test call,,,2026-08-31T22:26:40+00:00,2026-08-31T22:26:40+00:00
+90011,5042,hubspot,inbound,blocked,,junk call (robocall),,,2026-08-31T22:51:46+00:00,2026-08-31T22:51:47+00:00
+90012,5041,hubspot,inbound,succeeded,,,,,2026-08-31T22:55:37+00:00,2026-08-31T22:55:39+00:00
+90013,5047,hubspot,inbound,skipped,,call type not eligible,,,2026-09-01T00:07:09+00:00,2026-09-01T00:07:09+00:00
+90014,5050,hubspot,inbound,succeeded,,,,,2026-09-01T00:43:16+00:00,2026-09-01T00:43:18+00:00
+90015,5051,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-01T02:51:22+00:00,2026-09-01T02:51:24+00:00
+90016,5052,hubspot,inbound,succeeded,,,,,2026-09-01T04:39:36+00:00,2026-09-01T04:39:38+00:00
+90017,5053,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-01T04:59:19+00:00,2026-09-01T04:59:21+00:00
+90018,5054,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-09-01T05:14:59+00:00,2026-09-01T05:15:00+00:00
+90019,5054,hubspot,inbound,succeeded,,,,,2026-09-01T05:15:59+00:00,2026-09-01T05:16:01+00:00
+90020,5055,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-01T05:18:46+00:00,2026-09-01T05:18:47+00:00
+90021,5056,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-01T05:25:45+00:00,2026-09-01T05:25:48+00:00
+90022,5057,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-01T06:16:30+00:00,2026-09-01T06:16:32+00:00
+90023,5058,hubspot,inbound,skipped,,call type not eligible,,,2026-09-01T06:20:10+00:00,2026-09-01T06:20:13+00:00
+90024,5059,hubspot,inbound,skipped,,call type not eligible,,,2026-09-01T08:21:44+00:00,2026-09-01T08:21:45+00:00
+90025,5060,hubspot,inbound,succeeded,,,,,2026-09-01T13:03:15+00:00,2026-09-01T13:03:17+00:00
+90026,5061,hubspot,inbound,skipped,,call type not eligible,,,2026-09-01T14:54:52+00:00,2026-09-01T14:54:55+00:00
+90027,5077,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-09-01T16:23:38+00:00,2026-09-01T16:23:40+00:00
+90028,5077,hubspot,inbound,succeeded,,,,,2026-09-01T16:24:38+00:00,2026-09-01T16:24:40+00:00
+90029,5085,hubspot,inbound,failed,0,multiple HubSpot contacts match the case phone number,,,2026-09-01T18:11:03+00:00,2026-09-01T18:11:05+00:00
+90030,5086,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-01T18:47:32+00:00,2026-09-01T18:47:33+00:00
+90031,5091,hubspot,inbound,blocked,,internal or test call,,,2026-09-01T20:36:49+00:00,2026-09-01T20:36:50+00:00
+90032,5093,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-01T20:48:05+00:00,2026-09-01T20:48:06+00:00
+90033,5094,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-01T20:49:41+00:00,2026-09-01T20:49:43+00:00
+90034,5096,hubspot,inbound,blocked,,vendor call,,,2026-09-01T21:36:50+00:00,2026-09-01T21:36:51+00:00
+90035,5099,hubspot,inbound,skipped,,call type not eligible,,,2026-09-01T22:32:01+00:00,2026-09-01T22:32:02+00:00
+90036,5100,hubspot,inbound,blocked,,vendor call,,,2026-09-01T22:52:18+00:00,2026-09-01T22:52:19+00:00
+90037,5103,hubspot,inbound,blocked,,internal or test call,,,2026-09-01T23:05:44+00:00,2026-09-01T23:05:45+00:00
+90038,5104,hubspot,inbound,succeeded,,,,,2026-09-02T00:53:35+00:00,2026-09-02T00:53:36+00:00
+90039,5105,hubspot,inbound,succeeded,,,,,2026-09-02T01:38:27+00:00,2026-09-02T01:38:29+00:00
+90040,5106,hubspot,inbound,skipped,,call type not eligible,,,2026-09-02T01:53:18+00:00,2026-09-02T01:53:19+00:00
+90041,5107,hubspot,inbound,blocked,,call shorter than 60s (21s),,,2026-09-02T01:53:59+00:00,2026-09-02T01:54:02+00:00
+90042,5108,hubspot,inbound,skipped,,call type not eligible,,,2026-09-02T03:41:27+00:00,2026-09-02T03:41:30+00:00
+90043,5109,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-02T04:15:53+00:00,2026-09-02T04:15:55+00:00
+90044,5110,hubspot,inbound,blocked,,call shorter than 60s (9s),,,2026-09-02T05:14:33+00:00,2026-09-02T05:14:34+00:00
+90045,5111,hubspot,inbound,skipped,,call type not eligible,,,2026-09-02T05:25:02+00:00,2026-09-02T05:25:05+00:00
+90046,5112,hubspot,inbound,skipped,,call type not eligible,,,2026-09-02T13:13:52+00:00,2026-09-02T13:13:54+00:00
+90047,5113,hubspot,inbound,succeeded,,,,,2026-09-02T13:25:33+00:00,2026-09-02T13:25:34+00:00
+90048,5114,hubspot,inbound,skipped,,call type not eligible,,,2026-09-02T13:26:20+00:00,2026-09-02T13:26:23+00:00
+90049,5115,hubspot,inbound,skipped,,call type not eligible,,,2026-09-02T13:40:48+00:00,2026-09-02T13:40:50+00:00
+90050,5116,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-02T14:40:21+00:00,2026-09-02T14:40:23+00:00
+90051,5134,hubspot,inbound,blocked,,vendor call,,,2026-09-02T15:43:57+00:00,2026-09-02T15:43:58+00:00
+90052,5135,hubspot,inbound,skipped,,call type not eligible,,,2026-09-02T15:51:51+00:00,2026-09-02T15:51:52+00:00
+90053,5137,hubspot,inbound,failed,0,multiple HubSpot contacts match the case phone number,,,2026-09-02T16:20:38+00:00,2026-09-02T16:20:39+00:00
+90054,5138,hubspot,inbound,failed,0,multiple HubSpot contacts match the case phone number,,,2026-09-02T16:22:49+00:00,2026-09-02T16:22:52+00:00
+90055,5140,hubspot,inbound,blocked,,call shorter than 60s (43s),,,2026-09-02T16:55:38+00:00,2026-09-02T16:55:39+00:00
+90056,5141,hubspot,inbound,skipped,,call type not eligible,,,2026-09-02T17:27:31+00:00,2026-09-02T17:27:34+00:00
+90057,5142,hubspot,inbound,succeeded,,,,,2026-09-02T17:34:42+00:00,2026-09-02T17:34:43+00:00
+90058,5151,hubspot,inbound,succeeded,,,,,2026-09-02T19:37:54+00:00,2026-09-02T19:37:55+00:00
+90059,5155,hubspot,inbound,blocked,,internal or test call,,,2026-09-02T20:04:06+00:00,2026-09-02T20:04:07+00:00
+90060,5156,hubspot,inbound,succeeded,,,,,2026-09-02T20:53:58+00:00,2026-09-02T20:53:59+00:00
+90061,5159,hubspot,inbound,blocked,,internal or test call,,,2026-09-02T21:50:03+00:00,2026-09-02T21:50:04+00:00
+90062,5161,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-02T22:41:55+00:00,2026-09-02T22:41:56+00:00
+90063,5164,hubspot,inbound,skipped,,call type not eligible,,,2026-09-03T00:04:16+00:00,2026-09-03T00:04:18+00:00
+90064,5165,hubspot,inbound,blocked,,internal or test call,,,2026-09-03T00:35:03+00:00,2026-09-03T00:35:06+00:00
+90065,5166,hubspot,inbound,skipped,,call type not eligible,,,2026-09-03T00:58:19+00:00,2026-09-03T00:58:20+00:00
+90066,5167,hubspot,inbound,blocked,,internal or test call,,,2026-09-03T01:04:57+00:00,2026-09-03T01:04:59+00:00
+90067,5168,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-03T01:11:27+00:00,2026-09-03T01:11:29+00:00
+90068,5169,hubspot,inbound,skipped,,call type not eligible,,,2026-09-03T01:28:20+00:00,2026-09-03T01:28:21+00:00
+90069,5170,hubspot,inbound,skipped,,call type not eligible,,,2026-09-03T01:42:10+00:00,2026-09-03T01:42:10+00:00
+90070,5171,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-03T02:46:13+00:00,2026-09-03T02:46:16+00:00
+90071,5172,hubspot,inbound,skipped,,call type not eligible,,,2026-09-03T06:32:43+00:00,2026-09-03T06:32:43+00:00
+90072,5173,hubspot,inbound,succeeded,,,,,2026-09-03T13:13:13+00:00,2026-09-03T13:13:14+00:00
+90073,5174,hubspot,inbound,succeeded,,,,,2026-09-03T13:36:09+00:00,2026-09-03T13:36:11+00:00
+90074,5175,hubspot,inbound,skipped,,call type not eligible,,,2026-09-03T13:51:18+00:00,2026-09-03T13:51:21+00:00
+90075,5176,hubspot,inbound,skipped,,call type not eligible,,,2026-09-03T13:59:41+00:00,2026-09-03T13:59:42+00:00
+90076,5177,hubspot,inbound,blocked,,call shorter than 60s (18s),,,2026-09-03T14:44:22+00:00,2026-09-03T14:44:25+00:00
+90077,5196,hubspot,inbound,blocked,,internal or test call,,,2026-09-03T17:18:44+00:00,2026-09-03T17:18:45+00:00
+90078,5197,hubspot,inbound,blocked,,vendor call,,,2026-09-03T17:42:54+00:00,2026-09-03T17:42:56+00:00
+90079,5199,hubspot,inbound,blocked,,internal or test call,,,2026-09-03T18:30:32+00:00,2026-09-03T18:30:33+00:00
+90080,5198,hubspot,inbound,succeeded,,,,,2026-09-03T18:31:36+00:00,2026-09-03T18:31:37+00:00
+90081,5201,hubspot,inbound,blocked,,vendor call,,,2026-09-03T18:41:21+00:00,2026-09-03T18:41:23+00:00
+90082,5202,hubspot,inbound,succeeded,,,,,2026-09-03T18:41:48+00:00,2026-09-03T18:41:49+00:00
+90083,5204,hubspot,inbound,blocked,,internal or test call,,,2026-09-03T18:56:59+00:00,2026-09-03T18:57:01+00:00
+90084,5206,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-03T19:04:14+00:00,2026-09-03T19:04:14+00:00
+90085,5209,hubspot,inbound,blocked,,call shorter than 60s (50s),,,2026-09-03T20:32:03+00:00,2026-09-03T20:32:04+00:00
+90086,5211,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-03T20:53:00+00:00,2026-09-03T20:53:02+00:00
+90087,5213,hubspot,inbound,failed,0,multiple HubSpot contacts match the case phone number,,,2026-09-03T21:10:12+00:00,2026-09-03T21:10:15+00:00
+90088,5215,hubspot,inbound,blocked,,vendor call,,,2026-09-03T22:11:16+00:00,2026-09-03T22:11:18+00:00
+90089,5216,hubspot,inbound,skipped,,call type not eligible,,,2026-09-03T23:34:19+00:00,2026-09-03T23:34:21+00:00
+90090,5217,hubspot,inbound,skipped,,call type not eligible,,,2026-09-04T00:28:38+00:00,2026-09-04T00:28:39+00:00
+90091,5218,hubspot,inbound,skipped,,call type not eligible,,,2026-09-04T00:46:01+00:00,2026-09-04T00:46:02+00:00
+90092,5219,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-09-04T02:25:12+00:00,2026-09-04T02:25:13+00:00
+90093,5219,hubspot,inbound,succeeded,,,,,2026-09-04T02:26:12+00:00,2026-09-04T02:26:14+00:00
+90094,5220,hubspot,inbound,skipped,,call type not eligible,,,2026-09-04T02:34:27+00:00,2026-09-04T02:34:29+00:00
+90095,5221,hubspot,inbound,succeeded,,,,,2026-09-04T02:49:59+00:00,2026-09-04T02:50:02+00:00
+90096,5222,hubspot,inbound,succeeded,,,,,2026-09-04T03:00:56+00:00,2026-09-04T03:00:58+00:00
+90097,5223,hubspot,inbound,succeeded,,,,,2026-09-04T03:43:52+00:00,2026-09-04T03:43:55+00:00
+90098,5224,hubspot,inbound,skipped,,call type not eligible,,,2026-09-04T04:05:34+00:00,2026-09-04T04:05:37+00:00
+90099,5225,hubspot,inbound,skipped,,call type not eligible,,,2026-09-04T04:12:58+00:00,2026-09-04T04:12:59+00:00
+90100,5226,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-04T04:45:23+00:00,2026-09-04T04:45:25+00:00
+90101,5228,hubspot,inbound,succeeded,,,,,2026-09-04T09:42:02+00:00,2026-09-04T09:42:03+00:00
+90102,5229,hubspot,inbound,skipped,,call type not eligible,,,2026-09-04T13:32:41+00:00,2026-09-04T13:32:43+00:00
+90103,5230,hubspot,inbound,skipped,,call type not eligible,,,2026-09-04T13:54:49+00:00,2026-09-04T13:54:49+00:00
+90104,5231,hubspot,inbound,succeeded,,,,,2026-09-04T14:23:46+00:00,2026-09-04T14:23:48+00:00
+90105,5232,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-04T14:32:18+00:00,2026-09-04T14:32:19+00:00
+90106,5233,hubspot,inbound,skipped,,call type not eligible,,,2026-09-04T14:54:36+00:00,2026-09-04T14:54:38+00:00
+90107,5234,hubspot,inbound,skipped,,call type not eligible,,,2026-09-04T15:13:42+00:00,2026-09-04T15:13:44+00:00
+90108,5244,hubspot,inbound,skipped,,call type not eligible,,,2026-09-04T15:37:34+00:00,2026-09-04T15:37:37+00:00
+90109,5249,hubspot,inbound,blocked,,vendor call,,,2026-09-04T16:37:35+00:00,2026-09-04T16:37:37+00:00
+90110,5250,hubspot,inbound,succeeded,,,,,2026-09-04T17:34:11+00:00,2026-09-04T17:34:11+00:00
+90111,5253,hubspot,inbound,blocked,,internal or test call,,,2026-09-04T19:10:29+00:00,2026-09-04T19:10:32+00:00
+90112,5258,hubspot,inbound,blocked,,vendor call,,,2026-09-04T20:54:26+00:00,2026-09-04T20:54:27+00:00
+90113,5260,hubspot,inbound,failed,0,multiple HubSpot contacts match the case phone number,,,2026-09-04T21:16:35+00:00,2026-09-04T21:16:37+00:00
+90114,5262,hubspot,inbound,skipped,,call type not eligible,,,2026-09-04T21:26:48+00:00,2026-09-04T21:26:51+00:00
+90115,5263,hubspot,inbound,blocked,,vendor call,,,2026-09-04T21:38:31+00:00,2026-09-04T21:38:32+00:00
+90116,5267,hubspot,inbound,blocked,,internal or test call,,,2026-09-04T22:33:21+00:00,2026-09-04T22:33:21+00:00
+90117,5268,hubspot,inbound,succeeded,,,,,2026-09-04T22:51:37+00:00,2026-09-04T22:51:39+00:00
+90118,5269,hubspot,inbound,skipped,,call type not eligible,,,2026-09-04T23:05:53+00:00,2026-09-04T23:05:54+00:00
+90119,5271,hubspot,inbound,skipped,,call type not eligible,,,2026-09-04T23:31:15+00:00,2026-09-04T23:31:17+00:00
+90120,5274,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-05T00:31:44+00:00,2026-09-05T00:31:47+00:00
+90121,5275,hubspot,inbound,skipped,,call type not eligible,,,2026-09-05T00:33:42+00:00,2026-09-05T00:33:45+00:00
+90122,5276,hubspot,inbound,skipped,,call type not eligible,,,2026-09-05T00:41:53+00:00,2026-09-05T00:41:56+00:00
+90123,5277,hubspot,inbound,skipped,,call type not eligible,,,2026-09-05T00:53:48+00:00,2026-09-05T00:53:50+00:00
+90124,5278,hubspot,inbound,skipped,,call type not eligible,,,2026-09-05T01:15:13+00:00,2026-09-05T01:15:13+00:00
+90125,5279,hubspot,inbound,succeeded,,,,,2026-09-05T01:47:09+00:00,2026-09-05T01:47:10+00:00
+90126,5280,hubspot,inbound,skipped,,call type not eligible,,,2026-09-05T02:02:10+00:00,2026-09-05T02:02:11+00:00
+90127,5281,hubspot,inbound,skipped,,call type not eligible,,,2026-09-05T02:35:19+00:00,2026-09-05T02:35:21+00:00
+90128,5282,hubspot,inbound,succeeded,,,,,2026-09-05T02:52:33+00:00,2026-09-05T02:52:35+00:00
+90129,5283,hubspot,inbound,succeeded,,,,,2026-09-05T04:28:59+00:00,2026-09-05T04:29:00+00:00
+90130,5284,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-05T05:13:29+00:00,2026-09-05T05:13:32+00:00
+90131,5285,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-05T05:23:44+00:00,2026-09-05T05:23:44+00:00
+90132,5287,hubspot,inbound,skipped,,call type not eligible,,,2026-09-05T05:29:35+00:00,2026-09-05T05:29:38+00:00
+90133,5286,hubspot,inbound,succeeded,,,,,2026-09-05T05:29:42+00:00,2026-09-05T05:29:45+00:00
+90134,5288,hubspot,inbound,skipped,,call type not eligible,,,2026-09-05T16:20:16+00:00,2026-09-05T16:20:17+00:00
+90135,5289,hubspot,inbound,blocked,,call shorter than 60s (26s),,,2026-09-05T17:57:31+00:00,2026-09-05T17:57:32+00:00
+90136,5290,hubspot,inbound,blocked,,internal or test call,,,2026-09-05T19:44:50+00:00,2026-09-05T19:44:52+00:00
+90137,5291,hubspot,inbound,blocked,,internal or test call,,,2026-09-05T21:19:10+00:00,2026-09-05T21:19:12+00:00
+90138,5293,hubspot,inbound,blocked,,internal or test call,,,2026-09-05T23:15:10+00:00,2026-09-05T23:15:12+00:00
+90139,5292,hubspot,inbound,blocked,,internal or test call,,,2026-09-05T23:16:06+00:00,2026-09-05T23:16:07+00:00
+90140,5294,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-05T23:19:25+00:00,2026-09-05T23:19:26+00:00
+90141,5295,hubspot,inbound,skipped,,call type not eligible,,,2026-09-05T23:21:56+00:00,2026-09-05T23:21:57+00:00
+90142,5296,hubspot,inbound,skipped,,call type not eligible,,,2026-09-06T00:21:42+00:00,2026-09-06T00:21:44+00:00
+90143,5297,hubspot,inbound,succeeded,,,,,2026-09-06T00:31:21+00:00,2026-09-06T00:31:22+00:00
+90144,5298,hubspot,inbound,succeeded,,,,,2026-09-06T03:18:49+00:00,2026-09-06T03:18:50+00:00
+90145,5299,hubspot,inbound,blocked,,internal or test call,,,2026-09-06T03:31:05+00:00,2026-09-06T03:31:06+00:00
+90146,5300,hubspot,inbound,succeeded,,,,,2026-09-06T03:39:05+00:00,2026-09-06T03:39:06+00:00
+90147,5301,hubspot,inbound,blocked,,call shorter than 60s (22s),,,2026-09-06T03:49:09+00:00,2026-09-06T03:49:11+00:00
+90148,5302,hubspot,inbound,succeeded,,,,,2026-09-06T06:11:25+00:00,2026-09-06T06:11:27+00:00
+90149,5303,hubspot,inbound,succeeded,,,,,2026-09-06T06:16:34+00:00,2026-09-06T06:16:36+00:00
+90150,5304,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-06T08:29:15+00:00,2026-09-06T08:29:18+00:00
+90151,5305,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-06T15:12:27+00:00,2026-09-06T15:12:29+00:00
+90152,5306,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-06T18:08:43+00:00,2026-09-06T18:08:45+00:00
+90153,5307,hubspot,inbound,succeeded,,,,,2026-09-06T18:48:33+00:00,2026-09-06T18:48:34+00:00
+90154,5308,hubspot,inbound,blocked,,internal or test call,,,2026-09-06T19:46:25+00:00,2026-09-06T19:46:28+00:00
+90155,5309,hubspot,inbound,blocked,,internal or test call,,,2026-09-06T22:27:48+00:00,2026-09-06T22:27:51+00:00
+90156,5310,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-07T00:29:20+00:00,2026-09-07T00:29:23+00:00
+90157,5311,hubspot,inbound,succeeded,,,,,2026-09-07T01:37:41+00:00,2026-09-07T01:37:44+00:00
+90158,5312,hubspot,inbound,blocked,,internal or test call,,,2026-09-07T01:45:27+00:00,2026-09-07T01:45:29+00:00
+90159,5313,hubspot,inbound,succeeded,,,,,2026-09-07T03:13:15+00:00,2026-09-07T03:13:18+00:00
+90160,5314,hubspot,inbound,blocked,,internal or test call,,,2026-09-07T03:39:12+00:00,2026-09-07T03:39:14+00:00
+90161,5315,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-07T04:55:36+00:00,2026-09-07T04:55:37+00:00
+90162,5316,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-07T05:37:08+00:00,2026-09-07T05:37:09+00:00
+90163,5317,hubspot,inbound,succeeded,,,,,2026-09-07T09:30:23+00:00,2026-09-07T09:30:25+00:00
+90164,5318,hubspot,inbound,skipped,,call type not eligible,,,2026-09-07T10:55:26+00:00,2026-09-07T10:55:27+00:00
+90165,5319,hubspot,inbound,skipped,,call type not eligible,,,2026-09-07T11:52:35+00:00,2026-09-07T11:52:38+00:00
+90166,5320,hubspot,inbound,skipped,,call type not eligible,,,2026-09-07T12:35:25+00:00,2026-09-07T12:35:28+00:00
+90167,5321,hubspot,inbound,skipped,,call type not eligible,,,2026-09-07T13:05:21+00:00,2026-09-07T13:05:24+00:00
+90168,5322,hubspot,inbound,blocked,,call shorter than 60s (20s),,,2026-09-07T13:08:19+00:00,2026-09-07T13:08:21+00:00
+90169,5348,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-07T15:54:33+00:00,2026-09-07T15:54:35+00:00
+90170,5349,hubspot,inbound,blocked,,vendor call,,,2026-09-07T15:56:33+00:00,2026-09-07T15:56:35+00:00
+90171,5357,hubspot,inbound,succeeded,,,,,2026-09-07T17:39:30+00:00,2026-09-07T17:39:32+00:00
+90172,5360,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-07T19:04:39+00:00,2026-09-07T19:04:40+00:00
+90173,5361,hubspot,inbound,succeeded,,,,,2026-09-07T19:18:11+00:00,2026-09-07T19:18:14+00:00
+90174,5364,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-07T21:03:36+00:00,2026-09-07T21:03:38+00:00
+90175,5372,hubspot,inbound,skipped,,call type not eligible,,,2026-09-08T00:50:15+00:00,2026-09-08T00:50:15+00:00
+90176,5373,hubspot,inbound,blocked,,call shorter than 60s (26s),,,2026-09-08T01:09:11+00:00,2026-09-08T01:09:13+00:00
+90177,5374,hubspot,inbound,skipped,,call type not eligible,,,2026-09-08T01:12:13+00:00,2026-09-08T01:12:16+00:00
+90178,5375,hubspot,inbound,succeeded,,,,,2026-09-08T01:20:52+00:00,2026-09-08T01:20:55+00:00
+90179,5377,hubspot,inbound,succeeded,,,,,2026-09-08T02:27:48+00:00,2026-09-08T02:27:49+00:00
+90180,5378,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-08T03:28:33+00:00,2026-09-08T03:28:35+00:00
+90181,5379,hubspot,inbound,skipped,,call type not eligible,,,2026-09-08T04:17:17+00:00,2026-09-08T04:17:18+00:00
+90182,5380,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-08T04:49:23+00:00,2026-09-08T04:49:24+00:00
+90183,5381,hubspot,inbound,succeeded,,,,,2026-09-08T05:04:51+00:00,2026-09-08T05:04:54+00:00
+90184,5382,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-08T05:08:05+00:00,2026-09-08T05:08:07+00:00
+90185,5383,hubspot,inbound,succeeded,,,,,2026-09-08T05:26:15+00:00,2026-09-08T05:26:15+00:00
+90186,5384,hubspot,inbound,skipped,,call type not eligible,,,2026-09-08T05:27:02+00:00,2026-09-08T05:27:04+00:00
+90187,5385,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-08T07:34:50+00:00,2026-09-08T07:34:52+00:00
+90188,5386,hubspot,inbound,succeeded,,,,,2026-09-08T07:52:18+00:00,2026-09-08T07:52:19+00:00
+90189,5387,hubspot,inbound,skipped,,call type not eligible,,,2026-09-08T09:43:05+00:00,2026-09-08T09:43:06+00:00
+90190,5388,hubspot,inbound,skipped,,call type not eligible,,,2026-09-08T14:12:41+00:00,2026-09-08T14:12:42+00:00
+90191,5389,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-08T14:24:47+00:00,2026-09-08T14:24:49+00:00
+90192,5390,hubspot,inbound,succeeded,,,,,2026-09-08T14:45:20+00:00,2026-09-08T14:45:21+00:00
+90193,5408,hubspot,inbound,skipped,,call type not eligible,,,2026-09-08T15:40:28+00:00,2026-09-08T15:40:31+00:00
+90194,5416,hubspot,inbound,blocked,,internal or test call,,,2026-09-08T16:27:28+00:00,2026-09-08T16:27:29+00:00
+90195,5418,hubspot,inbound,blocked,,internal or test call,,,2026-09-08T17:56:01+00:00,2026-09-08T17:56:03+00:00
+90196,5419,hubspot,inbound,blocked,,internal or test call,,,2026-09-08T18:33:40+00:00,2026-09-08T18:33:43+00:00
+90197,5420,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-08T18:47:14+00:00,2026-09-08T18:47:15+00:00
+90198,5421,hubspot,inbound,skipped,,call type not eligible,,,2026-09-08T19:05:44+00:00,2026-09-08T19:05:47+00:00
+90199,5424,hubspot,inbound,skipped,,call type not eligible,,,2026-09-08T20:10:49+00:00,2026-09-08T20:10:52+00:00
+90200,5425,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-08T20:13:52+00:00,2026-09-08T20:13:54+00:00
+90201,5426,hubspot,inbound,skipped,,call type not eligible,,,2026-09-08T20:18:18+00:00,2026-09-08T20:18:19+00:00
+90202,5428,hubspot,inbound,skipped,,call type not eligible,,,2026-09-08T20:33:24+00:00,2026-09-08T20:33:27+00:00
+90203,5430,hubspot,inbound,blocked,,internal or test call,,,2026-09-08T21:18:25+00:00,2026-09-08T21:18:28+00:00
+90204,5433,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-09-08T22:14:27+00:00,2026-09-08T22:14:30+00:00
+90205,5433,hubspot,inbound,succeeded,,,,,2026-09-08T22:15:27+00:00,2026-09-08T22:15:30+00:00
+90206,5436,hubspot,inbound,blocked,,internal or test call,,,2026-09-08T23:05:04+00:00,2026-09-08T23:05:05+00:00
+90207,5441,hubspot,inbound,failed,0,multiple HubSpot contacts match the case phone number,,,2026-09-09T00:30:56+00:00,2026-09-09T00:30:57+00:00
+90208,5442,hubspot,inbound,succeeded,,,,,2026-09-09T01:02:23+00:00,2026-09-09T01:02:25+00:00
+90209,5443,hubspot,inbound,skipped,,call type not eligible,,,2026-09-09T01:32:49+00:00,2026-09-09T01:32:51+00:00
+90210,5444,hubspot,inbound,blocked,,internal or test call,,,2026-09-09T01:37:28+00:00,2026-09-09T01:37:30+00:00
+90211,5445,hubspot,inbound,succeeded,,,,,2026-09-09T01:41:17+00:00,2026-09-09T01:41:18+00:00
+90212,5446,hubspot,inbound,succeeded,,,,,2026-09-09T03:53:57+00:00,2026-09-09T03:54:00+00:00
+90213,5447,hubspot,inbound,skipped,,call type not eligible,,,2026-09-09T06:11:09+00:00,2026-09-09T06:11:11+00:00
+90214,5448,hubspot,inbound,succeeded,,,,,2026-09-09T10:01:10+00:00,2026-09-09T10:01:12+00:00
+90215,5449,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-09T10:24:26+00:00,2026-09-09T10:24:29+00:00
+90216,5463,hubspot,inbound,blocked,,vendor call,,,2026-09-09T15:54:36+00:00,2026-09-09T15:54:38+00:00
+90217,5468,hubspot,inbound,succeeded,,,,,2026-09-09T17:13:49+00:00,2026-09-09T17:13:51+00:00
+90218,5469,hubspot,inbound,blocked,,vendor call,,,2026-09-09T18:20:59+00:00,2026-09-09T18:21:02+00:00
+90219,5473,hubspot,inbound,blocked,,call shorter than 60s (19s),,,2026-09-09T20:17:21+00:00,2026-09-09T20:17:22+00:00
+90220,5476,hubspot,inbound,blocked,,vendor call,,,2026-09-09T20:32:33+00:00,2026-09-09T20:32:34+00:00
+90221,5479,hubspot,inbound,failed,0,multiple HubSpot contacts match the case phone number,,,2026-09-09T23:01:54+00:00,2026-09-09T23:01:55+00:00
+90222,5482,hubspot,inbound,blocked,,vendor call,,,2026-09-10T00:24:15+00:00,2026-09-10T00:24:17+00:00
+90223,5484,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-10T02:18:51+00:00,2026-09-10T02:18:53+00:00
+90224,5485,hubspot,inbound,succeeded,,,,,2026-09-10T02:26:45+00:00,2026-09-10T02:26:47+00:00
+90225,5486,hubspot,inbound,skipped,,call type not eligible,,,2026-09-10T03:13:50+00:00,2026-09-10T03:13:52+00:00
+90226,5487,hubspot,inbound,skipped,,call type not eligible,,,2026-09-10T03:59:02+00:00,2026-09-10T03:59:03+00:00
+90227,5488,hubspot,inbound,succeeded,,,,,2026-09-10T04:11:56+00:00,2026-09-10T04:11:58+00:00
+90228,5489,hubspot,inbound,skipped,,call type not eligible,,,2026-09-10T04:36:30+00:00,2026-09-10T04:36:32+00:00
+90229,5490,hubspot,inbound,skipped,,call type not eligible,,,2026-09-10T04:37:17+00:00,2026-09-10T04:37:19+00:00
+90230,5491,hubspot,inbound,succeeded,,,,,2026-09-10T04:57:04+00:00,2026-09-10T04:57:06+00:00
+90231,5492,hubspot,inbound,skipped,,call type not eligible,,,2026-09-10T05:07:39+00:00,2026-09-10T05:07:41+00:00
+90232,5493,hubspot,inbound,skipped,,call type not eligible,,,2026-09-10T06:33:41+00:00,2026-09-10T06:33:43+00:00
+90233,5494,hubspot,inbound,skipped,,call type not eligible,,,2026-09-10T09:16:29+00:00,2026-09-10T09:16:32+00:00
+90234,5495,hubspot,inbound,succeeded,,,,,2026-09-10T10:40:10+00:00,2026-09-10T10:40:12+00:00
+90235,5496,hubspot,inbound,succeeded,,,,,2026-09-10T11:49:01+00:00,2026-09-10T11:49:02+00:00
+90236,5497,hubspot,inbound,skipped,,call type not eligible,,,2026-09-10T15:00:00+00:00,2026-09-10T15:00:02+00:00
+90237,5498,hubspot,inbound,succeeded,,,,,2026-09-10T15:21:26+00:00,2026-09-10T15:21:28+00:00
+90238,5504,hubspot,inbound,succeeded,,,,,2026-09-10T15:36:02+00:00,2026-09-10T15:36:03+00:00
+90239,5506,hubspot,inbound,blocked,,vendor call,,,2026-09-10T15:48:09+00:00,2026-09-10T15:48:12+00:00
+90240,5515,hubspot,inbound,succeeded,,,,,2026-09-10T17:16:55+00:00,2026-09-10T17:16:57+00:00
+90241,5516,hubspot,inbound,skipped,,call type not eligible,,,2026-09-10T17:18:22+00:00,2026-09-10T17:18:24+00:00
+90242,5518,hubspot,inbound,blocked,,call shorter than 60s (56s),,,2026-09-10T17:31:30+00:00,2026-09-10T17:31:32+00:00
+90243,5519,hubspot,inbound,skipped,,call type not eligible,,,2026-09-10T18:13:02+00:00,2026-09-10T18:13:03+00:00
+90244,5521,hubspot,inbound,blocked,,call shorter than 60s (10s),,,2026-09-10T19:16:58+00:00,2026-09-10T19:16:59+00:00
+90245,5522,hubspot,inbound,blocked,,vendor call,,,2026-09-10T19:56:31+00:00,2026-09-10T19:56:34+00:00
+90246,5523,hubspot,inbound,skipped,,call type not eligible,,,2026-09-10T20:34:29+00:00,2026-09-10T20:34:30+00:00
+90247,5525,hubspot,inbound,succeeded,,,,,2026-09-10T20:40:18+00:00,2026-09-10T20:40:19+00:00
+90248,5528,hubspot,inbound,succeeded,,,,,2026-09-10T21:35:07+00:00,2026-09-10T21:35:09+00:00
+90249,5529,hubspot,inbound,skipped,,call type not eligible,,,2026-09-10T22:12:25+00:00,2026-09-10T22:12:26+00:00
+90250,5533,hubspot,inbound,succeeded,,,,,2026-09-10T22:48:31+00:00,2026-09-10T22:48:34+00:00
+90251,5537,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-10T23:50:56+00:00,2026-09-10T23:50:59+00:00
+90252,5538,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-10T23:53:34+00:00,2026-09-10T23:53:36+00:00
+90253,5539,hubspot,inbound,blocked,,call shorter than 60s (55s),,,2026-09-11T00:10:34+00:00,2026-09-11T00:10:36+00:00
+90254,5540,hubspot,inbound,succeeded,,,,,2026-09-11T02:02:48+00:00,2026-09-11T02:02:51+00:00
+90255,5541,hubspot,inbound,skipped,,call type not eligible,,,2026-09-11T02:18:03+00:00,2026-09-11T02:18:04+00:00
+90256,5542,hubspot,inbound,skipped,,call type not eligible,,,2026-09-11T02:22:48+00:00,2026-09-11T02:22:50+00:00
+90257,5543,hubspot,inbound,succeeded,,,,,2026-09-11T02:31:00+00:00,2026-09-11T02:31:02+00:00
+90258,5544,hubspot,inbound,skipped,,call type not eligible,,,2026-09-11T02:41:31+00:00,2026-09-11T02:41:33+00:00
+90259,5545,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-09-11T02:48:47+00:00,2026-09-11T02:48:48+00:00
+90260,5545,hubspot,inbound,succeeded,,,,,2026-09-11T02:49:47+00:00,2026-09-11T02:49:49+00:00
+90261,5546,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-11T03:41:20+00:00,2026-09-11T03:41:22+00:00
+90262,5547,hubspot,inbound,skipped,,call type not eligible,,,2026-09-11T04:28:41+00:00,2026-09-11T04:28:42+00:00
+90263,5548,hubspot,inbound,skipped,,call type not eligible,,,2026-09-11T06:14:37+00:00,2026-09-11T06:14:39+00:00
+90264,5549,hubspot,inbound,skipped,,call type not eligible,,,2026-09-11T13:24:25+00:00,2026-09-11T13:24:27+00:00
+90265,5550,hubspot,inbound,skipped,,call type not eligible,,,2026-09-11T14:09:28+00:00,2026-09-11T14:09:29+00:00
+90266,5551,hubspot,inbound,succeeded,,,,,2026-09-11T14:56:54+00:00,2026-09-11T14:56:55+00:00
+90267,5562,hubspot,inbound,skipped,,call type not eligible,,,2026-09-11T17:06:29+00:00,2026-09-11T17:06:30+00:00
+90268,5567,hubspot,inbound,blocked,,internal or test call,,,2026-09-11T19:10:51+00:00,2026-09-11T19:10:53+00:00
+90269,5572,hubspot,inbound,succeeded,,,,,2026-09-11T21:04:49+00:00,2026-09-11T21:04:49+00:00
+90270,5574,hubspot,inbound,blocked,,call shorter than 60s (12s),,,2026-09-11T21:45:59+00:00,2026-09-11T21:46:02+00:00
+90271,5576,hubspot,inbound,failed,0,multiple HubSpot contacts match the case phone number,,,2026-09-11T22:29:41+00:00,2026-09-11T22:29:42+00:00
+90272,5582,hubspot,inbound,succeeded,,,,,2026-09-12T00:22:55+00:00,2026-09-12T00:22:57+00:00
+90273,5584,hubspot,inbound,succeeded,,,,,2026-09-12T01:36:58+00:00,2026-09-12T01:37:00+00:00
+90274,5585,hubspot,inbound,succeeded,,,,,2026-09-12T01:41:45+00:00,2026-09-12T01:41:46+00:00
+90275,5586,hubspot,inbound,skipped,,call type not eligible,,,2026-09-12T02:17:58+00:00,2026-09-12T02:18:00+00:00
+90276,5587,hubspot,inbound,skipped,,call type not eligible,,,2026-09-12T02:18:31+00:00,2026-09-12T02:18:33+00:00
+90277,5588,hubspot,inbound,succeeded,,,,,2026-09-12T02:26:12+00:00,2026-09-12T02:26:14+00:00
+90278,5589,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-12T02:32:15+00:00,2026-09-12T02:32:17+00:00
+90279,5590,hubspot,inbound,succeeded,,,,,2026-09-12T02:36:36+00:00,2026-09-12T02:36:38+00:00
+90280,5591,hubspot,inbound,succeeded,,,,,2026-09-12T02:49:15+00:00,2026-09-12T02:49:17+00:00
+90281,5592,hubspot,inbound,skipped,,call type not eligible,,,2026-09-12T03:27:45+00:00,2026-09-12T03:27:46+00:00
+90282,5593,hubspot,inbound,skipped,,call type not eligible,,,2026-09-12T04:16:20+00:00,2026-09-12T04:16:22+00:00
+90283,5594,hubspot,inbound,skipped,,call type not eligible,,,2026-09-12T04:26:13+00:00,2026-09-12T04:26:16+00:00
+90284,5595,hubspot,inbound,skipped,,call type not eligible,,,2026-09-12T04:44:01+00:00,2026-09-12T04:44:02+00:00
+90285,5596,hubspot,inbound,succeeded,,,,,2026-09-12T05:15:27+00:00,2026-09-12T05:15:28+00:00
+90286,5597,hubspot,inbound,succeeded,,,,,2026-09-12T09:21:49+00:00,2026-09-12T09:21:51+00:00
+90287,5598,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-12T15:21:01+00:00,2026-09-12T15:21:02+00:00
+90288,5599,hubspot,inbound,succeeded,,,,,2026-09-12T15:54:10+00:00,2026-09-12T15:54:11+00:00
+90289,5600,hubspot,inbound,skipped,,call type not eligible,,,2026-09-12T16:44:55+00:00,2026-09-12T16:44:58+00:00
+90290,5601,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-09-12T19:07:47+00:00,2026-09-12T19:07:48+00:00
+90291,5601,hubspot,inbound,succeeded,,,,,2026-09-12T19:08:47+00:00,2026-09-12T19:08:50+00:00
+90292,5602,hubspot,inbound,succeeded,,,,,2026-09-12T19:19:27+00:00,2026-09-12T19:19:28+00:00
+90293,5603,hubspot,inbound,skipped,,call type not eligible,,,2026-09-12T19:27:54+00:00,2026-09-12T19:27:55+00:00
+90294,5604,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-12T21:35:13+00:00,2026-09-12T21:35:13+00:00
+90295,5605,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-12T22:05:51+00:00,2026-09-12T22:05:52+00:00
+90296,5606,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-12T22:12:46+00:00,2026-09-12T22:12:47+00:00
+90297,5607,hubspot,inbound,succeeded,,,,,2026-09-12T22:53:33+00:00,2026-09-12T22:53:33+00:00
+90298,5608,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-12T23:41:42+00:00,2026-09-12T23:41:44+00:00
+90299,5609,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-13T00:17:29+00:00,2026-09-13T00:17:30+00:00
+90300,5610,hubspot,inbound,blocked,,internal or test call,,,2026-09-13T02:43:30+00:00,2026-09-13T02:43:30+00:00
+90301,5611,hubspot,inbound,succeeded,,,,,2026-09-13T07:26:50+00:00,2026-09-13T07:26:52+00:00
+90302,5612,hubspot,inbound,succeeded,,,,,2026-09-13T14:18:19+00:00,2026-09-13T14:18:21+00:00
+90303,5613,hubspot,inbound,succeeded,,,,,2026-09-13T17:46:56+00:00,2026-09-13T17:46:57+00:00
+90304,5614,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-13T18:00:52+00:00,2026-09-13T18:00:53+00:00
+90305,5615,hubspot,inbound,succeeded,,,,,2026-09-13T19:21:40+00:00,2026-09-13T19:21:42+00:00
+90306,5616,hubspot,inbound,succeeded,,,,,2026-09-13T20:22:06+00:00,2026-09-13T20:22:06+00:00
+90307,5617,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-13T21:19:52+00:00,2026-09-13T21:19:53+00:00
+90308,5618,hubspot,inbound,succeeded,,,,,2026-09-13T23:16:29+00:00,2026-09-13T23:16:31+00:00
+90309,5619,hubspot,inbound,succeeded,,,,,2026-09-14T01:33:17+00:00,2026-09-14T01:33:20+00:00
+90310,5620,hubspot,inbound,skipped,,call type not eligible,,,2026-09-14T02:49:47+00:00,2026-09-14T02:49:48+00:00
+90311,5621,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-14T02:58:40+00:00,2026-09-14T02:58:42+00:00
+90312,5622,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-14T03:42:40+00:00,2026-09-14T03:42:43+00:00
+90313,5623,hubspot,inbound,succeeded,,,,,2026-09-14T04:35:20+00:00,2026-09-14T04:35:21+00:00
+90314,5624,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-14T09:50:02+00:00,2026-09-14T09:50:03+00:00
+90315,5625,hubspot,inbound,succeeded,,,,,2026-09-14T10:54:48+00:00,2026-09-14T10:54:49+00:00
+90316,5626,hubspot,inbound,succeeded,,,,,2026-09-14T13:15:21+00:00,2026-09-14T13:15:23+00:00
+90317,5627,hubspot,inbound,skipped,,call type not eligible,,,2026-09-14T14:48:09+00:00,2026-09-14T14:48:11+00:00
+90318,5652,hubspot,inbound,skipped,,call type not eligible,,,2026-09-14T17:43:40+00:00,2026-09-14T17:43:42+00:00
+90319,5657,hubspot,inbound,succeeded,,,,,2026-09-14T19:28:25+00:00,2026-09-14T19:28:26+00:00
+90320,5659,hubspot,inbound,skipped,,call type not eligible,,,2026-09-14T20:01:20+00:00,2026-09-14T20:01:21+00:00
+90321,5664,hubspot,inbound,skipped,,call type not eligible,,,2026-09-14T22:26:24+00:00,2026-09-14T22:26:25+00:00
+90322,5665,hubspot,inbound,skipped,,call type not eligible,,,2026-09-14T22:53:49+00:00,2026-09-14T22:53:51+00:00
+90323,5667,hubspot,inbound,blocked,,call shorter than 60s (26s),,,2026-09-14T23:17:41+00:00,2026-09-14T23:17:43+00:00
+90324,5671,hubspot,inbound,skipped,,call type not eligible,,,2026-09-15T00:19:01+00:00,2026-09-15T00:19:03+00:00
+90325,5672,hubspot,inbound,skipped,,call type not eligible,,,2026-09-15T00:40:09+00:00,2026-09-15T00:40:10+00:00
+90326,5673,hubspot,inbound,succeeded,,,,,2026-09-15T00:52:12+00:00,2026-09-15T00:52:14+00:00
+90327,5674,hubspot,inbound,succeeded,,,,,2026-09-15T01:26:18+00:00,2026-09-15T01:26:21+00:00
+90328,5675,hubspot,inbound,skipped,,call type not eligible,,,2026-09-15T01:34:59+00:00,2026-09-15T01:35:01+00:00
+90329,5676,hubspot,inbound,skipped,,call type not eligible,,,2026-09-15T03:00:49+00:00,2026-09-15T03:00:50+00:00
+90330,5677,hubspot,inbound,skipped,,call type not eligible,,,2026-09-15T03:08:54+00:00,2026-09-15T03:08:55+00:00
+90331,5678,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-15T03:14:02+00:00,2026-09-15T03:14:03+00:00
+90332,5679,hubspot,inbound,succeeded,,,,,2026-09-15T03:47:58+00:00,2026-09-15T03:48:00+00:00
+90333,5680,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-15T04:02:53+00:00,2026-09-15T04:02:56+00:00
+90334,5681,hubspot,inbound,skipped,,call type not eligible,,,2026-09-15T05:04:13+00:00,2026-09-15T05:04:16+00:00
+90335,5682,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-15T05:06:31+00:00,2026-09-15T05:06:33+00:00
+90336,5683,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-15T05:08:37+00:00,2026-09-15T05:08:38+00:00
+90337,5684,hubspot,inbound,skipped,,call type not eligible,,,2026-09-15T05:24:08+00:00,2026-09-15T05:24:10+00:00
+90338,5685,hubspot,inbound,succeeded,,,,,2026-09-15T08:48:34+00:00,2026-09-15T08:48:36+00:00
+90339,5686,hubspot,inbound,succeeded,,,,,2026-09-15T11:35:03+00:00,2026-09-15T11:35:03+00:00
+90340,5687,hubspot,inbound,succeeded,,,,,2026-09-15T12:04:13+00:00,2026-09-15T12:04:14+00:00
+90341,5688,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-15T13:01:55+00:00,2026-09-15T13:01:57+00:00
+90342,5689,hubspot,inbound,skipped,,call type not eligible,,,2026-09-15T14:41:57+00:00,2026-09-15T14:41:58+00:00
+90343,5710,hubspot,inbound,skipped,,call type not eligible,,,2026-09-15T16:04:56+00:00,2026-09-15T16:04:58+00:00
+90344,5714,hubspot,inbound,blocked,,vendor call,,,2026-09-15T17:02:34+00:00,2026-09-15T17:02:35+00:00
+90345,5715,hubspot,inbound,succeeded,,,,,2026-09-15T18:56:37+00:00,2026-09-15T18:56:38+00:00
+90346,5717,hubspot,inbound,succeeded,,,,,2026-09-15T20:16:57+00:00,2026-09-15T20:16:59+00:00
+90347,5722,hubspot,inbound,skipped,,call type not eligible,,,2026-09-15T20:59:15+00:00,2026-09-15T20:59:18+00:00
+90348,5729,hubspot,inbound,skipped,,call type not eligible,,,2026-09-16T01:07:37+00:00,2026-09-16T01:07:39+00:00
+90349,5730,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-16T01:49:28+00:00,2026-09-16T01:49:31+00:00
+90350,5731,hubspot,inbound,skipped,,call type not eligible,,,2026-09-16T02:16:18+00:00,2026-09-16T02:16:19+00:00
+90351,5732,hubspot,inbound,skipped,,call type not eligible,,,2026-09-16T03:02:36+00:00,2026-09-16T03:02:38+00:00
+90352,5733,hubspot,inbound,succeeded,,,,,2026-09-16T03:13:36+00:00,2026-09-16T03:13:38+00:00
+90353,5735,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-16T04:15:13+00:00,2026-09-16T04:15:14+00:00
+90354,5734,hubspot,inbound,succeeded,,,,,2026-09-16T04:15:55+00:00,2026-09-16T04:15:57+00:00
+90355,5736,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-16T04:24:12+00:00,2026-09-16T04:24:13+00:00
+90356,5737,hubspot,inbound,skipped,,call type not eligible,,,2026-09-16T04:44:29+00:00,2026-09-16T04:44:31+00:00
+90357,5738,hubspot,inbound,succeeded,,,,,2026-09-16T04:48:38+00:00,2026-09-16T04:48:39+00:00
+90358,5739,hubspot,inbound,skipped,,call type not eligible,,,2026-09-16T06:10:57+00:00,2026-09-16T06:10:59+00:00
+90359,5740,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-16T14:13:31+00:00,2026-09-16T14:13:33+00:00
+90360,5741,hubspot,inbound,skipped,,call type not eligible,,,2026-09-16T14:16:47+00:00,2026-09-16T14:16:49+00:00
+90361,5742,hubspot,inbound,skipped,,call type not eligible,,,2026-09-16T14:31:56+00:00,2026-09-16T14:31:59+00:00
+90362,5753,hubspot,inbound,blocked,,vendor call,,,2026-09-16T15:36:10+00:00,2026-09-16T15:36:12+00:00
+90363,5758,hubspot,inbound,skipped,,call type not eligible,,,2026-09-16T16:16:14+00:00,2026-09-16T16:16:15+00:00
+90364,5760,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-16T16:25:16+00:00,2026-09-16T16:25:17+00:00
+90365,5765,hubspot,inbound,skipped,,call type not eligible,,,2026-09-16T18:42:45+00:00,2026-09-16T18:42:46+00:00
+90366,5768,hubspot,inbound,blocked,,vendor call,,,2026-09-16T19:44:59+00:00,2026-09-16T19:45:02+00:00
+90367,5770,hubspot,inbound,succeeded,,,,,2026-09-16T20:25:18+00:00,2026-09-16T20:25:19+00:00
+90368,5773,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-16T21:25:58+00:00,2026-09-16T21:25:59+00:00
+90369,5775,hubspot,inbound,failed,0,multiple HubSpot contacts match the case phone number,,,2026-09-16T22:55:25+00:00,2026-09-16T22:55:27+00:00
+90370,5776,hubspot,inbound,skipped,,call type not eligible,,,2026-09-16T23:02:31+00:00,2026-09-16T23:02:33+00:00
+90371,5781,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-17T00:35:32+00:00,2026-09-17T00:35:33+00:00
+90372,5782,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-17T01:17:43+00:00,2026-09-17T01:17:44+00:00
+90373,5783,hubspot,inbound,skipped,,call type not eligible,,,2026-09-17T01:42:02+00:00,2026-09-17T01:42:05+00:00
+90374,5784,hubspot,inbound,skipped,,call type not eligible,,,2026-09-17T01:43:30+00:00,2026-09-17T01:43:32+00:00
+90375,5785,hubspot,inbound,succeeded,,,,,2026-09-17T02:26:11+00:00,2026-09-17T02:26:12+00:00
+90376,5786,hubspot,inbound,skipped,,call type not eligible,,,2026-09-17T02:55:47+00:00,2026-09-17T02:55:49+00:00
+90377,5787,hubspot,inbound,succeeded,,,,,2026-09-17T03:07:59+00:00,2026-09-17T03:08:00+00:00
+90378,5788,hubspot,inbound,succeeded,,,,,2026-09-17T03:47:16+00:00,2026-09-17T03:47:19+00:00
+90379,5789,hubspot,inbound,succeeded,,,,,2026-09-17T03:57:54+00:00,2026-09-17T03:57:55+00:00
+90380,5790,hubspot,inbound,skipped,,call type not eligible,,,2026-09-17T04:40:24+00:00,2026-09-17T04:40:25+00:00
+90381,5791,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-17T05:10:28+00:00,2026-09-17T05:10:29+00:00
+90382,5792,hubspot,inbound,skipped,,call type not eligible,,,2026-09-17T13:31:45+00:00,2026-09-17T13:31:48+00:00
+90383,5793,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-17T14:58:32+00:00,2026-09-17T14:58:34+00:00
+90384,5808,hubspot,inbound,blocked,,vendor call,,,2026-09-17T16:40:05+00:00,2026-09-17T16:40:06+00:00
+90385,5811,hubspot,inbound,succeeded,,,,,2026-09-17T17:41:59+00:00,2026-09-17T17:42:01+00:00
+90386,5812,hubspot,inbound,blocked,,vendor call,,,2026-09-17T19:11:01+00:00,2026-09-17T19:11:01+00:00
+90387,5817,hubspot,inbound,skipped,,call type not eligible,,,2026-09-17T22:03:41+00:00,2026-09-17T22:03:42+00:00
+90388,5819,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-17T22:48:03+00:00,2026-09-17T22:48:04+00:00
+90389,5818,hubspot,inbound,succeeded,,,,,2026-09-17T22:48:05+00:00,2026-09-17T22:48:05+00:00
+90390,5821,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-17T23:18:47+00:00,2026-09-17T23:18:50+00:00
+90391,5822,hubspot,inbound,succeeded,,,,,2026-09-18T01:08:48+00:00,2026-09-18T01:08:50+00:00
+90392,5823,hubspot,inbound,succeeded,,,,,2026-09-18T01:52:22+00:00,2026-09-18T01:52:24+00:00
+90393,5824,hubspot,inbound,succeeded,,,,,2026-09-18T02:10:48+00:00,2026-09-18T02:10:51+00:00
+90394,5825,hubspot,inbound,skipped,,call type not eligible,,,2026-09-18T02:37:48+00:00,2026-09-18T02:37:49+00:00
+90395,5826,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-18T03:06:11+00:00,2026-09-18T03:06:12+00:00
+90396,5827,hubspot,inbound,skipped,,call type not eligible,,,2026-09-18T03:12:25+00:00,2026-09-18T03:12:27+00:00
+90397,5828,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-18T03:16:09+00:00,2026-09-18T03:16:12+00:00
+90398,5829,hubspot,inbound,skipped,,call type not eligible,,,2026-09-18T03:55:23+00:00,2026-09-18T03:55:25+00:00
+90399,5830,hubspot,inbound,skipped,,call type not eligible,,,2026-09-18T03:56:00+00:00,2026-09-18T03:56:01+00:00
+90400,5831,hubspot,inbound,skipped,,call type not eligible,,,2026-09-18T04:24:29+00:00,2026-09-18T04:24:31+00:00
+90401,5832,hubspot,inbound,skipped,,call type not eligible,,,2026-09-18T04:24:33+00:00,2026-09-18T04:24:35+00:00
+90402,5833,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-18T04:43:33+00:00,2026-09-18T04:43:34+00:00
+90403,5834,hubspot,inbound,succeeded,,,,,2026-09-18T04:57:35+00:00,2026-09-18T04:57:36+00:00
+90404,5835,hubspot,inbound,succeeded,,,,,2026-09-18T05:13:55+00:00,2026-09-18T05:13:58+00:00
+90405,5836,hubspot,inbound,succeeded,,,,,2026-09-18T05:24:18+00:00,2026-09-18T05:24:19+00:00
+90406,5837,hubspot,inbound,succeeded,,,,,2026-09-18T05:32:24+00:00,2026-09-18T05:32:25+00:00
+90407,5838,hubspot,inbound,skipped,,call type not eligible,,,2026-09-18T06:28:56+00:00,2026-09-18T06:28:59+00:00
+90408,5839,hubspot,inbound,succeeded,,,,,2026-09-18T09:27:53+00:00,2026-09-18T09:27:54+00:00
+90409,5840,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-18T09:34:19+00:00,2026-09-18T09:34:21+00:00
+90410,5841,hubspot,inbound,succeeded,,,,,2026-09-18T14:06:18+00:00,2026-09-18T14:06:19+00:00
+90411,5842,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-18T14:40:07+00:00,2026-09-18T14:40:09+00:00
+90412,5843,hubspot,inbound,skipped,,call type not eligible,,,2026-09-18T14:46:37+00:00,2026-09-18T14:46:39+00:00
+90413,5844,hubspot,inbound,skipped,,call type not eligible,,,2026-09-18T15:11:58+00:00,2026-09-18T15:12:01+00:00
+90414,5853,hubspot,inbound,skipped,,call type not eligible,,,2026-09-18T15:34:00+00:00,2026-09-18T15:34:02+00:00
+90415,5859,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-18T15:47:51+00:00,2026-09-18T15:47:52+00:00
+90416,5863,hubspot,inbound,blocked,,vendor call,,,2026-09-18T16:08:32+00:00,2026-09-18T16:08:33+00:00
+90417,5867,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-18T16:43:37+00:00,2026-09-18T16:43:39+00:00
+90418,5869,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-18T17:05:13+00:00,2026-09-18T17:05:15+00:00
+90419,5871,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-18T18:08:01+00:00,2026-09-18T18:08:03+00:00
+90420,5873,hubspot,inbound,blocked,,vendor call,,,2026-09-18T19:11:09+00:00,2026-09-18T19:11:10+00:00
+90421,5878,hubspot,inbound,skipped,,call type not eligible,,,2026-09-18T20:04:22+00:00,2026-09-18T20:04:24+00:00
+90422,5879,hubspot,inbound,blocked,,vendor call,,,2026-09-18T20:16:04+00:00,2026-09-18T20:16:07+00:00
+90423,5880,hubspot,inbound,failed,0,multiple HubSpot contacts match the case phone number,,,2026-09-18T20:26:59+00:00,2026-09-18T20:27:02+00:00
+90424,5881,hubspot,inbound,skipped,,call type not eligible,,,2026-09-18T20:36:26+00:00,2026-09-18T20:36:28+00:00
+90425,5885,hubspot,inbound,blocked,,vendor call,,,2026-09-18T22:53:07+00:00,2026-09-18T22:53:09+00:00
+90426,5887,hubspot,inbound,blocked,,vendor call,,,2026-09-19T00:03:05+00:00,2026-09-19T00:03:07+00:00
+90427,5888,hubspot,inbound,skipped,,call type not eligible,,,2026-09-19T01:08:24+00:00,2026-09-19T01:08:26+00:00
+90428,5889,hubspot,inbound,skipped,,call type not eligible,,,2026-09-19T01:14:57+00:00,2026-09-19T01:15:00+00:00
+90429,5890,hubspot,inbound,skipped,,call type not eligible,,,2026-09-19T01:36:25+00:00,2026-09-19T01:36:26+00:00
+90430,5891,hubspot,inbound,succeeded,,,,,2026-09-19T01:57:38+00:00,2026-09-19T01:57:40+00:00
+90431,5892,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-19T03:10:24+00:00,2026-09-19T03:10:26+00:00
+90432,5893,hubspot,inbound,succeeded,,,,,2026-09-19T03:55:14+00:00,2026-09-19T03:55:16+00:00
+90433,5894,hubspot,inbound,succeeded,,,,,2026-09-19T04:42:49+00:00,2026-09-19T04:42:50+00:00
+90434,5895,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-19T05:29:01+00:00,2026-09-19T05:29:03+00:00
+90435,5896,hubspot,inbound,succeeded,,,,,2026-09-19T07:35:45+00:00,2026-09-19T07:35:46+00:00
+90436,5897,hubspot,inbound,blocked,,call shorter than 60s (16s),,,2026-09-19T10:01:32+00:00,2026-09-19T10:01:33+00:00
+90437,5898,hubspot,inbound,skipped,,call type not eligible,,,2026-09-19T16:02:26+00:00,2026-09-19T16:02:29+00:00
+90438,5899,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-09-19T16:46:40+00:00,2026-09-19T16:46:41+00:00
+90439,5899,hubspot,inbound,succeeded,,,,,2026-09-19T16:47:40+00:00,2026-09-19T16:47:42+00:00
+90440,5900,hubspot,inbound,skipped,,call type not eligible,,,2026-09-19T18:16:49+00:00,2026-09-19T18:16:52+00:00
+90441,5901,hubspot,inbound,succeeded,,,,,2026-09-19T18:31:16+00:00,2026-09-19T18:31:19+00:00
+90442,5902,hubspot,inbound,succeeded,,,,,2026-09-19T22:05:24+00:00,2026-09-19T22:05:26+00:00
+90443,5903,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-20T03:17:14+00:00,2026-09-20T03:17:15+00:00
+90444,5904,hubspot,inbound,skipped,,call type not eligible,,,2026-09-20T03:23:53+00:00,2026-09-20T03:23:54+00:00
+90445,5905,hubspot,inbound,blocked,,call shorter than 60s (11s),,,2026-09-20T08:03:56+00:00,2026-09-20T08:03:58+00:00
+90446,5906,hubspot,inbound,succeeded,,,,,2026-09-20T15:14:24+00:00,2026-09-20T15:14:26+00:00
+90447,5907,hubspot,inbound,succeeded,,,,,2026-09-20T16:03:13+00:00,2026-09-20T16:03:15+00:00
+90448,5908,hubspot,inbound,succeeded,,,,,2026-09-20T16:30:58+00:00,2026-09-20T16:30:58+00:00
+90449,5909,hubspot,inbound,succeeded,,,,,2026-09-20T17:41:52+00:00,2026-09-20T17:41:54+00:00
+90450,5910,hubspot,inbound,succeeded,,,,,2026-09-20T21:30:46+00:00,2026-09-20T21:30:49+00:00
+90451,5911,hubspot,inbound,skipped,,call type not eligible,,,2026-09-21T00:49:51+00:00,2026-09-21T00:49:53+00:00
+90452,5912,hubspot,inbound,skipped,,call type not eligible,,,2026-09-21T01:07:18+00:00,2026-09-21T01:07:18+00:00
+90453,5913,hubspot,inbound,succeeded,,,,,2026-09-21T01:21:52+00:00,2026-09-21T01:21:54+00:00
+90454,5914,hubspot,inbound,skipped,,call type not eligible,,,2026-09-21T02:44:26+00:00,2026-09-21T02:44:28+00:00
+90455,5915,hubspot,inbound,succeeded,,,,,2026-09-21T03:08:38+00:00,2026-09-21T03:08:39+00:00
+90456,5916,hubspot,inbound,skipped,,call type not eligible,,,2026-09-21T11:38:43+00:00,2026-09-21T11:38:44+00:00
+90457,5917,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-21T11:47:37+00:00,2026-09-21T11:47:40+00:00
+90458,5918,hubspot,inbound,succeeded,,,,,2026-09-21T12:36:30+00:00,2026-09-21T12:36:31+00:00
+90459,5919,hubspot,inbound,blocked,,call shorter than 60s (10s),,,2026-09-21T13:59:11+00:00,2026-09-21T13:59:14+00:00
+90460,5920,hubspot,inbound,skipped,,call type not eligible,,,2026-09-21T14:21:01+00:00,2026-09-21T14:21:04+00:00
+90461,5921,hubspot,inbound,succeeded,,,,,2026-09-21T14:42:31+00:00,2026-09-21T14:42:33+00:00
+90462,5922,hubspot,inbound,skipped,,call type not eligible,,,2026-09-21T14:59:21+00:00,2026-09-21T14:59:22+00:00
+90463,5938,hubspot,inbound,blocked,,vendor call,,,2026-09-21T15:38:21+00:00,2026-09-21T15:38:22+00:00
+90464,5950,hubspot,inbound,blocked,,vendor call,,,2026-09-21T16:37:49+00:00,2026-09-21T16:37:50+00:00
+90465,5951,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-21T16:42:30+00:00,2026-09-21T16:42:30+00:00
+90466,5953,hubspot,inbound,skipped,,call type not eligible,,,2026-09-21T17:13:06+00:00,2026-09-21T17:13:09+00:00
+90467,5954,hubspot,inbound,skipped,,call type not eligible,,,2026-09-21T17:22:11+00:00,2026-09-21T17:22:12+00:00
+90468,5956,hubspot,inbound,skipped,,call type not eligible,,,2026-09-21T18:15:48+00:00,2026-09-21T18:15:49+00:00
+90469,5961,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-09-21T19:24:30+00:00,2026-09-21T19:24:32+00:00
+90470,5961,hubspot,inbound,succeeded,,,,,2026-09-21T19:25:30+00:00,2026-09-21T19:25:32+00:00
+90471,5962,hubspot,inbound,blocked,,vendor call,,,2026-09-21T19:29:37+00:00,2026-09-21T19:29:38+00:00
+90472,5965,hubspot,inbound,blocked,,vendor call,,,2026-09-21T19:57:57+00:00,2026-09-21T19:57:59+00:00
+90473,5968,hubspot,inbound,failed,0,multiple HubSpot contacts match the case phone number,,,2026-09-21T20:13:52+00:00,2026-09-21T20:13:53+00:00
+90474,5969,hubspot,inbound,succeeded,,,,,2026-09-21T20:21:43+00:00,2026-09-21T20:21:44+00:00
+90475,5972,hubspot,inbound,succeeded,,,,,2026-09-21T21:24:16+00:00,2026-09-21T21:24:17+00:00
+90476,5974,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-21T22:21:26+00:00,2026-09-21T22:21:27+00:00
+90477,5978,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-21T23:54:06+00:00,2026-09-21T23:54:07+00:00
+90478,5981,hubspot,inbound,blocked,,call shorter than 60s (21s),,,2026-09-22T00:35:33+00:00,2026-09-22T00:35:36+00:00
+90479,5982,hubspot,inbound,succeeded,,,,,2026-09-22T00:58:29+00:00,2026-09-22T00:58:30+00:00
+90480,5984,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-22T00:58:33+00:00,2026-09-22T00:58:35+00:00
+90481,5983,hubspot,inbound,skipped,,call type not eligible,,,2026-09-22T00:59:33+00:00,2026-09-22T00:59:34+00:00
+90482,5985,hubspot,inbound,skipped,,call type not eligible,,,2026-09-22T01:29:24+00:00,2026-09-22T01:29:27+00:00
+90483,5987,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-22T03:33:50+00:00,2026-09-22T03:33:52+00:00
+90484,5988,hubspot,inbound,skipped,,call type not eligible,,,2026-09-22T03:53:19+00:00,2026-09-22T03:53:20+00:00
+90485,5989,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-22T04:48:29+00:00,2026-09-22T04:48:32+00:00
+90486,5990,hubspot,inbound,skipped,,call type not eligible,,,2026-09-22T05:19:01+00:00,2026-09-22T05:19:03+00:00
+90487,5991,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-22T05:22:13+00:00,2026-09-22T05:22:14+00:00
+90488,5992,hubspot,inbound,skipped,,call type not eligible,,,2026-09-22T05:29:06+00:00,2026-09-22T05:29:07+00:00
+90489,5993,hubspot,inbound,succeeded,,,,,2026-09-22T09:57:40+00:00,2026-09-22T09:57:42+00:00
+90490,6011,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-22T15:58:59+00:00,2026-09-22T15:59:00+00:00
+90491,6014,hubspot,inbound,skipped,,call type not eligible,,,2026-09-22T17:48:05+00:00,2026-09-22T17:48:06+00:00
+90492,6015,hubspot,inbound,skipped,,call type not eligible,,,2026-09-22T17:53:19+00:00,2026-09-22T17:53:21+00:00
+90493,6017,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-22T18:20:12+00:00,2026-09-22T18:20:13+00:00
+90494,6019,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-22T18:27:55+00:00,2026-09-22T18:27:56+00:00
+90495,6020,hubspot,inbound,succeeded,,,,,2026-09-22T19:02:52+00:00,2026-09-22T19:02:52+00:00
+90496,6022,hubspot,inbound,skipped,,call type not eligible,,,2026-09-22T19:22:19+00:00,2026-09-22T19:22:20+00:00
+90497,6024,hubspot,inbound,blocked,,vendor call,,,2026-09-22T19:42:38+00:00,2026-09-22T19:42:39+00:00
+90498,6026,hubspot,inbound,blocked,,vendor call,,,2026-09-22T20:49:08+00:00,2026-09-22T20:49:09+00:00
+90499,6027,hubspot,inbound,skipped,,call type not eligible,,,2026-09-22T20:59:33+00:00,2026-09-22T20:59:34+00:00
+90500,6028,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-22T21:12:23+00:00,2026-09-22T21:12:25+00:00
+90501,6029,hubspot,inbound,blocked,,vendor call,,,2026-09-22T21:13:53+00:00,2026-09-22T21:13:55+00:00
+90502,6030,hubspot,inbound,failed,0,multiple HubSpot contacts match the case phone number,,,2026-09-22T21:23:08+00:00,2026-09-22T21:23:10+00:00
+90503,6033,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-22T21:42:20+00:00,2026-09-22T21:42:21+00:00
+90504,6035,hubspot,inbound,blocked,,vendor call,,,2026-09-22T22:26:49+00:00,2026-09-22T22:26:50+00:00
+90505,6041,hubspot,inbound,succeeded,,,,,2026-09-23T01:45:03+00:00,2026-09-23T01:45:05+00:00
+90506,6042,hubspot,inbound,succeeded,,,,,2026-09-23T03:29:47+00:00,2026-09-23T03:29:49+00:00
+90507,6043,hubspot,inbound,succeeded,,,,,2026-09-23T04:37:36+00:00,2026-09-23T04:37:38+00:00
+90508,6044,hubspot,inbound,succeeded,,,,,2026-09-23T05:11:01+00:00,2026-09-23T05:11:02+00:00
+90509,6045,hubspot,inbound,skipped,,call type not eligible,,,2026-09-23T13:25:00+00:00,2026-09-23T13:25:01+00:00
+90510,6046,hubspot,inbound,skipped,,call type not eligible,,,2026-09-23T13:44:52+00:00,2026-09-23T13:44:55+00:00
+90511,6047,hubspot,inbound,skipped,,call type not eligible,,,2026-09-23T14:03:40+00:00,2026-09-23T14:03:41+00:00
+90512,6048,hubspot,inbound,skipped,,call type not eligible,,,2026-09-23T14:28:46+00:00,2026-09-23T14:28:47+00:00
+90513,6049,hubspot,inbound,succeeded,,,,,2026-09-23T15:08:55+00:00,2026-09-23T15:08:58+00:00
+90514,6060,hubspot,inbound,blocked,,vendor call,,,2026-09-23T16:02:00+00:00,2026-09-23T16:02:01+00:00
+90515,6065,hubspot,inbound,skipped,,call type not eligible,,,2026-09-23T18:36:20+00:00,2026-09-23T18:36:20+00:00
+90516,6066,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-23T19:04:15+00:00,2026-09-23T19:04:17+00:00
+90517,6068,hubspot,inbound,blocked,,vendor call,,,2026-09-23T19:38:24+00:00,2026-09-23T19:38:26+00:00
+90518,6070,hubspot,inbound,succeeded,,,,,2026-09-23T19:56:57+00:00,2026-09-23T19:57:00+00:00
+90519,6077,hubspot,inbound,skipped,,call type not eligible,,,2026-09-23T22:21:51+00:00,2026-09-23T22:21:52+00:00
+90520,6080,hubspot,inbound,blocked,,vendor call,,,2026-09-24T00:18:35+00:00,2026-09-24T00:18:37+00:00
+90521,6081,hubspot,inbound,blocked,,call shorter than 60s (8s),,,2026-09-24T01:16:59+00:00,2026-09-24T01:17:02+00:00
+90522,6082,hubspot,inbound,skipped,,call type not eligible,,,2026-09-24T01:22:34+00:00,2026-09-24T01:22:36+00:00
+90523,6083,hubspot,inbound,blocked,,call shorter than 60s (25s),,,2026-09-24T02:18:04+00:00,2026-09-24T02:18:06+00:00
+90524,6085,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-24T02:39:22+00:00,2026-09-24T02:39:23+00:00
+90525,6084,hubspot,inbound,succeeded,,,,,2026-09-24T02:41:25+00:00,2026-09-24T02:41:28+00:00
+90526,6086,hubspot,inbound,skipped,,call type not eligible,,,2026-09-24T03:10:37+00:00,2026-09-24T03:10:40+00:00
+90527,6087,hubspot,inbound,skipped,,call type not eligible,,,2026-09-24T03:26:38+00:00,2026-09-24T03:26:41+00:00
+90528,6088,hubspot,inbound,skipped,,call type not eligible,,,2026-09-24T03:31:28+00:00,2026-09-24T03:31:31+00:00
+90529,6089,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-24T04:19:58+00:00,2026-09-24T04:19:59+00:00
+90530,6090,hubspot,inbound,succeeded,,,,,2026-09-24T04:43:49+00:00,2026-09-24T04:43:51+00:00
+90531,6091,hubspot,inbound,skipped,,call type not eligible,,,2026-09-24T05:12:04+00:00,2026-09-24T05:12:06+00:00
+90532,6092,hubspot,inbound,skipped,,call type not eligible,,,2026-09-24T06:58:35+00:00,2026-09-24T06:58:36+00:00
+90533,6093,hubspot,inbound,succeeded,,,,,2026-09-24T08:23:12+00:00,2026-09-24T08:23:14+00:00
+90534,6094,hubspot,inbound,skipped,,call type not eligible,,,2026-09-24T08:49:13+00:00,2026-09-24T08:49:15+00:00
+90535,6095,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-24T13:35:39+00:00,2026-09-24T13:35:41+00:00
+90536,6096,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-24T15:00:14+00:00,2026-09-24T15:00:17+00:00
+90537,6097,hubspot,inbound,succeeded,,,,,2026-09-24T15:13:41+00:00,2026-09-24T15:13:43+00:00
+90538,6114,hubspot,inbound,blocked,,call shorter than 60s (10s),,,2026-09-24T18:06:34+00:00,2026-09-24T18:06:35+00:00
+90539,6115,hubspot,inbound,skipped,,call type not eligible,,,2026-09-24T19:25:07+00:00,2026-09-24T19:25:10+00:00
+90540,6118,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-24T21:05:18+00:00,2026-09-24T21:05:21+00:00
+90541,6119,hubspot,inbound,succeeded,,,,,2026-09-24T21:16:50+00:00,2026-09-24T21:16:51+00:00
+90542,6127,hubspot,inbound,skipped,,call type not eligible,,,2026-09-24T23:52:54+00:00,2026-09-24T23:52:57+00:00
+90543,6128,hubspot,inbound,skipped,,call type not eligible,,,2026-09-24T23:57:01+00:00,2026-09-24T23:57:04+00:00
+90544,6129,hubspot,inbound,succeeded,,,,,2026-09-25T00:01:55+00:00,2026-09-25T00:01:57+00:00
+90545,6130,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-25T00:02:16+00:00,2026-09-25T00:02:18+00:00
+90546,6134,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-09-25T00:55:25+00:00,2026-09-25T00:55:27+00:00
+90547,6134,hubspot,inbound,succeeded,,,,,2026-09-25T00:56:25+00:00,2026-09-25T00:56:28+00:00
+90548,6135,hubspot,inbound,skipped,,call type not eligible,,,2026-09-25T02:38:26+00:00,2026-09-25T02:38:28+00:00
+90549,6136,hubspot,inbound,succeeded,,,,,2026-09-25T03:17:47+00:00,2026-09-25T03:17:48+00:00
+90550,6138,hubspot,inbound,succeeded,,,,,2026-09-25T04:59:07+00:00,2026-09-25T04:59:08+00:00
+90551,6137,hubspot,inbound,succeeded,,,,,2026-09-25T05:01:37+00:00,2026-09-25T05:01:39+00:00
+90552,6139,hubspot,inbound,skipped,,call type not eligible,,,2026-09-25T05:17:57+00:00,2026-09-25T05:17:59+00:00
+90553,6140,hubspot,inbound,skipped,,call type not eligible,,,2026-09-25T05:27:39+00:00,2026-09-25T05:27:39+00:00
+90554,6141,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-25T05:36:07+00:00,2026-09-25T05:36:07+00:00
+90555,6142,hubspot,inbound,succeeded,,,,,2026-09-25T08:10:01+00:00,2026-09-25T08:10:04+00:00
+90556,6143,hubspot,inbound,skipped,,call type not eligible,,,2026-09-25T08:21:21+00:00,2026-09-25T08:21:23+00:00
+90557,6144,hubspot,inbound,skipped,,call type not eligible,,,2026-09-25T12:31:30+00:00,2026-09-25T12:31:32+00:00
+90558,6145,hubspot,inbound,skipped,,call type not eligible,,,2026-09-25T13:25:02+00:00,2026-09-25T13:25:04+00:00
+90559,6146,hubspot,inbound,succeeded,,,,,2026-09-25T14:12:43+00:00,2026-09-25T14:12:45+00:00
+90560,6147,hubspot,inbound,skipped,,call type not eligible,,,2026-09-25T15:08:57+00:00,2026-09-25T15:08:59+00:00
+90561,6148,hubspot,inbound,succeeded,,,,,2026-09-25T15:17:59+00:00,2026-09-25T15:18:00+00:00
+90562,6149,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-25T15:23:27+00:00,2026-09-25T15:23:30+00:00
+90563,6166,hubspot,inbound,blocked,,internal or test call,,,2026-09-25T18:55:21+00:00,2026-09-25T18:55:22+00:00
+90564,6167,hubspot,inbound,skipped,,call type not eligible,,,2026-09-25T19:15:56+00:00,2026-09-25T19:15:59+00:00
+90565,6168,hubspot,inbound,skipped,,call type not eligible,,,2026-09-25T19:51:59+00:00,2026-09-25T19:52:01+00:00
+90566,6170,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-25T20:37:38+00:00,2026-09-25T20:37:39+00:00
+90567,6173,hubspot,inbound,skipped,,call type not eligible,,,2026-09-25T21:26:01+00:00,2026-09-25T21:26:03+00:00
+90568,6174,hubspot,inbound,skipped,,call type not eligible,,,2026-09-25T21:40:18+00:00,2026-09-25T21:40:21+00:00
+90569,6175,hubspot,inbound,skipped,,call type not eligible,,,2026-09-25T21:45:00+00:00,2026-09-25T21:45:03+00:00
+90570,6176,hubspot,inbound,succeeded,,,,,2026-09-25T22:05:46+00:00,2026-09-25T22:05:47+00:00
+90571,6177,hubspot,inbound,blocked,,internal or test call,,,2026-09-25T22:06:36+00:00,2026-09-25T22:06:39+00:00
+90572,6180,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-25T22:58:37+00:00,2026-09-25T22:58:39+00:00
+90573,6181,hubspot,inbound,blocked,,vendor call,,,2026-09-25T23:09:50+00:00,2026-09-25T23:09:53+00:00
+90574,6184,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-25T23:53:01+00:00,2026-09-25T23:53:02+00:00
+90575,6186,hubspot,inbound,skipped,,call type not eligible,,,2026-09-26T00:28:22+00:00,2026-09-26T00:28:24+00:00
+90576,6187,hubspot,inbound,skipped,,call type not eligible,,,2026-09-26T01:32:34+00:00,2026-09-26T01:32:34+00:00
+90577,6188,hubspot,inbound,skipped,,call type not eligible,,,2026-09-26T01:37:30+00:00,2026-09-26T01:37:32+00:00
+90578,6189,hubspot,inbound,skipped,,call type not eligible,,,2026-09-26T01:51:23+00:00,2026-09-26T01:51:26+00:00
+90579,6190,hubspot,inbound,succeeded,,,,,2026-09-26T02:35:24+00:00,2026-09-26T02:35:26+00:00
+90580,6191,hubspot,inbound,skipped,,call type not eligible,,,2026-09-26T02:41:19+00:00,2026-09-26T02:41:20+00:00
+90581,6192,hubspot,inbound,skipped,,call type not eligible,,,2026-09-26T02:43:13+00:00,2026-09-26T02:43:15+00:00
+90582,6193,hubspot,inbound,skipped,,call type not eligible,,,2026-09-26T02:59:48+00:00,2026-09-26T02:59:50+00:00
+90583,6194,hubspot,inbound,skipped,,call type not eligible,,,2026-09-26T04:02:36+00:00,2026-09-26T04:02:37+00:00
+90584,6195,hubspot,inbound,skipped,,call type not eligible,,,2026-09-26T04:42:04+00:00,2026-09-26T04:42:06+00:00
+90585,6196,hubspot,inbound,skipped,,call type not eligible,,,2026-09-26T04:44:11+00:00,2026-09-26T04:44:13+00:00
+90586,6197,hubspot,inbound,succeeded,,,,,2026-09-26T06:29:16+00:00,2026-09-26T06:29:18+00:00
+90587,6198,hubspot,inbound,skipped,,call type not eligible,,,2026-09-26T06:38:07+00:00,2026-09-26T06:38:09+00:00
+90588,6199,hubspot,inbound,succeeded,,,,,2026-09-26T12:14:41+00:00,2026-09-26T12:14:44+00:00
+90589,6200,hubspot,inbound,succeeded,,,,,2026-09-26T16:10:23+00:00,2026-09-26T16:10:26+00:00
+90590,6201,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-26T16:27:10+00:00,2026-09-26T16:27:12+00:00
+90591,6202,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-26T17:29:31+00:00,2026-09-26T17:29:34+00:00
+90592,6203,hubspot,inbound,succeeded,,,,,2026-09-26T20:12:47+00:00,2026-09-26T20:12:50+00:00
+90593,6204,hubspot,inbound,succeeded,,,,,2026-09-26T21:55:36+00:00,2026-09-26T21:55:37+00:00
+90594,6205,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-26T23:16:54+00:00,2026-09-26T23:16:56+00:00
+90595,6206,hubspot,inbound,skipped,,call type not eligible,,,2026-09-27T02:14:15+00:00,2026-09-27T02:14:17+00:00
+90596,6207,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-27T03:06:40+00:00,2026-09-27T03:06:41+00:00
+90597,6208,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-27T05:19:31+00:00,2026-09-27T05:19:34+00:00
+90598,6209,hubspot,inbound,succeeded,,,,,2026-09-27T05:54:24+00:00,2026-09-27T05:54:27+00:00
+90599,6210,hubspot,inbound,succeeded,,,,,2026-09-27T10:19:27+00:00,2026-09-27T10:19:28+00:00
+90600,6211,hubspot,inbound,skipped,,call type not eligible,,,2026-09-27T10:53:12+00:00,2026-09-27T10:53:15+00:00
+90601,6212,hubspot,inbound,skipped,,call type not eligible,,,2026-09-27T15:29:22+00:00,2026-09-27T15:29:24+00:00
+90602,6213,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-27T16:41:40+00:00,2026-09-27T16:41:42+00:00
+90603,6214,hubspot,inbound,succeeded,,,,,2026-09-27T17:11:42+00:00,2026-09-27T17:11:44+00:00
+90604,6215,hubspot,inbound,skipped,,call type not eligible,,,2026-09-27T18:05:53+00:00,2026-09-27T18:05:56+00:00
+90605,6216,hubspot,inbound,succeeded,,,,,2026-09-27T19:03:35+00:00,2026-09-27T19:03:36+00:00
+90606,6217,hubspot,inbound,succeeded,,,,,2026-09-27T19:07:14+00:00,2026-09-27T19:07:15+00:00
+90607,6218,hubspot,inbound,skipped,,call type not eligible,,,2026-09-27T21:07:26+00:00,2026-09-27T21:07:27+00:00
+90608,6219,hubspot,inbound,skipped,,call type not eligible,,,2026-09-27T23:03:41+00:00,2026-09-27T23:03:44+00:00
+90609,6220,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-28T01:27:50+00:00,2026-09-28T01:27:51+00:00
+90610,6221,hubspot,inbound,blocked,,call shorter than 60s (14s),,,2026-09-28T06:22:55+00:00,2026-09-28T06:22:58+00:00
+90611,6222,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-28T09:36:59+00:00,2026-09-28T09:37:00+00:00
+90612,6223,hubspot,inbound,skipped,,call type not eligible,,,2026-09-28T11:37:27+00:00,2026-09-28T11:37:30+00:00
+90613,6224,hubspot,inbound,succeeded,,,,,2026-09-28T12:07:57+00:00,2026-09-28T12:07:59+00:00
+90614,6247,hubspot,inbound,succeeded,,,,,2026-09-28T17:37:32+00:00,2026-09-28T17:37:33+00:00
+90615,6250,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-28T18:26:50+00:00,2026-09-28T18:26:53+00:00
+90616,6252,hubspot,inbound,succeeded,,,,,2026-09-28T20:10:35+00:00,2026-09-28T20:10:37+00:00
+90617,6261,hubspot,inbound,succeeded,,,,,2026-09-28T23:07:35+00:00,2026-09-28T23:07:37+00:00
+90618,6266,hubspot,inbound,blocked,,vendor call,,,2026-09-29T00:04:50+00:00,2026-09-29T00:04:52+00:00
+90619,6267,hubspot,inbound,skipped,,call type not eligible,,,2026-09-29T00:42:46+00:00,2026-09-29T00:42:47+00:00
+90620,6268,hubspot,inbound,skipped,,call type not eligible,,,2026-09-29T01:25:02+00:00,2026-09-29T01:25:04+00:00
+90621,6269,hubspot,inbound,skipped,,call type not eligible,,,2026-09-29T02:28:46+00:00,2026-09-29T02:28:47+00:00
+90622,6270,hubspot,inbound,skipped,,call type not eligible,,,2026-09-29T02:33:55+00:00,2026-09-29T02:33:57+00:00
+90623,6271,hubspot,inbound,succeeded,,,,,2026-09-29T03:10:46+00:00,2026-09-29T03:10:49+00:00
+90624,6272,hubspot,inbound,skipped,,call type not eligible,,,2026-09-29T05:21:07+00:00,2026-09-29T05:21:09+00:00
+90625,6273,hubspot,inbound,succeeded,,,,,2026-09-29T09:41:06+00:00,2026-09-29T09:41:08+00:00
+90626,6284,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-29T15:52:36+00:00,2026-09-29T15:52:36+00:00
+90627,6288,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-29T17:22:33+00:00,2026-09-29T17:22:36+00:00
+90628,6289,hubspot,inbound,blocked,,vendor call,,,2026-09-29T17:24:28+00:00,2026-09-29T17:24:31+00:00
+90629,6290,hubspot,inbound,skipped,,call type not eligible,,,2026-09-29T17:29:40+00:00,2026-09-29T17:29:42+00:00
+90630,6292,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-29T17:35:03+00:00,2026-09-29T17:35:04+00:00
+90631,6294,hubspot,inbound,succeeded,,,,,2026-09-29T18:34:37+00:00,2026-09-29T18:34:38+00:00
+90632,6296,hubspot,inbound,skipped,,call type not eligible,,,2026-09-29T18:45:49+00:00,2026-09-29T18:45:49+00:00
+90633,6297,hubspot,inbound,succeeded,,,,,2026-09-29T18:50:05+00:00,2026-09-29T18:50:06+00:00
+90634,6300,hubspot,inbound,blocked,,vendor call,,,2026-09-29T19:09:07+00:00,2026-09-29T19:09:09+00:00
+90635,6301,hubspot,inbound,blocked,,vendor call,,,2026-09-29T19:17:40+00:00,2026-09-29T19:17:41+00:00
+90636,6302,hubspot,inbound,succeeded,,,,,2026-09-29T20:09:42+00:00,2026-09-29T20:09:44+00:00
+90637,6303,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-29T20:18:39+00:00,2026-09-29T20:18:41+00:00
+90638,6308,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-29T21:48:20+00:00,2026-09-29T21:48:22+00:00
+90639,6312,hubspot,inbound,skipped,,call type not eligible,,,2026-09-29T22:45:09+00:00,2026-09-29T22:45:10+00:00
+90640,6314,hubspot,inbound,succeeded,,,,,2026-09-29T23:08:22+00:00,2026-09-29T23:08:24+00:00
+90641,6316,hubspot,inbound,succeeded,,,,,2026-09-30T03:16:42+00:00,2026-09-30T03:16:44+00:00
+90642,6318,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-30T03:44:29+00:00,2026-09-30T03:44:29+00:00
+90643,6317,hubspot,inbound,succeeded,,,,,2026-09-30T03:45:51+00:00,2026-09-30T03:45:53+00:00
+90644,6319,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-30T03:57:54+00:00,2026-09-30T03:57:55+00:00
+90645,6320,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-30T04:12:41+00:00,2026-09-30T04:12:44+00:00
+90646,6321,hubspot,inbound,succeeded,,,,,2026-09-30T04:21:53+00:00,2026-09-30T04:21:55+00:00
+90647,6322,hubspot,inbound,succeeded,,,,,2026-09-30T06:56:39+00:00,2026-09-30T06:56:40+00:00
+90648,6323,hubspot,inbound,skipped,,call type not eligible,,,2026-09-30T09:23:18+00:00,2026-09-30T09:23:20+00:00
+90649,6324,hubspot,inbound,succeeded,,,,,2026-09-30T14:02:13+00:00,2026-09-30T14:02:16+00:00
+90650,6325,hubspot,inbound,blocked,,junk call (hang_up),,,2026-09-30T14:56:11+00:00,2026-09-30T14:56:12+00:00
+90651,6335,hubspot,inbound,blocked,,vendor call,,,2026-09-30T16:07:49+00:00,2026-09-30T16:07:50+00:00
+90652,6337,hubspot,inbound,skipped,,call type not eligible,,,2026-09-30T16:17:58+00:00,2026-09-30T16:17:59+00:00
+90653,6340,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-09-30T17:11:47+00:00,2026-09-30T17:11:48+00:00
+90654,6340,hubspot,inbound,succeeded,,,,,2026-09-30T17:12:47+00:00,2026-09-30T17:12:49+00:00
+90655,6341,hubspot,inbound,blocked,,vendor call,,,2026-09-30T17:32:15+00:00,2026-09-30T17:32:17+00:00
+90656,6343,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-30T18:36:01+00:00,2026-09-30T18:36:03+00:00
+90657,6345,hubspot,inbound,succeeded,,,,,2026-09-30T19:13:42+00:00,2026-09-30T19:13:44+00:00
+90658,6347,hubspot,inbound,skipped,,call type not eligible,,,2026-09-30T20:21:03+00:00,2026-09-30T20:21:06+00:00
+90659,6348,hubspot,inbound,failed,0,multiple HubSpot contacts match the case phone number,,,2026-09-30T20:25:30+00:00,2026-09-30T20:25:31+00:00
+90660,6352,hubspot,inbound,blocked,,junk call (robocall),,,2026-09-30T20:58:15+00:00,2026-09-30T20:58:17+00:00
+90661,6354,hubspot,inbound,succeeded,,,,,2026-09-30T22:19:19+00:00,2026-09-30T22:19:21+00:00
+90662,6355,hubspot,inbound,blocked,,vendor call,,,2026-09-30T22:34:46+00:00,2026-09-30T22:34:48+00:00
+90663,6359,hubspot,inbound,succeeded,,,,,2026-09-30T23:21:06+00:00,2026-09-30T23:21:08+00:00
+90664,6362,hubspot,inbound,blocked,,call shorter than 60s (18s),,,2026-10-01T00:05:45+00:00,2026-10-01T00:05:46+00:00
+90665,6364,hubspot,inbound,skipped,,call type not eligible,,,2026-10-01T00:18:14+00:00,2026-10-01T00:18:16+00:00
+90666,6365,hubspot,inbound,skipped,,call type not eligible,,,2026-10-01T02:18:44+00:00,2026-10-01T02:18:45+00:00
+90667,6366,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-01T02:26:16+00:00,2026-10-01T02:26:18+00:00
+90668,6367,hubspot,inbound,succeeded,,,,,2026-10-01T02:41:45+00:00,2026-10-01T02:41:46+00:00
+90669,6368,hubspot,inbound,skipped,,call type not eligible,,,2026-10-01T03:55:28+00:00,2026-10-01T03:55:29+00:00
+90670,6370,hubspot,inbound,skipped,,call type not eligible,,,2026-10-01T04:27:41+00:00,2026-10-01T04:27:41+00:00
+90671,6369,hubspot,inbound,succeeded,,,,,2026-10-01T04:28:11+00:00,2026-10-01T04:28:12+00:00
+90672,6371,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-01T04:52:26+00:00,2026-10-01T04:52:28+00:00
+90673,6372,hubspot,inbound,skipped,,call type not eligible,,,2026-10-01T08:40:32+00:00,2026-10-01T08:40:34+00:00
+90674,6373,hubspot,inbound,skipped,,call type not eligible,,,2026-10-01T11:34:34+00:00,2026-10-01T11:34:34+00:00
+90675,6374,hubspot,inbound,succeeded,,,,,2026-10-01T13:26:22+00:00,2026-10-01T13:26:23+00:00
+90676,6375,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-01T14:12:50+00:00,2026-10-01T14:12:51+00:00
+90677,6376,hubspot,inbound,skipped,,call type not eligible,,,2026-10-01T14:18:06+00:00,2026-10-01T14:18:07+00:00
+90678,6377,hubspot,inbound,skipped,,call type not eligible,,,2026-10-01T14:55:47+00:00,2026-10-01T14:55:49+00:00
+90679,6378,hubspot,inbound,skipped,,call type not eligible,,,2026-10-01T15:28:31+00:00,2026-10-01T15:28:33+00:00
+90680,6389,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-01T16:09:54+00:00,2026-10-01T16:09:56+00:00
+90681,6390,hubspot,inbound,succeeded,,,,,2026-10-01T16:17:41+00:00,2026-10-01T16:17:43+00:00
+90682,6393,hubspot,inbound,blocked,,vendor call,,,2026-10-01T16:51:30+00:00,2026-10-01T16:51:31+00:00
+90683,6397,hubspot,inbound,blocked,,internal or test call,,,2026-10-01T17:44:57+00:00,2026-10-01T17:44:59+00:00
+90684,6399,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-01T17:52:01+00:00,2026-10-01T17:52:04+00:00
+90685,6398,hubspot,inbound,skipped,,call type not eligible,,,2026-10-01T17:52:10+00:00,2026-10-01T17:52:12+00:00
+90686,6403,hubspot,inbound,succeeded,,,,,2026-10-01T19:43:11+00:00,2026-10-01T19:43:13+00:00
+90687,6404,hubspot,inbound,blocked,,internal or test call,,,2026-10-01T20:27:21+00:00,2026-10-01T20:27:22+00:00
+90688,6406,hubspot,inbound,blocked,,internal or test call,,,2026-10-01T21:18:07+00:00,2026-10-01T21:18:08+00:00
+90689,6407,hubspot,inbound,blocked,,internal or test call,,,2026-10-01T21:24:28+00:00,2026-10-01T21:24:30+00:00
+90690,6408,hubspot,inbound,blocked,,vendor call,,,2026-10-01T21:26:57+00:00,2026-10-01T21:26:59+00:00
+90691,6409,hubspot,inbound,blocked,,internal or test call,,,2026-10-01T22:26:58+00:00,2026-10-01T22:27:00+00:00
+90692,6410,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-01T22:29:39+00:00,2026-10-01T22:29:41+00:00
+90693,6411,hubspot,inbound,blocked,,vendor call,,,2026-10-01T22:40:47+00:00,2026-10-01T22:40:49+00:00
+90694,6412,hubspot,inbound,blocked,,vendor call,,,2026-10-01T22:42:02+00:00,2026-10-01T22:42:02+00:00
+90695,6413,hubspot,inbound,skipped,,call type not eligible,,,2026-10-01T22:54:35+00:00,2026-10-01T22:54:37+00:00
+90696,6415,hubspot,inbound,failed,0,multiple HubSpot contacts match the case phone number,,,2026-10-01T23:15:35+00:00,2026-10-01T23:15:38+00:00
+90697,6417,hubspot,inbound,blocked,,internal or test call,,,2026-10-01T23:41:25+00:00,2026-10-01T23:41:26+00:00
+90698,6418,hubspot,inbound,blocked,,internal or test call,,,2026-10-02T00:16:48+00:00,2026-10-02T00:16:49+00:00
+90699,6420,hubspot,inbound,blocked,,vendor call,,,2026-10-02T00:30:45+00:00,2026-10-02T00:30:47+00:00
+90700,6421,hubspot,inbound,succeeded,,,,,2026-10-02T01:04:50+00:00,2026-10-02T01:04:53+00:00
+90701,6422,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-10-02T01:09:10+00:00,2026-10-02T01:09:12+00:00
+90702,6422,hubspot,inbound,succeeded,,,,,2026-10-02T01:10:10+00:00,2026-10-02T01:10:11+00:00
+90703,6423,hubspot,inbound,blocked,,internal or test call,,,2026-10-02T02:14:18+00:00,2026-10-02T02:14:21+00:00
+90704,6424,hubspot,inbound,blocked,,internal or test call,,,2026-10-02T02:31:44+00:00,2026-10-02T02:31:47+00:00
+90705,6425,hubspot,inbound,skipped,,call type not eligible,,,2026-10-02T03:27:59+00:00,2026-10-02T03:28:00+00:00
+90706,6426,hubspot,inbound,skipped,,call type not eligible,,,2026-10-02T04:36:36+00:00,2026-10-02T04:36:39+00:00
+90707,6427,hubspot,inbound,skipped,,call type not eligible,,,2026-10-02T05:27:18+00:00,2026-10-02T05:27:19+00:00
+90708,6428,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-02T06:52:25+00:00,2026-10-02T06:52:27+00:00
+90709,6429,hubspot,inbound,blocked,,call shorter than 60s (26s),,,2026-10-02T13:19:28+00:00,2026-10-02T13:19:29+00:00
+90710,6430,hubspot,inbound,skipped,,call type not eligible,,,2026-10-02T13:28:54+00:00,2026-10-02T13:28:55+00:00
+90711,6442,hubspot,inbound,blocked,,internal or test call,,,2026-10-02T16:40:53+00:00,2026-10-02T16:40:55+00:00
+90712,6446,hubspot,inbound,blocked,,internal or test call,,,2026-10-02T17:26:25+00:00,2026-10-02T17:26:28+00:00
+90713,6455,hubspot,inbound,blocked,,vendor call,,,2026-10-02T19:42:29+00:00,2026-10-02T19:42:31+00:00
+90714,6459,hubspot,inbound,blocked,,internal or test call,,,2026-10-02T20:12:50+00:00,2026-10-02T20:12:52+00:00
+90715,6460,hubspot,inbound,skipped,,call type not eligible,,,2026-10-02T20:13:22+00:00,2026-10-02T20:13:23+00:00
+90716,6463,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-02T21:23:44+00:00,2026-10-02T21:23:46+00:00
+90717,6464,hubspot,inbound,blocked,,internal or test call,,,2026-10-02T21:37:48+00:00,2026-10-02T21:37:49+00:00
+90718,6465,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-02T21:43:07+00:00,2026-10-02T21:43:08+00:00
+90719,6466,hubspot,inbound,blocked,,internal or test call,,,2026-10-02T21:47:14+00:00,2026-10-02T21:47:17+00:00
+90720,6471,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-02T23:12:44+00:00,2026-10-02T23:12:46+00:00
+90721,6472,hubspot,inbound,blocked,,internal or test call,,,2026-10-02T23:27:20+00:00,2026-10-02T23:27:22+00:00
+90722,6475,hubspot,inbound,blocked,,vendor call,,,2026-10-03T00:23:21+00:00,2026-10-03T00:23:22+00:00
+90723,6476,hubspot,inbound,skipped,,call type not eligible,,,2026-10-03T01:54:22+00:00,2026-10-03T01:54:24+00:00
+90724,6477,hubspot,inbound,skipped,,call type not eligible,,,2026-10-03T02:03:17+00:00,2026-10-03T02:03:20+00:00
+90725,6478,hubspot,inbound,blocked,,internal or test call,,,2026-10-03T02:21:32+00:00,2026-10-03T02:21:34+00:00
+90726,6479,hubspot,inbound,blocked,,internal or test call,,,2026-10-03T02:50:43+00:00,2026-10-03T02:50:44+00:00
+90727,6480,hubspot,inbound,skipped,,call type not eligible,,,2026-10-03T03:03:05+00:00,2026-10-03T03:03:05+00:00
+90728,6481,hubspot,inbound,blocked,,internal or test call,,,2026-10-03T03:15:04+00:00,2026-10-03T03:15:06+00:00
+90729,6482,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-03T04:12:49+00:00,2026-10-03T04:12:51+00:00
+90730,6483,hubspot,inbound,skipped,,call type not eligible,,,2026-10-03T11:58:14+00:00,2026-10-03T11:58:17+00:00
+90731,6484,hubspot,inbound,succeeded,,,,,2026-10-03T12:36:13+00:00,2026-10-03T12:36:15+00:00
+90732,6485,hubspot,inbound,succeeded,,,,,2026-10-03T14:09:43+00:00,2026-10-03T14:09:45+00:00
+90733,6486,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-03T15:47:44+00:00,2026-10-03T15:47:46+00:00
+90734,6487,hubspot,inbound,skipped,,call type not eligible,,,2026-10-03T16:10:51+00:00,2026-10-03T16:10:52+00:00
+90735,6488,hubspot,inbound,blocked,,internal or test call,,,2026-10-03T16:13:15+00:00,2026-10-03T16:13:17+00:00
+90736,6489,hubspot,inbound,blocked,,internal or test call,,,2026-10-03T16:19:24+00:00,2026-10-03T16:19:27+00:00
+90737,6490,hubspot,inbound,blocked,,internal or test call,,,2026-10-03T16:22:54+00:00,2026-10-03T16:22:56+00:00
+90738,6491,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-03T17:10:49+00:00,2026-10-03T17:10:52+00:00
+90739,6492,hubspot,inbound,blocked,,internal or test call,,,2026-10-03T19:02:40+00:00,2026-10-03T19:02:42+00:00
+90740,6493,hubspot,inbound,blocked,,internal or test call,,,2026-10-03T19:14:45+00:00,2026-10-03T19:14:47+00:00
+90741,6494,hubspot,inbound,blocked,,internal or test call,,,2026-10-03T21:15:58+00:00,2026-10-03T21:16:01+00:00
+90742,6495,hubspot,inbound,succeeded,,,,,2026-10-03T21:45:34+00:00,2026-10-03T21:45:36+00:00
+90743,6496,hubspot,inbound,blocked,,internal or test call,,,2026-10-03T21:55:21+00:00,2026-10-03T21:55:24+00:00
+90744,6497,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-03T23:01:04+00:00,2026-10-03T23:01:07+00:00
+90745,6498,hubspot,inbound,blocked,,internal or test call,,,2026-10-03T23:07:02+00:00,2026-10-03T23:07:04+00:00
+90746,6499,hubspot,inbound,blocked,,internal or test call,,,2026-10-03T23:34:02+00:00,2026-10-03T23:34:03+00:00
+90747,6500,hubspot,inbound,blocked,,internal or test call,,,2026-10-03T23:59:23+00:00,2026-10-03T23:59:24+00:00
+90748,6501,hubspot,inbound,blocked,,internal or test call,,,2026-10-04T00:04:50+00:00,2026-10-04T00:04:52+00:00
+90749,6502,hubspot,inbound,blocked,,internal or test call,,,2026-10-04T00:22:12+00:00,2026-10-04T00:22:14+00:00
+90750,6503,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-10-04T00:41:11+00:00,2026-10-04T00:41:13+00:00
+90751,6503,hubspot,inbound,succeeded,,,,,2026-10-04T00:42:11+00:00,2026-10-04T00:42:12+00:00
+90752,6504,hubspot,inbound,blocked,,internal or test call,,,2026-10-04T03:44:05+00:00,2026-10-04T03:44:06+00:00
+90753,6505,hubspot,inbound,skipped,,call type not eligible,,,2026-10-04T04:47:09+00:00,2026-10-04T04:47:11+00:00
+90754,6506,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-04T14:27:56+00:00,2026-10-04T14:27:59+00:00
+90755,6507,hubspot,inbound,blocked,,internal or test call,,,2026-10-04T16:19:59+00:00,2026-10-04T16:20:01+00:00
+90756,6508,hubspot,inbound,blocked,,internal or test call,,,2026-10-04T16:28:14+00:00,2026-10-04T16:28:17+00:00
+90757,6509,hubspot,inbound,skipped,,call type not eligible,,,2026-10-04T17:13:35+00:00,2026-10-04T17:13:35+00:00
+90758,6510,hubspot,inbound,blocked,,internal or test call,,,2026-10-04T19:43:55+00:00,2026-10-04T19:43:56+00:00
+90759,6511,hubspot,inbound,blocked,,internal or test call,,,2026-10-04T19:48:21+00:00,2026-10-04T19:48:24+00:00
+90760,6512,hubspot,inbound,blocked,,internal or test call,,,2026-10-04T19:50:22+00:00,2026-10-04T19:50:25+00:00
+90761,6513,hubspot,inbound,blocked,,internal or test call,,,2026-10-04T20:45:54+00:00,2026-10-04T20:45:56+00:00
+90762,6514,hubspot,inbound,blocked,,internal or test call,,,2026-10-04T21:00:09+00:00,2026-10-04T21:00:10+00:00
+90763,6515,hubspot,inbound,succeeded,,,,,2026-10-04T21:48:59+00:00,2026-10-04T21:49:00+00:00
+90764,6516,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-05T01:11:04+00:00,2026-10-05T01:11:06+00:00
+90765,6517,hubspot,inbound,blocked,,internal or test call,,,2026-10-05T03:54:06+00:00,2026-10-05T03:54:09+00:00
+90766,6518,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-05T05:05:51+00:00,2026-10-05T05:05:53+00:00
+90767,6519,hubspot,inbound,skipped,,call type not eligible,,,2026-10-05T13:49:13+00:00,2026-10-05T13:49:16+00:00
+90768,6520,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-05T14:02:30+00:00,2026-10-05T14:02:31+00:00
+90769,6521,hubspot,inbound,skipped,,call type not eligible,,,2026-10-05T14:34:23+00:00,2026-10-05T14:34:23+00:00
+90770,6522,hubspot,inbound,skipped,,call type not eligible,,,2026-10-05T15:01:07+00:00,2026-10-05T15:01:08+00:00
+90771,6534,hubspot,inbound,skipped,,call type not eligible,,,2026-10-05T15:48:08+00:00,2026-10-05T15:48:09+00:00
+90772,6538,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-05T17:05:30+00:00,2026-10-05T17:05:32+00:00
+90773,6540,hubspot,inbound,skipped,,call type not eligible,,,2026-10-05T17:56:23+00:00,2026-10-05T17:56:25+00:00
+90774,6542,hubspot,inbound,skipped,,call type not eligible,,,2026-10-05T18:18:29+00:00,2026-10-05T18:18:31+00:00
+90775,6544,hubspot,inbound,blocked,,vendor call,,,2026-10-05T18:33:36+00:00,2026-10-05T18:33:39+00:00
+90776,6547,hubspot,inbound,blocked,,vendor call,,,2026-10-05T19:45:42+00:00,2026-10-05T19:45:43+00:00
+90777,6553,hubspot,inbound,blocked,,vendor call,,,2026-10-05T22:11:28+00:00,2026-10-05T22:11:31+00:00
+90778,6554,hubspot,inbound,skipped,,call type not eligible,,,2026-10-05T22:48:57+00:00,2026-10-05T22:48:58+00:00
+90779,6557,hubspot,inbound,skipped,,call type not eligible,,,2026-10-05T23:57:44+00:00,2026-10-05T23:57:45+00:00
+90780,6558,hubspot,inbound,succeeded,,,,,2026-10-06T00:09:34+00:00,2026-10-06T00:09:36+00:00
+90781,6559,hubspot,inbound,succeeded,,,,,2026-10-06T00:33:58+00:00,2026-10-06T00:33:59+00:00
+90782,6560,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-06T01:12:26+00:00,2026-10-06T01:12:29+00:00
+90783,6561,hubspot,inbound,succeeded,,,,,2026-10-06T01:31:19+00:00,2026-10-06T01:31:20+00:00
+90784,6562,hubspot,inbound,succeeded,,,,,2026-10-06T01:57:43+00:00,2026-10-06T01:57:45+00:00
+90785,6563,hubspot,inbound,skipped,,call type not eligible,,,2026-10-06T02:37:01+00:00,2026-10-06T02:37:01+00:00
+90786,6564,hubspot,inbound,skipped,,call type not eligible,,,2026-10-06T02:48:21+00:00,2026-10-06T02:48:24+00:00
+90787,6565,hubspot,inbound,succeeded,,,,,2026-10-06T03:12:36+00:00,2026-10-06T03:12:37+00:00
+90788,6566,hubspot,inbound,skipped,,call type not eligible,,,2026-10-06T03:27:20+00:00,2026-10-06T03:27:22+00:00
+90789,6567,hubspot,inbound,succeeded,,,,,2026-10-06T03:37:16+00:00,2026-10-06T03:37:19+00:00
+90790,6568,hubspot,inbound,skipped,,call type not eligible,,,2026-10-06T03:49:15+00:00,2026-10-06T03:49:17+00:00
+90791,6569,hubspot,inbound,succeeded,,,,,2026-10-06T03:55:08+00:00,2026-10-06T03:55:09+00:00
+90792,6570,hubspot,inbound,skipped,,call type not eligible,,,2026-10-06T04:06:28+00:00,2026-10-06T04:06:29+00:00
+90793,6571,hubspot,inbound,succeeded,,,,,2026-10-06T04:44:24+00:00,2026-10-06T04:44:25+00:00
+90794,6572,hubspot,inbound,succeeded,,,,,2026-10-06T05:12:25+00:00,2026-10-06T05:12:28+00:00
+90795,6573,hubspot,inbound,succeeded,,,,,2026-10-06T05:20:23+00:00,2026-10-06T05:20:24+00:00
+90796,6574,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-06T05:29:22+00:00,2026-10-06T05:29:24+00:00
+90797,6575,hubspot,inbound,skipped,,call type not eligible,,,2026-10-06T13:24:26+00:00,2026-10-06T13:24:27+00:00
+90798,6576,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-06T15:00:32+00:00,2026-10-06T15:00:35+00:00
+90799,6585,hubspot,inbound,succeeded,,,,,2026-10-06T15:38:21+00:00,2026-10-06T15:38:23+00:00
+90800,6589,hubspot,inbound,skipped,,call type not eligible,,,2026-10-06T15:44:10+00:00,2026-10-06T15:44:13+00:00
+90801,6591,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-06T15:51:15+00:00,2026-10-06T15:51:16+00:00
+90802,6596,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-06T16:41:56+00:00,2026-10-06T16:41:58+00:00
+90803,6599,hubspot,inbound,blocked,,call shorter than 60s (24s),,,2026-10-06T17:43:24+00:00,2026-10-06T17:43:26+00:00
+90804,6600,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-06T18:08:55+00:00,2026-10-06T18:08:56+00:00
+90805,6601,hubspot,inbound,blocked,,call shorter than 60s (24s),,,2026-10-06T18:16:55+00:00,2026-10-06T18:16:57+00:00
+90806,6604,hubspot,inbound,succeeded,,,,,2026-10-06T20:17:23+00:00,2026-10-06T20:17:24+00:00
+90807,6605,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-06T20:28:17+00:00,2026-10-06T20:28:17+00:00
+90808,6606,hubspot,inbound,succeeded,,,,,2026-10-06T21:17:42+00:00,2026-10-06T21:17:44+00:00
+90809,6609,hubspot,inbound,skipped,,call type not eligible,,,2026-10-06T21:21:35+00:00,2026-10-06T21:21:35+00:00
+90810,6613,hubspot,inbound,blocked,,vendor call,,,2026-10-06T22:17:02+00:00,2026-10-06T22:17:04+00:00
+90811,6614,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-06T22:21:10+00:00,2026-10-06T22:21:12+00:00
+90812,6615,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-06T22:25:14+00:00,2026-10-06T22:25:17+00:00
+90813,6616,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-06T22:37:02+00:00,2026-10-06T22:37:05+00:00
+90814,6619,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-06T23:19:20+00:00,2026-10-06T23:19:23+00:00
+90815,6620,hubspot,inbound,skipped,,call type not eligible,,,2026-10-06T23:50:12+00:00,2026-10-06T23:50:12+00:00
+90816,6621,hubspot,inbound,succeeded,,,,,2026-10-07T01:11:13+00:00,2026-10-07T01:11:14+00:00
+90817,6622,hubspot,inbound,skipped,,call type not eligible,,,2026-10-07T01:45:26+00:00,2026-10-07T01:45:28+00:00
+90818,6623,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-07T02:37:58+00:00,2026-10-07T02:38:00+00:00
+90819,6624,hubspot,inbound,succeeded,,,,,2026-10-07T03:23:37+00:00,2026-10-07T03:23:38+00:00
+90820,6625,hubspot,inbound,succeeded,,,,,2026-10-07T03:58:32+00:00,2026-10-07T03:58:33+00:00
+90821,6626,hubspot,inbound,succeeded,,,,,2026-10-07T05:20:45+00:00,2026-10-07T05:20:47+00:00
+90822,6627,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-07T05:28:50+00:00,2026-10-07T05:28:51+00:00
+90823,6628,hubspot,inbound,skipped,,call type not eligible,,,2026-10-07T05:34:12+00:00,2026-10-07T05:34:15+00:00
+90824,6629,hubspot,inbound,skipped,,call type not eligible,,,2026-10-07T13:45:49+00:00,2026-10-07T13:45:50+00:00
+90825,6647,hubspot,inbound,skipped,,call type not eligible,,,2026-10-07T17:39:14+00:00,2026-10-07T17:39:16+00:00
+90826,6648,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-07T18:43:16+00:00,2026-10-07T18:43:18+00:00
+90827,6649,hubspot,inbound,blocked,,call shorter than 60s (27s),,,2026-10-07T18:57:05+00:00,2026-10-07T18:57:07+00:00
+90828,6651,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-07T19:30:56+00:00,2026-10-07T19:30:56+00:00
+90829,6652,hubspot,inbound,succeeded,,,,,2026-10-07T19:48:39+00:00,2026-10-07T19:48:40+00:00
+90830,6655,hubspot,inbound,blocked,,vendor call,,,2026-10-07T20:12:41+00:00,2026-10-07T20:12:41+00:00
+90831,6665,hubspot,inbound,blocked,,vendor call,,,2026-10-07T23:11:10+00:00,2026-10-07T23:11:12+00:00
+90832,6668,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-07T23:54:17+00:00,2026-10-07T23:54:18+00:00
+90833,6667,hubspot,inbound,failed,0,HubSpot 409: Contact already exists. Existing ID: 310007,,,2026-10-07T23:56:47+00:00,2026-10-07T23:56:49+00:00
+90834,6669,hubspot,inbound,succeeded,,,,,2026-10-08T01:39:12+00:00,2026-10-08T01:39:14+00:00
+90835,6670,hubspot,inbound,skipped,,call type not eligible,,,2026-10-08T02:08:11+00:00,2026-10-08T02:08:12+00:00
+90836,6671,hubspot,inbound,skipped,,call type not eligible,,,2026-10-08T02:09:06+00:00,2026-10-08T02:09:08+00:00
+90837,6672,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-08T02:11:59+00:00,2026-10-08T02:12:00+00:00
+90838,6673,hubspot,inbound,succeeded,,,,,2026-10-08T02:15:54+00:00,2026-10-08T02:15:56+00:00
+90839,6674,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-10-08T02:50:11+00:00,2026-10-08T02:50:14+00:00
+90840,6674,hubspot,inbound,succeeded,,,,,2026-10-08T02:51:11+00:00,2026-10-08T02:51:11+00:00
+90841,6675,hubspot,inbound,skipped,,call type not eligible,,,2026-10-08T03:17:58+00:00,2026-10-08T03:17:59+00:00
+90842,6676,hubspot,inbound,skipped,,call type not eligible,,,2026-10-08T04:11:02+00:00,2026-10-08T04:11:04+00:00
+90843,6677,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-08T04:54:02+00:00,2026-10-08T04:54:04+00:00
+90844,6678,hubspot,inbound,skipped,,call type not eligible,,,2026-10-08T05:03:22+00:00,2026-10-08T05:03:23+00:00
+90845,6679,hubspot,inbound,succeeded,,,,,2026-10-08T05:08:18+00:00,2026-10-08T05:08:19+00:00
+90846,6681,hubspot,inbound,skipped,,call type not eligible,,,2026-10-08T05:08:19+00:00,2026-10-08T05:08:21+00:00
+90847,6680,hubspot,inbound,succeeded,,,,,2026-10-08T05:08:47+00:00,2026-10-08T05:08:49+00:00
+90848,6682,hubspot,inbound,succeeded,,,,,2026-10-08T10:04:12+00:00,2026-10-08T10:04:13+00:00
+90849,6683,hubspot,inbound,succeeded,,,,,2026-10-08T14:24:34+00:00,2026-10-08T14:24:36+00:00
+90850,6701,hubspot,inbound,blocked,,vendor call,,,2026-10-08T16:01:28+00:00,2026-10-08T16:01:29+00:00
+90851,6704,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-08T16:36:53+00:00,2026-10-08T16:36:55+00:00
+90852,6705,hubspot,inbound,succeeded,,,,,2026-10-08T16:48:47+00:00,2026-10-08T16:48:49+00:00
+90853,6706,hubspot,inbound,skipped,,call type not eligible,,,2026-10-08T16:52:42+00:00,2026-10-08T16:52:44+00:00
+90854,6708,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-08T16:59:08+00:00,2026-10-08T16:59:09+00:00
+90855,6709,hubspot,inbound,succeeded,,,,,2026-10-08T17:07:27+00:00,2026-10-08T17:07:29+00:00
+90856,6715,hubspot,inbound,skipped,,call type not eligible,,,2026-10-08T18:38:21+00:00,2026-10-08T18:38:22+00:00
+90857,6716,hubspot,inbound,succeeded,,,,,2026-10-08T19:23:52+00:00,2026-10-08T19:23:55+00:00
+90858,6717,hubspot,inbound,succeeded,,,,,2026-10-08T19:32:50+00:00,2026-10-08T19:32:52+00:00
+90859,6722,hubspot,inbound,blocked,,vendor call,,,2026-10-08T20:42:49+00:00,2026-10-08T20:42:50+00:00
+90860,6726,hubspot,inbound,succeeded,,,,,2026-10-08T21:43:14+00:00,2026-10-08T21:43:15+00:00
+90861,6729,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-08T22:21:22+00:00,2026-10-08T22:21:23+00:00
+90862,6731,hubspot,inbound,blocked,,vendor call,,,2026-10-08T22:37:08+00:00,2026-10-08T22:37:10+00:00
+90863,6732,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-10-08T23:00:54+00:00,2026-10-08T23:00:56+00:00
+90864,6732,hubspot,inbound,succeeded,,,,,2026-10-08T23:01:54+00:00,2026-10-08T23:01:55+00:00
+90865,6734,hubspot,inbound,succeeded,,,,,2026-10-09T00:36:01+00:00,2026-10-09T00:36:04+00:00
+90866,6735,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-09T02:10:16+00:00,2026-10-09T02:10:17+00:00
+90867,6736,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-09T02:46:52+00:00,2026-10-09T02:46:54+00:00
+90868,6737,hubspot,inbound,skipped,,call type not eligible,,,2026-10-09T02:49:24+00:00,2026-10-09T02:49:25+00:00
+90869,6738,hubspot,inbound,skipped,,call type not eligible,,,2026-10-09T03:11:07+00:00,2026-10-09T03:11:08+00:00
+90870,6739,hubspot,inbound,skipped,,call type not eligible,,,2026-10-09T05:34:18+00:00,2026-10-09T05:34:20+00:00
+90871,6740,hubspot,inbound,skipped,,call type not eligible,,,2026-10-09T07:29:02+00:00,2026-10-09T07:29:04+00:00
+90872,6741,hubspot,inbound,succeeded,,,,,2026-10-09T14:51:50+00:00,2026-10-09T14:51:52+00:00
+90873,6759,hubspot,inbound,skipped,,call type not eligible,,,2026-10-09T15:46:37+00:00,2026-10-09T15:46:40+00:00
+90874,6764,hubspot,inbound,skipped,,call type not eligible,,,2026-10-09T16:16:52+00:00,2026-10-09T16:16:55+00:00
+90875,6769,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-09T17:24:03+00:00,2026-10-09T17:24:04+00:00
+90876,6775,hubspot,inbound,succeeded,,,,,2026-10-09T19:44:44+00:00,2026-10-09T19:44:45+00:00
+90877,6786,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-10T00:23:15+00:00,2026-10-10T00:23:17+00:00
+90878,6788,hubspot,inbound,skipped,,call type not eligible,,,2026-10-10T01:22:03+00:00,2026-10-10T01:22:03+00:00
+90879,6789,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-10T03:28:45+00:00,2026-10-10T03:28:46+00:00
+90880,6790,hubspot,inbound,skipped,,call type not eligible,,,2026-10-10T04:04:51+00:00,2026-10-10T04:04:51+00:00
+90881,6791,hubspot,inbound,skipped,,call type not eligible,,,2026-10-10T04:37:39+00:00,2026-10-10T04:37:42+00:00
+90882,6792,hubspot,inbound,succeeded,,,,,2026-10-10T05:06:25+00:00,2026-10-10T05:06:26+00:00
+90883,6793,hubspot,inbound,skipped,,call type not eligible,,,2026-10-10T06:48:27+00:00,2026-10-10T06:48:28+00:00
+90884,6794,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-10T13:51:02+00:00,2026-10-10T13:51:03+00:00
+90885,6795,hubspot,inbound,succeeded,,,,,2026-10-10T15:42:24+00:00,2026-10-10T15:42:25+00:00
+90886,6796,hubspot,inbound,succeeded,,,,,2026-10-10T18:45:48+00:00,2026-10-10T18:45:50+00:00
+90887,6797,hubspot,inbound,succeeded,,,,,2026-10-10T20:45:04+00:00,2026-10-10T20:45:05+00:00
+90888,6798,hubspot,inbound,succeeded,,,,,2026-10-10T20:56:00+00:00,2026-10-10T20:56:01+00:00
+90889,6799,hubspot,inbound,blocked,,internal or test call,,,2026-10-10T21:15:11+00:00,2026-10-10T21:15:12+00:00
+90890,6800,hubspot,inbound,succeeded,,,,,2026-10-10T22:30:37+00:00,2026-10-10T22:30:39+00:00
+90891,6801,hubspot,inbound,succeeded,,,,,2026-10-11T01:31:19+00:00,2026-10-11T01:31:21+00:00
+90892,6802,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-11T01:51:52+00:00,2026-10-11T01:51:55+00:00
+90893,6803,hubspot,inbound,succeeded,,,,,2026-10-11T01:56:17+00:00,2026-10-11T01:56:18+00:00
+90894,6804,hubspot,inbound,skipped,,call type not eligible,,,2026-10-11T02:26:50+00:00,2026-10-11T02:26:52+00:00
+90895,6805,hubspot,inbound,succeeded,,,,,2026-10-11T03:34:40+00:00,2026-10-11T03:34:42+00:00
+90896,6806,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-11T06:06:43+00:00,2026-10-11T06:06:45+00:00
+90897,6807,hubspot,inbound,skipped,,call type not eligible,,,2026-10-11T06:37:43+00:00,2026-10-11T06:37:45+00:00
+90898,6808,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-11T08:15:47+00:00,2026-10-11T08:15:49+00:00
+90899,6809,hubspot,inbound,succeeded,,,,,2026-10-11T12:51:34+00:00,2026-10-11T12:51:34+00:00
+90900,6810,hubspot,inbound,succeeded,,,,,2026-10-11T23:13:34+00:00,2026-10-11T23:13:36+00:00
+90901,6811,hubspot,inbound,succeeded,,,,,2026-10-12T01:54:26+00:00,2026-10-12T01:54:27+00:00
+90902,6812,hubspot,inbound,succeeded,,,,,2026-10-12T01:59:10+00:00,2026-10-12T01:59:10+00:00
+90903,6813,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-12T03:02:54+00:00,2026-10-12T03:02:55+00:00
+90904,6814,hubspot,inbound,skipped,,call type not eligible,,,2026-10-12T05:52:30+00:00,2026-10-12T05:52:31+00:00
+90905,6815,hubspot,inbound,succeeded,,,,,2026-10-12T10:25:48+00:00,2026-10-12T10:25:49+00:00
+90906,6816,hubspot,inbound,succeeded,,,,,2026-10-12T13:20:24+00:00,2026-10-12T13:20:25+00:00
+90907,6817,hubspot,inbound,succeeded,,,,,2026-10-12T13:54:07+00:00,2026-10-12T13:54:10+00:00
+90908,6818,hubspot,inbound,skipped,,call type not eligible,,,2026-10-12T14:17:03+00:00,2026-10-12T14:17:03+00:00
+90909,6819,hubspot,inbound,skipped,,call type not eligible,,,2026-10-12T15:20:53+00:00,2026-10-12T15:20:54+00:00
+90910,6820,hubspot,inbound,skipped,,call type not eligible,,,2026-10-12T15:21:19+00:00,2026-10-12T15:21:21+00:00
+90911,6837,hubspot,inbound,skipped,,call type not eligible,,,2026-10-12T15:32:40+00:00,2026-10-12T15:32:43+00:00
+90912,6851,hubspot,inbound,skipped,,call type not eligible,,,2026-10-12T16:53:21+00:00,2026-10-12T16:53:22+00:00
+90913,6852,hubspot,inbound,blocked,,vendor call,,,2026-10-12T16:59:51+00:00,2026-10-12T16:59:52+00:00
+90914,6853,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-12T17:13:33+00:00,2026-10-12T17:13:35+00:00
+90915,6855,hubspot,inbound,skipped,,call type not eligible,,,2026-10-12T19:25:03+00:00,2026-10-12T19:25:05+00:00
+90916,6861,hubspot,inbound,blocked,,vendor call,,,2026-10-12T21:00:57+00:00,2026-10-12T21:00:59+00:00
+90917,6863,hubspot,inbound,skipped,,call type not eligible,,,2026-10-12T21:05:59+00:00,2026-10-12T21:06:01+00:00
+90918,6864,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-12T21:30:12+00:00,2026-10-12T21:30:12+00:00
+90919,6868,hubspot,inbound,skipped,,call type not eligible,,,2026-10-12T22:23:43+00:00,2026-10-12T22:23:45+00:00
+90920,6870,hubspot,inbound,succeeded,,,,,2026-10-12T23:19:20+00:00,2026-10-12T23:19:21+00:00
+90921,6877,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-13T00:29:59+00:00,2026-10-13T00:30:00+00:00
+90922,6878,hubspot,inbound,blocked,,call shorter than 60s (8s),,,2026-10-13T03:50:17+00:00,2026-10-13T03:50:19+00:00
+90923,6879,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-13T04:08:32+00:00,2026-10-13T04:08:34+00:00
+90924,6880,hubspot,inbound,skipped,,call type not eligible,,,2026-10-13T04:14:44+00:00,2026-10-13T04:14:45+00:00
+90925,6881,hubspot,inbound,skipped,,call type not eligible,,,2026-10-13T04:33:12+00:00,2026-10-13T04:33:13+00:00
+90926,6882,hubspot,inbound,skipped,,call type not eligible,,,2026-10-13T04:33:50+00:00,2026-10-13T04:33:53+00:00
+90927,6883,hubspot,inbound,blocked,,call shorter than 60s (19s),,,2026-10-13T04:50:57+00:00,2026-10-13T04:50:59+00:00
+90928,6884,hubspot,inbound,skipped,,call type not eligible,,,2026-10-13T05:04:08+00:00,2026-10-13T05:04:11+00:00
+90929,6885,hubspot,inbound,skipped,,call type not eligible,,,2026-10-13T05:26:43+00:00,2026-10-13T05:26:44+00:00
+90930,6886,hubspot,inbound,skipped,,call type not eligible,,,2026-10-13T13:17:51+00:00,2026-10-13T13:17:54+00:00
+90931,6887,hubspot,inbound,succeeded,,,,,2026-10-13T13:31:19+00:00,2026-10-13T13:31:20+00:00
+90932,6888,hubspot,inbound,succeeded,,,,,2026-10-13T14:25:27+00:00,2026-10-13T14:25:28+00:00
+90933,6908,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-13T17:38:44+00:00,2026-10-13T17:38:45+00:00
+90934,6909,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-13T17:45:35+00:00,2026-10-13T17:45:36+00:00
+90935,6913,hubspot,inbound,skipped,,call type not eligible,,,2026-10-13T19:26:46+00:00,2026-10-13T19:26:48+00:00
+90936,6914,hubspot,inbound,skipped,,call type not eligible,,,2026-10-13T19:46:30+00:00,2026-10-13T19:46:33+00:00
+90937,6920,hubspot,inbound,skipped,,call type not eligible,,,2026-10-13T20:58:23+00:00,2026-10-13T20:58:26+00:00
+90938,6923,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-13T21:22:54+00:00,2026-10-13T21:22:55+00:00
+90939,6927,hubspot,inbound,skipped,,call type not eligible,,,2026-10-14T00:49:22+00:00,2026-10-14T00:49:24+00:00
+90940,6928,hubspot,inbound,succeeded,,,,,2026-10-14T01:10:39+00:00,2026-10-14T01:10:42+00:00
+90941,6929,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-14T01:34:40+00:00,2026-10-14T01:34:42+00:00
+90942,6930,hubspot,inbound,skipped,,call type not eligible,,,2026-10-14T02:02:10+00:00,2026-10-14T02:02:10+00:00
+90943,6931,hubspot,inbound,succeeded,,,,,2026-10-14T02:07:16+00:00,2026-10-14T02:07:19+00:00
+90944,6932,hubspot,inbound,skipped,,call type not eligible,,,2026-10-14T02:13:47+00:00,2026-10-14T02:13:49+00:00
+90945,6933,hubspot,inbound,skipped,,call type not eligible,,,2026-10-14T02:33:22+00:00,2026-10-14T02:33:24+00:00
+90946,6934,hubspot,inbound,succeeded,,,,,2026-10-14T02:47:07+00:00,2026-10-14T02:47:09+00:00
+90947,6935,hubspot,inbound,succeeded,,,,,2026-10-14T03:46:30+00:00,2026-10-14T03:46:32+00:00
+90948,6936,hubspot,inbound,succeeded,,,,,2026-10-14T03:55:01+00:00,2026-10-14T03:55:03+00:00
+90949,6937,hubspot,inbound,skipped,,call type not eligible,,,2026-10-14T05:18:42+00:00,2026-10-14T05:18:44+00:00
+90950,6938,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-14T05:25:59+00:00,2026-10-14T05:25:59+00:00
+90951,6939,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-14T13:30:00+00:00,2026-10-14T13:30:00+00:00
+90952,6955,hubspot,inbound,succeeded,,,,,2026-10-14T16:31:04+00:00,2026-10-14T16:31:06+00:00
+90953,6958,hubspot,inbound,succeeded,,,,,2026-10-14T16:58:49+00:00,2026-10-14T16:58:52+00:00
+90954,6964,hubspot,inbound,failed,0,HubSpot 409: Contact already exists. Existing ID: 310007,,,2026-10-14T19:21:36+00:00,2026-10-14T19:21:38+00:00
+90955,6966,hubspot,inbound,succeeded,,,,,2026-10-14T20:10:51+00:00,2026-10-14T20:10:51+00:00
+90956,6975,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-15T01:15:05+00:00,2026-10-15T01:15:05+00:00
+90957,6976,hubspot,inbound,blocked,,call shorter than 60s (21s),,,2026-10-15T01:19:35+00:00,2026-10-15T01:19:36+00:00
+90958,6977,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-15T02:14:43+00:00,2026-10-15T02:14:45+00:00
+90959,6978,hubspot,inbound,succeeded,,,,,2026-10-15T03:25:15+00:00,2026-10-15T03:25:17+00:00
+90960,6979,hubspot,inbound,succeeded,,,,,2026-10-15T03:42:38+00:00,2026-10-15T03:42:41+00:00
+90961,6980,hubspot,inbound,succeeded,,,,,2026-10-15T04:19:02+00:00,2026-10-15T04:19:04+00:00
+90962,6981,hubspot,inbound,skipped,,call type not eligible,,,2026-10-15T04:48:35+00:00,2026-10-15T04:48:35+00:00
+90963,6982,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-15T05:00:01+00:00,2026-10-15T05:00:03+00:00
+90964,6983,hubspot,inbound,succeeded,,,,,2026-10-15T14:17:28+00:00,2026-10-15T14:17:30+00:00
+90965,6984,hubspot,inbound,skipped,,call type not eligible,,,2026-10-15T14:51:36+00:00,2026-10-15T14:51:38+00:00
+90966,6985,hubspot,inbound,skipped,,call type not eligible,,,2026-10-15T15:18:58+00:00,2026-10-15T15:18:59+00:00
+90967,6996,hubspot,inbound,blocked,,call shorter than 60s (44s),,,2026-10-15T15:36:48+00:00,2026-10-15T15:36:50+00:00
+90968,7001,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-15T16:08:39+00:00,2026-10-15T16:08:40+00:00
+90969,7005,hubspot,inbound,succeeded,,,,,2026-10-15T16:58:09+00:00,2026-10-15T16:58:11+00:00
+90970,7007,hubspot,inbound,succeeded,,,,,2026-10-15T17:48:30+00:00,2026-10-15T17:48:33+00:00
+90971,7010,hubspot,inbound,skipped,,call type not eligible,,,2026-10-15T18:40:20+00:00,2026-10-15T18:40:21+00:00
+90972,7012,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-15T20:30:25+00:00,2026-10-15T20:30:27+00:00
+90973,7018,hubspot,inbound,blocked,,call shorter than 60s (16s),,,2026-10-15T21:40:41+00:00,2026-10-15T21:40:44+00:00
+90974,7019,hubspot,inbound,succeeded,,,,,2026-10-15T21:54:06+00:00,2026-10-15T21:54:08+00:00
+90975,7021,hubspot,inbound,blocked,,vendor call,,,2026-10-15T21:59:46+00:00,2026-10-15T21:59:47+00:00
+90976,7023,hubspot,inbound,succeeded,,,,,2026-10-15T22:17:16+00:00,2026-10-15T22:17:18+00:00
+90977,7025,hubspot,inbound,skipped,,call type not eligible,,,2026-10-15T22:38:30+00:00,2026-10-15T22:38:32+00:00
+90978,7027,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-16T00:36:02+00:00,2026-10-16T00:36:05+00:00
+90979,7028,hubspot,inbound,blocked,,call shorter than 60s (15s),,,2026-10-16T00:50:57+00:00,2026-10-16T00:50:59+00:00
+90980,7029,hubspot,inbound,skipped,,call type not eligible,,,2026-10-16T02:01:21+00:00,2026-10-16T02:01:22+00:00
+90981,7030,hubspot,inbound,succeeded,,,,,2026-10-16T02:12:04+00:00,2026-10-16T02:12:06+00:00
+90982,7031,hubspot,inbound,skipped,,call type not eligible,,,2026-10-16T03:48:58+00:00,2026-10-16T03:49:01+00:00
+90983,7032,hubspot,inbound,skipped,,call type not eligible,,,2026-10-16T04:13:32+00:00,2026-10-16T04:13:33+00:00
+90984,7033,hubspot,inbound,skipped,,call type not eligible,,,2026-10-16T04:20:54+00:00,2026-10-16T04:20:57+00:00
+90985,7034,hubspot,inbound,skipped,,call type not eligible,,,2026-10-16T09:10:22+00:00,2026-10-16T09:10:23+00:00
+90986,7035,hubspot,inbound,skipped,,call type not eligible,,,2026-10-16T13:25:42+00:00,2026-10-16T13:25:44+00:00
+90987,7037,hubspot,inbound,skipped,,call type not eligible,,,2026-10-16T14:04:26+00:00,2026-10-16T14:04:28+00:00
+90988,7036,hubspot,inbound,succeeded,,,,,2026-10-16T14:05:40+00:00,2026-10-16T14:05:41+00:00
+90989,7038,hubspot,inbound,skipped,,call type not eligible,,,2026-10-16T14:11:05+00:00,2026-10-16T14:11:07+00:00
+90990,7039,hubspot,inbound,succeeded,,,,,2026-10-16T14:43:30+00:00,2026-10-16T14:43:31+00:00
+90991,7040,hubspot,inbound,succeeded,,,,,2026-10-16T14:47:48+00:00,2026-10-16T14:47:49+00:00
+90992,7059,hubspot,inbound,skipped,,call type not eligible,,,2026-10-16T16:26:52+00:00,2026-10-16T16:26:54+00:00
+90993,7060,hubspot,inbound,blocked,,vendor call,,,2026-10-16T16:29:12+00:00,2026-10-16T16:29:13+00:00
+90994,7065,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-16T18:44:45+00:00,2026-10-16T18:44:46+00:00
+90995,7069,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-16T20:08:52+00:00,2026-10-16T20:08:53+00:00
+90996,7072,hubspot,inbound,blocked,,vendor call,,,2026-10-16T20:47:22+00:00,2026-10-16T20:47:23+00:00
+90997,7075,hubspot,inbound,blocked,,vendor call,,,2026-10-16T21:18:36+00:00,2026-10-16T21:18:39+00:00
+90998,7076,hubspot,inbound,skipped,,call type not eligible,,,2026-10-16T21:22:38+00:00,2026-10-16T21:22:40+00:00
+90999,7078,hubspot,inbound,skipped,,call type not eligible,,,2026-10-16T21:46:47+00:00,2026-10-16T21:46:50+00:00
+91000,7081,hubspot,inbound,blocked,,internal or test call,,,2026-10-16T22:52:20+00:00,2026-10-16T22:52:23+00:00
+91001,7082,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-16T23:01:15+00:00,2026-10-16T23:01:17+00:00
+91002,7083,hubspot,inbound,succeeded,,,,,2026-10-16T23:54:44+00:00,2026-10-16T23:54:46+00:00
+91003,7085,hubspot,inbound,skipped,,call type not eligible,,,2026-10-17T00:41:31+00:00,2026-10-17T00:41:32+00:00
+91004,7086,hubspot,inbound,skipped,,call type not eligible,,,2026-10-17T00:53:53+00:00,2026-10-17T00:53:56+00:00
+91005,7087,hubspot,inbound,skipped,,call type not eligible,,,2026-10-17T01:06:21+00:00,2026-10-17T01:06:24+00:00
+91006,7088,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-17T01:34:45+00:00,2026-10-17T01:34:48+00:00
+91007,7089,hubspot,inbound,skipped,,call type not eligible,,,2026-10-17T02:55:55+00:00,2026-10-17T02:55:57+00:00
+91008,7090,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-17T03:22:46+00:00,2026-10-17T03:22:49+00:00
+91009,7091,hubspot,inbound,succeeded,,,,,2026-10-17T03:37:10+00:00,2026-10-17T03:37:11+00:00
+91010,7092,hubspot,inbound,succeeded,,,,,2026-10-17T05:18:06+00:00,2026-10-17T05:18:08+00:00
+91011,7093,hubspot,inbound,succeeded,,,,,2026-10-17T05:37:39+00:00,2026-10-17T05:37:42+00:00
+91012,7094,hubspot,inbound,skipped,,call type not eligible,,,2026-10-17T13:33:50+00:00,2026-10-17T13:33:52+00:00
+91013,7095,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-17T14:47:12+00:00,2026-10-17T14:47:13+00:00
+91014,7096,hubspot,inbound,skipped,,call type not eligible,,,2026-10-17T16:30:28+00:00,2026-10-17T16:30:31+00:00
+91015,7097,hubspot,inbound,skipped,,call type not eligible,,,2026-10-17T19:33:55+00:00,2026-10-17T19:33:57+00:00
+91016,7098,hubspot,inbound,blocked,,internal or test call,,,2026-10-17T21:16:12+00:00,2026-10-17T21:16:15+00:00
+91017,7099,hubspot,inbound,skipped,,call type not eligible,,,2026-10-17T21:39:45+00:00,2026-10-17T21:39:48+00:00
+91018,7100,hubspot,inbound,skipped,,call type not eligible,,,2026-10-17T22:33:54+00:00,2026-10-17T22:33:57+00:00
+91019,7101,hubspot,inbound,succeeded,,,,,2026-10-17T22:43:46+00:00,2026-10-17T22:43:47+00:00
+91020,7102,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-17T23:01:15+00:00,2026-10-17T23:01:17+00:00
+91021,7103,hubspot,inbound,succeeded,,,,,2026-10-17T23:21:05+00:00,2026-10-17T23:21:08+00:00
+91022,7104,hubspot,inbound,skipped,,call type not eligible,,,2026-10-18T04:18:28+00:00,2026-10-18T04:18:30+00:00
+91023,7105,hubspot,inbound,succeeded,,,,,2026-10-18T08:18:29+00:00,2026-10-18T08:18:30+00:00
+91024,7106,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-18T11:37:01+00:00,2026-10-18T11:37:03+00:00
+91025,7107,hubspot,inbound,skipped,,call type not eligible,,,2026-10-18T16:44:24+00:00,2026-10-18T16:44:26+00:00
+91026,7108,hubspot,inbound,skipped,,call type not eligible,,,2026-10-18T16:49:05+00:00,2026-10-18T16:49:06+00:00
+91027,7109,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-18T18:50:43+00:00,2026-10-18T18:50:46+00:00
+91028,7110,hubspot,inbound,succeeded,,,,,2026-10-18T19:28:55+00:00,2026-10-18T19:28:57+00:00
+91029,7111,hubspot,inbound,succeeded,,,,,2026-10-18T19:37:18+00:00,2026-10-18T19:37:19+00:00
+91030,7112,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-10-18T19:54:08+00:00,2026-10-18T19:54:11+00:00
+91031,7112,hubspot,inbound,succeeded,,,,,2026-10-18T19:55:08+00:00,2026-10-18T19:55:11+00:00
+91032,7113,hubspot,inbound,succeeded,,,,,2026-10-18T23:10:38+00:00,2026-10-18T23:10:39+00:00
+91033,7114,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-18T23:48:47+00:00,2026-10-18T23:48:48+00:00
+91034,7115,hubspot,inbound,succeeded,,,,,2026-10-19T03:07:56+00:00,2026-10-19T03:07:57+00:00
+91035,7116,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-19T06:17:54+00:00,2026-10-19T06:17:57+00:00
+91036,7117,hubspot,inbound,succeeded,,,,,2026-10-19T06:32:13+00:00,2026-10-19T06:32:15+00:00
+91037,7118,hubspot,inbound,succeeded,,,,,2026-10-19T09:53:48+00:00,2026-10-19T09:53:50+00:00
+91038,7119,hubspot,inbound,succeeded,,,,,2026-10-19T12:59:27+00:00,2026-10-19T12:59:28+00:00
+91039,7120,hubspot,inbound,skipped,,call type not eligible,,,2026-10-19T13:03:02+00:00,2026-10-19T13:03:02+00:00
+91040,7121,hubspot,inbound,skipped,,call type not eligible,,,2026-10-19T13:37:28+00:00,2026-10-19T13:37:31+00:00
+91041,7122,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-10-19T14:22:02+00:00,2026-10-19T14:22:02+00:00
+91042,7122,hubspot,inbound,succeeded,,,,,2026-10-19T14:23:02+00:00,2026-10-19T14:23:03+00:00
+91043,7150,hubspot,inbound,blocked,,vendor call,,,2026-10-19T18:22:00+00:00,2026-10-19T18:22:02+00:00
+91044,7152,hubspot,inbound,blocked,,internal or test call,,,2026-10-19T18:50:18+00:00,2026-10-19T18:50:21+00:00
+91045,7156,hubspot,inbound,skipped,,call type not eligible,,,2026-10-19T20:15:10+00:00,2026-10-19T20:15:12+00:00
+91046,7158,hubspot,inbound,blocked,,vendor call,,,2026-10-19T21:15:52+00:00,2026-10-19T21:15:55+00:00
+91047,7160,hubspot,inbound,skipped,,call type not eligible,,,2026-10-19T21:58:13+00:00,2026-10-19T21:58:13+00:00
+91048,7162,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-19T22:42:23+00:00,2026-10-19T22:42:25+00:00
+91049,7163,hubspot,inbound,skipped,,call type not eligible,,,2026-10-19T22:49:43+00:00,2026-10-19T22:49:45+00:00
+91050,7169,hubspot,inbound,succeeded,,,,,2026-10-20T00:19:54+00:00,2026-10-20T00:19:57+00:00
+91051,7172,hubspot,inbound,skipped,,call type not eligible,,,2026-10-20T02:05:24+00:00,2026-10-20T02:05:27+00:00
+91052,7173,hubspot,inbound,skipped,,call type not eligible,,,2026-10-20T02:30:44+00:00,2026-10-20T02:30:46+00:00
+91053,7174,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-20T02:33:33+00:00,2026-10-20T02:33:35+00:00
+91054,7175,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-20T02:35:46+00:00,2026-10-20T02:35:48+00:00
+91055,7176,hubspot,inbound,skipped,,call type not eligible,,,2026-10-20T04:21:55+00:00,2026-10-20T04:21:57+00:00
+91056,7177,hubspot,inbound,succeeded,,,,,2026-10-20T04:25:50+00:00,2026-10-20T04:25:50+00:00
+91057,7178,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-20T04:37:54+00:00,2026-10-20T04:37:55+00:00
+91058,7179,hubspot,inbound,skipped,,call type not eligible,,,2026-10-20T04:59:56+00:00,2026-10-20T04:59:57+00:00
+91059,7180,hubspot,inbound,skipped,,call type not eligible,,,2026-10-20T05:48:02+00:00,2026-10-20T05:48:03+00:00
+91060,7181,hubspot,inbound,skipped,,call type not eligible,,,2026-10-20T08:33:41+00:00,2026-10-20T08:33:42+00:00
+91061,7182,hubspot,inbound,skipped,,call type not eligible,,,2026-10-20T09:47:22+00:00,2026-10-20T09:47:24+00:00
+91062,7183,hubspot,inbound,blocked,,call shorter than 60s (10s),,,2026-10-20T13:04:11+00:00,2026-10-20T13:04:13+00:00
+91063,7184,hubspot,inbound,succeeded,,,,,2026-10-20T13:26:17+00:00,2026-10-20T13:26:18+00:00
+91064,7185,hubspot,inbound,succeeded,,,,,2026-10-20T13:54:43+00:00,2026-10-20T13:54:44+00:00
+91065,7186,hubspot,inbound,skipped,,call type not eligible,,,2026-10-20T14:26:21+00:00,2026-10-20T14:26:22+00:00
+91066,7187,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-20T14:28:59+00:00,2026-10-20T14:29:00+00:00
+91067,7200,hubspot,inbound,skipped,,call type not eligible,,,2026-10-20T15:56:00+00:00,2026-10-20T15:56:02+00:00
+91068,7204,hubspot,inbound,skipped,,call type not eligible,,,2026-10-20T16:33:51+00:00,2026-10-20T16:33:53+00:00
+91069,7209,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-20T18:21:46+00:00,2026-10-20T18:21:47+00:00
+91070,7212,hubspot,inbound,skipped,,call type not eligible,,,2026-10-20T19:13:01+00:00,2026-10-20T19:13:03+00:00
+91071,7215,hubspot,inbound,blocked,,internal or test call,,,2026-10-20T20:32:58+00:00,2026-10-20T20:32:59+00:00
+91072,7216,hubspot,inbound,succeeded,,,,,2026-10-20T20:35:44+00:00,2026-10-20T20:35:47+00:00
+91073,7217,hubspot,inbound,blocked,,vendor call,,,2026-10-20T21:41:56+00:00,2026-10-20T21:41:58+00:00
+91074,7218,hubspot,inbound,blocked,,vendor call,,,2026-10-20T22:40:49+00:00,2026-10-20T22:40:50+00:00
+91075,7220,hubspot,inbound,skipped,,call type not eligible,,,2026-10-20T22:47:08+00:00,2026-10-20T22:47:09+00:00
+91076,7221,hubspot,inbound,skipped,,call type not eligible,,,2026-10-20T23:48:28+00:00,2026-10-20T23:48:31+00:00
+91077,7223,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-21T00:14:43+00:00,2026-10-21T00:14:45+00:00
+91078,7224,hubspot,inbound,skipped,,call type not eligible,,,2026-10-21T01:04:00+00:00,2026-10-21T01:04:01+00:00
+91079,7225,hubspot,inbound,succeeded,,,,,2026-10-21T02:20:02+00:00,2026-10-21T02:20:04+00:00
+91080,7226,hubspot,inbound,succeeded,,,,,2026-10-21T03:16:10+00:00,2026-10-21T03:16:11+00:00
+91081,7227,hubspot,inbound,succeeded,,,,,2026-10-21T03:54:15+00:00,2026-10-21T03:54:18+00:00
+91082,7228,hubspot,inbound,skipped,,call type not eligible,,,2026-10-21T04:19:30+00:00,2026-10-21T04:19:32+00:00
+91083,7229,hubspot,inbound,skipped,,call type not eligible,,,2026-10-21T05:11:08+00:00,2026-10-21T05:11:09+00:00
+91084,7230,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-21T06:35:47+00:00,2026-10-21T06:35:49+00:00
+91085,7231,hubspot,inbound,succeeded,,,,,2026-10-21T10:42:05+00:00,2026-10-21T10:42:08+00:00
+91086,7232,hubspot,inbound,skipped,,call type not eligible,,,2026-10-21T11:42:15+00:00,2026-10-21T11:42:17+00:00
+91087,7233,hubspot,inbound,succeeded,,,,,2026-10-21T14:42:03+00:00,2026-10-21T14:42:05+00:00
+91088,7244,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-21T15:35:00+00:00,2026-10-21T15:35:03+00:00
+91089,7248,hubspot,inbound,blocked,,internal or test call,,,2026-10-21T16:49:06+00:00,2026-10-21T16:49:09+00:00
+91090,7249,hubspot,inbound,skipped,,call type not eligible,,,2026-10-21T17:13:43+00:00,2026-10-21T17:13:44+00:00
+91091,7250,hubspot,inbound,skipped,,call type not eligible,,,2026-10-21T17:21:21+00:00,2026-10-21T17:21:22+00:00
+91092,7254,hubspot,inbound,skipped,,call type not eligible,,,2026-10-21T19:45:45+00:00,2026-10-21T19:45:47+00:00
+91093,7257,hubspot,inbound,failed,0,HubSpot 409: Contact already exists. Existing ID: 310007,,,2026-10-21T20:36:12+00:00,2026-10-21T20:36:13+00:00
+91094,7258,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-21T20:58:36+00:00,2026-10-21T20:58:38+00:00
+91095,7259,hubspot,inbound,skipped,,call type not eligible,,,2026-10-21T21:01:04+00:00,2026-10-21T21:01:05+00:00
+91096,7260,hubspot,inbound,skipped,,call type not eligible,,,2026-10-21T21:43:54+00:00,2026-10-21T21:43:55+00:00
+91097,7261,hubspot,inbound,skipped,,call type not eligible,,,2026-10-21T22:11:26+00:00,2026-10-21T22:11:28+00:00
+91098,7267,hubspot,inbound,blocked,,internal or test call,,,2026-10-22T00:04:43+00:00,2026-10-22T00:04:45+00:00
+91099,7270,hubspot,inbound,failed,0,HubSpot 409: Contact already exists. Existing ID: 310007,,,2026-10-22T00:16:16+00:00,2026-10-22T00:16:19+00:00
+91100,7271,hubspot,inbound,skipped,,call type not eligible,,,2026-10-22T00:30:52+00:00,2026-10-22T00:30:53+00:00
+91101,7272,hubspot,inbound,skipped,,call type not eligible,,,2026-10-22T02:24:58+00:00,2026-10-22T02:24:59+00:00
+91102,7273,hubspot,inbound,blocked,,internal or test call,,,2026-10-22T02:40:36+00:00,2026-10-22T02:40:38+00:00
+91103,7274,hubspot,inbound,failed,0,Instance <Cases at 0x7f3a9c1d2e50> is not bound to a Session; attribute refresh operation cannot proceed,,,2026-10-22T06:31:44+00:00,2026-10-22T06:31:46+00:00
+91104,7275,hubspot,inbound,skipped,,call type not eligible,,,2026-10-22T13:55:30+00:00,2026-10-22T13:55:31+00:00
+91105,7280,hubspot,inbound,skipped,,call type not eligible,,,2026-10-22T15:51:46+00:00,2026-10-22T15:51:47+00:00
+91106,7283,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-22T16:39:46+00:00,2026-10-22T16:39:48+00:00
+91107,7289,hubspot,inbound,failed,0,Instance <Cases at 0x7f3a9c1d2e50> is not bound to a Session; attribute refresh operation cannot proceed,,,2026-10-22T19:23:21+00:00,2026-10-22T19:23:23+00:00
+91108,7291,hubspot,inbound,blocked,,call shorter than 60s (24s),,,2026-10-22T19:33:46+00:00,2026-10-22T19:33:47+00:00
+91109,7292,hubspot,inbound,failed,0,Instance <Cases at 0x7f3a9c1d2e50> is not bound to a Session; attribute refresh operation cannot proceed,,,2026-10-22T19:40:42+00:00,2026-10-22T19:40:45+00:00
+91110,7294,hubspot,inbound,blocked,,vendor call,,,2026-10-22T20:27:52+00:00,2026-10-22T20:27:55+00:00
+91111,7295,hubspot,inbound,skipped,,call type not eligible,,,2026-10-22T20:29:26+00:00,2026-10-22T20:29:27+00:00
+91112,7302,hubspot,inbound,skipped,,call type not eligible,,,2026-10-23T01:17:49+00:00,2026-10-23T01:17:50+00:00
+91113,7303,hubspot,inbound,failed,0,Instance <Cases at 0x7f3a9c1d2e50> is not bound to a Session; attribute refresh operation cannot proceed,,,2026-10-23T01:28:52+00:00,2026-10-23T01:28:53+00:00
+91114,7304,hubspot,inbound,skipped,,call type not eligible,,,2026-10-23T01:49:43+00:00,2026-10-23T01:49:44+00:00
+91115,7305,hubspot,inbound,skipped,,call type not eligible,,,2026-10-23T02:02:02+00:00,2026-10-23T02:02:04+00:00
+91116,7306,hubspot,inbound,skipped,,call type not eligible,,,2026-10-23T02:23:53+00:00,2026-10-23T02:23:56+00:00
+91117,7307,hubspot,inbound,skipped,,call type not eligible,,,2026-10-23T02:44:43+00:00,2026-10-23T02:44:44+00:00
+91118,7308,hubspot,inbound,skipped,,call type not eligible,,,2026-10-23T03:35:02+00:00,2026-10-23T03:35:05+00:00
+91119,7309,hubspot,inbound,skipped,,call type not eligible,,,2026-10-23T04:00:15+00:00,2026-10-23T04:00:18+00:00
+91120,7310,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-23T04:57:50+00:00,2026-10-23T04:57:51+00:00
+91121,7311,hubspot,inbound,failed,0,Instance <Cases at 0x7f3a9c1d2e50> is not bound to a Session; attribute refresh operation cannot proceed,,,2026-10-23T06:39:29+00:00,2026-10-23T06:39:30+00:00
+91122,7312,hubspot,inbound,succeeded,,,,,2026-10-23T08:51:08+00:00,2026-10-23T08:51:10+00:00
+91123,7313,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-23T14:02:22+00:00,2026-10-23T14:02:24+00:00
+91124,7314,hubspot,inbound,skipped,,call type not eligible,,,2026-10-23T15:33:58+00:00,2026-10-23T15:33:59+00:00
+91125,7292,hubspot,inbound,succeeded,,,ops@cicero.example,2026-10-23T17:13:11.728781,2026-10-23T17:13:11+00:00,2026-10-23T17:13:13+00:00
+91126,7303,hubspot,inbound,succeeded,,,ops@cicero.example,2026-10-23T17:22:15.032247,2026-10-23T17:22:15+00:00,2026-10-23T17:22:17+00:00
+91127,7328,hubspot,inbound,failed,0,HubSpot 409: Contact already exists. Existing ID: 310007,,,2026-10-23T19:02:03+00:00,2026-10-23T19:02:04+00:00
+91128,7329,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-23T19:38:25+00:00,2026-10-23T19:38:26+00:00
+91129,7334,hubspot,inbound,succeeded,,,,,2026-10-23T21:08:03+00:00,2026-10-23T21:08:05+00:00
+91130,7336,hubspot,inbound,blocked,,call shorter than 60s (11s),,,2026-10-23T21:47:04+00:00,2026-10-23T21:47:05+00:00
+91131,7338,hubspot,inbound,blocked,,vendor call,,,2026-10-23T22:06:38+00:00,2026-10-23T22:06:41+00:00
+91132,7342,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-23T22:26:44+00:00,2026-10-23T22:26:45+00:00
+91133,7344,hubspot,inbound,skipped,,call type not eligible,,,2026-10-23T23:32:24+00:00,2026-10-23T23:32:26+00:00
+91134,7346,hubspot,inbound,succeeded,,,,,2026-10-23T23:42:04+00:00,2026-10-23T23:42:05+00:00
+91135,7353,hubspot,inbound,succeeded,,,,,2026-10-24T01:39:19+00:00,2026-10-24T01:39:20+00:00
+91136,7354,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-24T02:25:04+00:00,2026-10-24T02:25:06+00:00
+91137,7355,hubspot,inbound,succeeded,,,,,2026-10-24T04:09:30+00:00,2026-10-24T04:09:32+00:00
+91138,7356,hubspot,inbound,skipped,,call type not eligible,,,2026-10-24T05:28:34+00:00,2026-10-24T05:28:36+00:00
+91139,7357,hubspot,inbound,skipped,,call type not eligible,,,2026-10-24T14:25:35+00:00,2026-10-24T14:25:37+00:00
+91140,7358,hubspot,inbound,skipped,,call type not eligible,,,2026-10-24T14:28:48+00:00,2026-10-24T14:28:50+00:00
+91141,7359,hubspot,inbound,succeeded,,,,,2026-10-24T17:34:40+00:00,2026-10-24T17:34:41+00:00
+91142,7360,hubspot,inbound,succeeded,,,,,2026-10-24T18:41:51+00:00,2026-10-24T18:41:53+00:00
+91143,7361,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-24T19:11:27+00:00,2026-10-24T19:11:29+00:00
+91144,7362,hubspot,inbound,succeeded,,,,,2026-10-24T20:41:29+00:00,2026-10-24T20:41:32+00:00
+91145,7363,hubspot,inbound,succeeded,,,,,2026-10-24T22:08:21+00:00,2026-10-24T22:08:22+00:00
+91146,7364,hubspot,inbound,succeeded,,,,,2026-10-24T22:47:32+00:00,2026-10-24T22:47:35+00:00
+91147,7365,hubspot,inbound,succeeded,,,,,2026-10-24T23:42:36+00:00,2026-10-24T23:42:37+00:00
+91148,7366,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-25T01:00:00+00:00,2026-10-25T01:00:01+00:00
+91149,7367,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-25T01:10:38+00:00,2026-10-25T01:10:40+00:00
+91150,7368,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-25T01:38:12+00:00,2026-10-25T01:38:13+00:00
+91151,7369,hubspot,inbound,succeeded,,,,,2026-10-25T02:07:21+00:00,2026-10-25T02:07:24+00:00
+91152,7370,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-25T06:49:24+00:00,2026-10-25T06:49:25+00:00
+91153,7371,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-25T16:14:35+00:00,2026-10-25T16:14:38+00:00
+91154,7372,hubspot,inbound,skipped,,call type not eligible,,,2026-10-25T17:35:56+00:00,2026-10-25T17:35:58+00:00
+91155,7373,hubspot,inbound,succeeded,,,,,2026-10-25T17:41:42+00:00,2026-10-25T17:41:44+00:00
+91156,7374,hubspot,inbound,succeeded,,,,,2026-10-25T19:45:33+00:00,2026-10-25T19:45:35+00:00
+91157,7375,hubspot,inbound,succeeded,,,,,2026-10-25T19:58:33+00:00,2026-10-25T19:58:35+00:00
+91158,7376,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-25T20:18:44+00:00,2026-10-25T20:18:46+00:00
+91159,7377,hubspot,inbound,succeeded,,,,,2026-10-25T21:37:05+00:00,2026-10-25T21:37:05+00:00
+91160,7378,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-25T21:57:30+00:00,2026-10-25T21:57:32+00:00
+91161,7379,hubspot,inbound,blocked,,internal or test call,,,2026-10-25T22:25:34+00:00,2026-10-25T22:25:36+00:00
+91162,7380,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-25T22:43:41+00:00,2026-10-25T22:43:41+00:00
+91163,7381,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-26T00:24:30+00:00,2026-10-26T00:24:30+00:00
+91164,7382,hubspot,inbound,failed,1,HubSpot API timeout after 10s,,,2026-10-26T01:02:30+00:00,2026-10-26T01:02:32+00:00
+91165,7382,hubspot,inbound,succeeded,,,,,2026-10-26T01:03:30+00:00,2026-10-26T01:03:33+00:00
+91166,7383,hubspot,inbound,skipped,,call type not eligible,,,2026-10-26T02:17:51+00:00,2026-10-26T02:17:53+00:00
+91167,7384,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-26T06:46:51+00:00,2026-10-26T06:46:53+00:00
+91168,7385,hubspot,inbound,skipped,,call type not eligible,,,2026-10-26T07:46:32+00:00,2026-10-26T07:46:32+00:00
+91169,7386,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-26T12:14:39+00:00,2026-10-26T12:14:40+00:00
+91170,7387,hubspot,inbound,skipped,,call type not eligible,,,2026-10-26T13:48:23+00:00,2026-10-26T13:48:25+00:00
+91171,7388,hubspot,inbound,succeeded,,,,,2026-10-26T13:52:49+00:00,2026-10-26T13:52:51+00:00
+91172,7389,hubspot,inbound,succeeded,,,,,2026-10-26T14:49:54+00:00,2026-10-26T14:49:57+00:00
+91173,7399,hubspot,inbound,skipped,,call type not eligible,,,2026-10-26T15:35:33+00:00,2026-10-26T15:35:34+00:00
+91174,7418,hubspot,inbound,blocked,,vendor call,,,2026-10-26T18:04:31+00:00,2026-10-26T18:04:32+00:00
+91175,7419,hubspot,inbound,blocked,,vendor call,,,2026-10-26T19:21:30+00:00,2026-10-26T19:21:31+00:00
+91176,7426,hubspot,inbound,skipped,,call type not eligible,,,2026-10-26T23:22:33+00:00,2026-10-26T23:22:34+00:00
+91177,7429,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T00:45:47+00:00,2026-10-27T00:45:49+00:00
+91178,7428,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T00:46:16+00:00,2026-10-27T00:46:16+00:00
+91179,7430,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T00:56:57+00:00,2026-10-27T00:56:57+00:00
+91180,7431,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T01:00:12+00:00,2026-10-27T01:00:13+00:00
+91181,7432,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-27T01:20:31+00:00,2026-10-27T01:20:32+00:00
+91182,7433,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T01:23:18+00:00,2026-10-27T01:23:20+00:00
+91183,7434,hubspot,inbound,succeeded,,,,,2026-10-27T01:45:56+00:00,2026-10-27T01:45:59+00:00
+91184,7435,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T02:12:47+00:00,2026-10-27T02:12:48+00:00
+91185,7436,hubspot,inbound,succeeded,,,,,2026-10-27T03:18:24+00:00,2026-10-27T03:18:25+00:00
+91186,7437,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-27T03:26:08+00:00,2026-10-27T03:26:10+00:00
+91187,7438,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T03:34:26+00:00,2026-10-27T03:34:27+00:00
+91188,7439,hubspot,inbound,succeeded,,,,,2026-10-27T03:51:39+00:00,2026-10-27T03:51:40+00:00
+91189,7440,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T05:29:08+00:00,2026-10-27T05:29:09+00:00
+91190,7441,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T06:12:57+00:00,2026-10-27T06:13:00+00:00
+91191,7442,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T06:31:16+00:00,2026-10-27T06:31:18+00:00
+91192,7443,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-27T09:38:48+00:00,2026-10-27T09:38:50+00:00
+91193,7444,hubspot,inbound,succeeded,,,,,2026-10-27T09:47:55+00:00,2026-10-27T09:47:56+00:00
+91194,7445,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T10:10:37+00:00,2026-10-27T10:10:38+00:00
+91195,7446,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T11:46:52+00:00,2026-10-27T11:46:53+00:00
+91196,7447,hubspot,inbound,succeeded,,,,,2026-10-27T13:16:43+00:00,2026-10-27T13:16:45+00:00
+91197,7448,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T13:18:11+00:00,2026-10-27T13:18:11+00:00
+91198,7449,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T13:27:29+00:00,2026-10-27T13:27:31+00:00
+91199,7450,hubspot,inbound,succeeded,,,,,2026-10-27T14:07:21+00:00,2026-10-27T14:07:22+00:00
+91200,7451,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T14:23:33+00:00,2026-10-27T14:23:36+00:00
+91201,7452,hubspot,inbound,succeeded,,,,,2026-10-27T14:59:59+00:00,2026-10-27T15:00:00+00:00
+91202,7453,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T15:04:06+00:00,2026-10-27T15:04:08+00:00
+91203,7483,hubspot,inbound,succeeded,,,,,2026-10-27T18:01:30+00:00,2026-10-27T18:01:31+00:00
+91204,7485,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T18:02:01+00:00,2026-10-27T18:02:01+00:00
+91205,7488,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-27T19:11:24+00:00,2026-10-27T19:11:25+00:00
+91206,7489,hubspot,inbound,blocked,,vendor call,,,2026-10-27T19:54:32+00:00,2026-10-27T19:54:35+00:00
+91207,7491,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T20:18:45+00:00,2026-10-27T20:18:47+00:00
+91208,7494,hubspot,inbound,skipped,,call type not eligible,,,2026-10-27T23:22:53+00:00,2026-10-27T23:22:54+00:00
+91209,7497,hubspot,inbound,blocked,,internal or test call,,,2026-10-28T00:35:33+00:00,2026-10-28T00:35:34+00:00
+91210,7498,hubspot,inbound,succeeded,,,,,2026-10-28T02:00:36+00:00,2026-10-28T02:00:37+00:00
+91211,7499,hubspot,inbound,succeeded,,,,,2026-10-28T02:19:57+00:00,2026-10-28T02:19:58+00:00
+91212,7500,hubspot,inbound,skipped,,call type not eligible,,,2026-10-28T02:33:27+00:00,2026-10-28T02:33:28+00:00
+91213,7501,hubspot,inbound,skipped,,call type not eligible,,,2026-10-28T02:43:07+00:00,2026-10-28T02:43:08+00:00
+91214,7503,hubspot,inbound,skipped,,call type not eligible,,,2026-10-28T02:52:39+00:00,2026-10-28T02:52:42+00:00
+91215,7504,hubspot,inbound,skipped,,call type not eligible,,,2026-10-28T03:03:50+00:00,2026-10-28T03:03:51+00:00
+91216,7506,hubspot,inbound,skipped,,call type not eligible,,,2026-10-28T03:13:21+00:00,2026-10-28T03:13:22+00:00
+91217,7505,hubspot,inbound,succeeded,,,,,2026-10-28T03:13:52+00:00,2026-10-28T03:13:54+00:00
+91218,7507,hubspot,inbound,skipped,,call type not eligible,,,2026-10-28T03:15:58+00:00,2026-10-28T03:16:00+00:00
+91219,7508,hubspot,inbound,skipped,,call type not eligible,,,2026-10-28T03:16:06+00:00,2026-10-28T03:16:07+00:00
+91220,7509,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-28T03:25:20+00:00,2026-10-28T03:25:21+00:00
+91221,7510,hubspot,inbound,skipped,,call type not eligible,,,2026-10-28T03:55:56+00:00,2026-10-28T03:55:57+00:00
+91222,7511,hubspot,inbound,skipped,,call type not eligible,,,2026-10-28T04:38:41+00:00,2026-10-28T04:38:44+00:00
+91223,7512,hubspot,inbound,succeeded,,,,,2026-10-28T05:31:31+00:00,2026-10-28T05:31:33+00:00
+91224,7513,hubspot,inbound,skipped,,call type not eligible,,,2026-10-28T13:41:12+00:00,2026-10-28T13:41:13+00:00
+91225,7514,hubspot,inbound,skipped,,call type not eligible,,,2026-10-28T14:38:59+00:00,2026-10-28T14:39:00+00:00
+91226,7535,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-28T16:30:29+00:00,2026-10-28T16:30:30+00:00
+91227,7540,hubspot,inbound,skipped,,call type not eligible,,,2026-10-28T17:33:13+00:00,2026-10-28T17:33:15+00:00
+91228,7546,hubspot,inbound,blocked,,vendor call,,,2026-10-28T20:17:38+00:00,2026-10-28T20:17:39+00:00
+91229,7549,hubspot,inbound,failed,0,HubSpot 409: Contact already exists. Existing ID: 310007,,,2026-10-28T21:00:42+00:00,2026-10-28T21:00:45+00:00
+91230,7552,hubspot,inbound,skipped,,call type not eligible,,,2026-10-28T22:40:51+00:00,2026-10-28T22:40:52+00:00
+91231,7554,hubspot,inbound,skipped,,call type not eligible,,,2026-10-28T22:58:41+00:00,2026-10-28T22:58:42+00:00
+91232,7558,hubspot,inbound,failed,0,HubSpot 409: Contact already exists. Existing ID: 310007,,,2026-10-29T00:09:48+00:00,2026-10-29T00:09:50+00:00
+91233,7560,hubspot,inbound,skipped,,call type not eligible,,,2026-10-29T01:05:41+00:00,2026-10-29T01:05:43+00:00
+91234,7561,hubspot,inbound,succeeded,,,,,2026-10-29T01:27:46+00:00,2026-10-29T01:27:47+00:00
+91235,7562,hubspot,inbound,succeeded,,,,,2026-10-29T04:03:59+00:00,2026-10-29T04:04:02+00:00
+91236,7563,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-29T04:08:24+00:00,2026-10-29T04:08:25+00:00
+91237,7564,hubspot,inbound,succeeded,,,,,2026-10-29T04:09:57+00:00,2026-10-29T04:09:58+00:00
+91238,7565,hubspot,inbound,skipped,,call type not eligible,,,2026-10-29T04:39:57+00:00,2026-10-29T04:39:59+00:00
+91239,7566,hubspot,inbound,skipped,,call type not eligible,,,2026-10-29T05:29:50+00:00,2026-10-29T05:29:51+00:00
+91240,7567,hubspot,inbound,skipped,,call type not eligible,,,2026-10-29T05:30:45+00:00,2026-10-29T05:30:47+00:00
+91241,7568,hubspot,inbound,skipped,,call type not eligible,,,2026-10-29T05:51:31+00:00,2026-10-29T05:51:34+00:00
+91242,7569,hubspot,inbound,skipped,,call type not eligible,,,2026-10-29T13:09:30+00:00,2026-10-29T13:09:31+00:00
+91243,7570,hubspot,inbound,succeeded,,,,,2026-10-29T13:53:52+00:00,2026-10-29T13:53:55+00:00
+91244,7571,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-29T14:34:00+00:00,2026-10-29T14:34:02+00:00
+91245,7572,hubspot,inbound,succeeded,,,,,2026-10-29T15:05:01+00:00,2026-10-29T15:05:04+00:00
+91246,7573,hubspot,inbound,succeeded,,,,,2026-10-29T15:16:27+00:00,2026-10-29T15:16:29+00:00
+91247,7589,hubspot,inbound,skipped,,call type not eligible,,,2026-10-29T15:47:50+00:00,2026-10-29T15:47:53+00:00
+91248,7593,hubspot,inbound,skipped,,call type not eligible,,,2026-10-29T16:23:28+00:00,2026-10-29T16:23:31+00:00
+91249,7596,hubspot,inbound,skipped,,call type not eligible,,,2026-10-29T17:11:59+00:00,2026-10-29T17:12:00+00:00
+91250,7597,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-29T18:17:55+00:00,2026-10-29T18:17:56+00:00
+91251,7600,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-29T19:40:19+00:00,2026-10-29T19:40:20+00:00
+91252,7602,hubspot,inbound,blocked,,internal or test call,,,2026-10-29T20:24:42+00:00,2026-10-29T20:24:42+00:00
+91253,7603,hubspot,inbound,blocked,,vendor call,,,2026-10-29T20:25:35+00:00,2026-10-29T20:25:37+00:00
+91254,7605,hubspot,inbound,blocked,,vendor call,,,2026-10-29T20:42:27+00:00,2026-10-29T20:42:28+00:00
+91255,7606,hubspot,inbound,succeeded,,,,,2026-10-29T21:00:59+00:00,2026-10-29T21:01:00+00:00
+91256,7607,hubspot,inbound,blocked,,vendor call,,,2026-10-29T21:09:46+00:00,2026-10-29T21:09:47+00:00
+91257,7613,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-29T23:32:24+00:00,2026-10-29T23:32:27+00:00
+91258,7616,hubspot,inbound,skipped,,call type not eligible,,,2026-10-30T01:05:47+00:00,2026-10-30T01:05:49+00:00
+91259,7617,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-30T01:41:45+00:00,2026-10-30T01:41:48+00:00
+91260,7618,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-30T01:42:45+00:00,2026-10-30T01:42:47+00:00
+91261,7619,hubspot,inbound,skipped,,call type not eligible,,,2026-10-30T01:45:31+00:00,2026-10-30T01:45:33+00:00
+91262,7620,hubspot,inbound,skipped,,call type not eligible,,,2026-10-30T01:58:02+00:00,2026-10-30T01:58:05+00:00
+91263,7621,hubspot,inbound,succeeded,,,,,2026-10-30T02:47:12+00:00,2026-10-30T02:47:14+00:00
+91264,7622,hubspot,inbound,skipped,,call type not eligible,,,2026-10-30T03:14:20+00:00,2026-10-30T03:14:21+00:00
+91265,7623,hubspot,inbound,skipped,,call type not eligible,,,2026-10-30T03:46:20+00:00,2026-10-30T03:46:23+00:00
+91266,7624,hubspot,inbound,blocked,,call shorter than 60s (13s),,,2026-10-30T03:54:32+00:00,2026-10-30T03:54:34+00:00
+91267,7625,hubspot,inbound,skipped,,call type not eligible,,,2026-10-30T05:04:19+00:00,2026-10-30T05:04:22+00:00
+91268,7626,hubspot,inbound,skipped,,call type not eligible,,,2026-10-30T13:14:20+00:00,2026-10-30T13:14:21+00:00
+91269,7627,hubspot,inbound,skipped,,call type not eligible,,,2026-10-30T13:19:02+00:00,2026-10-30T13:19:03+00:00
+91270,7628,hubspot,inbound,succeeded,,,,,2026-10-30T13:33:14+00:00,2026-10-30T13:33:15+00:00
+91271,7629,hubspot,inbound,skipped,,call type not eligible,,,2026-10-30T14:46:36+00:00,2026-10-30T14:46:38+00:00
+91272,7630,hubspot,inbound,skipped,,call type not eligible,,,2026-10-30T14:58:40+00:00,2026-10-30T14:58:41+00:00
+91273,7643,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-30T15:49:02+00:00,2026-10-30T15:49:03+00:00
+91274,7646,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-30T16:49:21+00:00,2026-10-30T16:49:22+00:00
+91275,7645,hubspot,inbound,succeeded,,,,,2026-10-30T16:52:51+00:00,2026-10-30T16:52:53+00:00
+91276,7654,hubspot,inbound,succeeded,,,,,2026-10-30T19:03:12+00:00,2026-10-30T19:03:12+00:00
+91277,7656,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-30T19:29:30+00:00,2026-10-30T19:29:32+00:00
+91278,7659,hubspot,inbound,blocked,,vendor call,,,2026-10-30T20:12:51+00:00,2026-10-30T20:12:53+00:00
+91279,7661,hubspot,inbound,blocked,,internal or test call,,,2026-10-30T20:24:39+00:00,2026-10-30T20:24:41+00:00
+91280,7664,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-30T20:58:00+00:00,2026-10-30T20:58:03+00:00
+91281,7667,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-30T22:24:26+00:00,2026-10-30T22:24:28+00:00
+91282,7669,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-31T01:18:39+00:00,2026-10-31T01:18:40+00:00
+91283,7670,hubspot,inbound,succeeded,,,,,2026-10-31T01:37:27+00:00,2026-10-31T01:37:28+00:00
+91284,7671,hubspot,inbound,skipped,,call type not eligible,,,2026-10-31T02:01:25+00:00,2026-10-31T02:01:28+00:00
+91285,7672,hubspot,inbound,skipped,,call type not eligible,,,2026-10-31T02:18:35+00:00,2026-10-31T02:18:37+00:00
+91286,7673,hubspot,inbound,blocked,,call shorter than 60s (9s),,,2026-10-31T02:28:51+00:00,2026-10-31T02:28:51+00:00
+91287,7674,hubspot,inbound,skipped,,call type not eligible,,,2026-10-31T03:08:51+00:00,2026-10-31T03:08:52+00:00
+91288,7675,hubspot,inbound,succeeded,,,,,2026-10-31T03:13:16+00:00,2026-10-31T03:13:17+00:00
+91289,7676,hubspot,inbound,succeeded,,,,,2026-10-31T04:32:41+00:00,2026-10-31T04:32:44+00:00
+91290,7677,hubspot,inbound,skipped,,call type not eligible,,,2026-10-31T05:07:09+00:00,2026-10-31T05:07:12+00:00
+91291,7678,hubspot,inbound,succeeded,,,,,2026-10-31T05:10:16+00:00,2026-10-31T05:10:18+00:00
+91292,7679,hubspot,inbound,skipped,,call type not eligible,,,2026-10-31T06:46:23+00:00,2026-10-31T06:46:25+00:00
+91293,7680,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-31T08:17:40+00:00,2026-10-31T08:17:42+00:00
+91294,7681,hubspot,inbound,succeeded,,,,,2026-10-31T15:13:45+00:00,2026-10-31T15:13:48+00:00
+91295,7682,hubspot,inbound,blocked,,junk call (hang_up),,,2026-10-31T15:35:57+00:00,2026-10-31T15:35:59+00:00
+91296,7683,hubspot,inbound,succeeded,,,,,2026-10-31T17:38:19+00:00,2026-10-31T17:38:20+00:00
+91297,7684,hubspot,inbound,succeeded,,,,,2026-10-31T18:53:32+00:00,2026-10-31T18:53:34+00:00
+91298,7685,hubspot,inbound,skipped,,call type not eligible,,,2026-10-31T20:20:24+00:00,2026-10-31T20:20:27+00:00
+91299,7686,hubspot,inbound,blocked,,junk call (robocall),,,2026-10-31T21:17:29+00:00,2026-10-31T21:17:31+00:00
+91300,7687,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-01T00:37:42+00:00,2026-11-01T00:37:43+00:00
+91301,7688,hubspot,inbound,skipped,,call type not eligible,,,2026-11-01T01:37:13+00:00,2026-11-01T01:37:13+00:00
+91302,7689,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-01T03:56:48+00:00,2026-11-01T03:56:50+00:00
+91303,7690,hubspot,inbound,succeeded,,,,,2026-11-01T07:10:55+00:00,2026-11-01T07:10:56+00:00
+91304,7691,hubspot,inbound,skipped,,call type not eligible,,,2026-11-01T15:15:53+00:00,2026-11-01T15:15:56+00:00
+91305,7692,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-01T17:44:58+00:00,2026-11-01T17:45:00+00:00
+91306,7693,hubspot,inbound,succeeded,,,,,2026-11-01T23:43:23+00:00,2026-11-01T23:43:25+00:00
+91307,7694,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-02T01:09:07+00:00,2026-11-02T01:09:09+00:00
+91308,7695,hubspot,inbound,succeeded,,,,,2026-11-02T01:53:45+00:00,2026-11-02T01:53:47+00:00
+91309,7696,hubspot,inbound,succeeded,,,,,2026-11-02T02:19:21+00:00,2026-11-02T02:19:23+00:00
+91310,7697,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-02T03:40:56+00:00,2026-11-02T03:40:56+00:00
+91311,7698,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-02T04:51:59+00:00,2026-11-02T04:52:00+00:00
+91312,7699,hubspot,inbound,succeeded,,,,,2026-11-02T05:08:50+00:00,2026-11-02T05:08:53+00:00
+91313,7700,hubspot,inbound,succeeded,,,,,2026-11-02T06:08:30+00:00,2026-11-02T06:08:33+00:00
+91314,7701,hubspot,inbound,succeeded,,,,,2026-11-02T11:28:18+00:00,2026-11-02T11:28:20+00:00
+91315,7702,hubspot,inbound,skipped,,call type not eligible,,,2026-11-02T13:34:32+00:00,2026-11-02T13:34:33+00:00
+91316,7720,hubspot,inbound,blocked,,call shorter than 60s (22s),,,2026-11-02T15:53:00+00:00,2026-11-02T15:53:01+00:00
+91317,7726,hubspot,inbound,succeeded,,,,,2026-11-02T16:25:29+00:00,2026-11-02T16:25:31+00:00
+91318,7730,hubspot,inbound,skipped,,call type not eligible,,,2026-11-02T16:54:19+00:00,2026-11-02T16:54:22+00:00
+91319,7731,hubspot,inbound,skipped,,call type not eligible,,,2026-11-02T17:03:59+00:00,2026-11-02T17:04:00+00:00
+91320,7732,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-02T17:16:40+00:00,2026-11-02T17:16:41+00:00
+91321,7739,hubspot,inbound,succeeded,,,,,2026-11-02T21:40:12+00:00,2026-11-02T21:40:14+00:00
+91322,7740,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-02T22:29:47+00:00,2026-11-02T22:29:48+00:00
+91323,7741,hubspot,inbound,succeeded,,,,,2026-11-02T22:44:42+00:00,2026-11-02T22:44:44+00:00
+91324,7744,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-02T23:35:53+00:00,2026-11-02T23:35:55+00:00
+91325,7745,hubspot,inbound,skipped,,call type not eligible,,,2026-11-03T00:10:58+00:00,2026-11-03T00:11:01+00:00
+91326,7746,hubspot,inbound,blocked,,internal or test call,,,2026-11-03T00:41:22+00:00,2026-11-03T00:41:23+00:00
+91327,7747,hubspot,inbound,skipped,,call type not eligible,,,2026-11-03T01:32:49+00:00,2026-11-03T01:32:50+00:00
+91328,7748,hubspot,inbound,succeeded,,,,,2026-11-03T01:36:52+00:00,2026-11-03T01:36:53+00:00
+91329,7749,hubspot,inbound,succeeded,,,,,2026-11-03T02:02:52+00:00,2026-11-03T02:02:53+00:00
+91330,7750,hubspot,inbound,succeeded,,,,,2026-11-03T03:11:56+00:00,2026-11-03T03:11:57+00:00
+91331,7751,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-03T03:17:14+00:00,2026-11-03T03:17:16+00:00
+91332,7752,hubspot,inbound,succeeded,,,,,2026-11-03T03:22:38+00:00,2026-11-03T03:22:40+00:00
+91333,7753,hubspot,inbound,skipped,,call type not eligible,,,2026-11-03T04:17:49+00:00,2026-11-03T04:17:51+00:00
+91334,7754,hubspot,inbound,skipped,,call type not eligible,,,2026-11-03T05:10:08+00:00,2026-11-03T05:10:08+00:00
+91335,7755,hubspot,inbound,skipped,,call type not eligible,,,2026-11-03T05:18:29+00:00,2026-11-03T05:18:29+00:00
+91336,7756,hubspot,inbound,succeeded,,,,,2026-11-03T05:25:31+00:00,2026-11-03T05:25:34+00:00
+91337,7757,hubspot,inbound,skipped,,call type not eligible,,,2026-11-03T13:47:14+00:00,2026-11-03T13:47:16+00:00
+91338,7758,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-03T14:19:41+00:00,2026-11-03T14:19:43+00:00
+91339,7759,hubspot,inbound,succeeded,,,,,2026-11-03T15:20:49+00:00,2026-11-03T15:20:51+00:00
+91340,7780,hubspot,inbound,skipped,,call type not eligible,,,2026-11-03T16:59:06+00:00,2026-11-03T16:59:08+00:00
+91341,7782,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-03T17:13:38+00:00,2026-11-03T17:13:41+00:00
+91342,7783,hubspot,inbound,failed,0,HubSpot 409: Contact already exists. Existing ID: 310007,,,2026-11-03T17:43:18+00:00,2026-11-03T17:43:21+00:00
+91343,7785,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-03T17:49:28+00:00,2026-11-03T17:49:29+00:00
+91344,7788,hubspot,inbound,blocked,,vendor call,,,2026-11-03T19:13:32+00:00,2026-11-03T19:13:34+00:00
+91345,7794,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-03T20:43:19+00:00,2026-11-03T20:43:20+00:00
+91346,7796,hubspot,inbound,skipped,,call type not eligible,,,2026-11-03T20:52:24+00:00,2026-11-03T20:52:24+00:00
+91347,7800,hubspot,inbound,succeeded,,,,,2026-11-03T22:12:01+00:00,2026-11-03T22:12:03+00:00
+91348,7802,hubspot,inbound,failed,0,HubSpot 409: Contact already exists. Existing ID: 310007,,,2026-11-03T22:32:32+00:00,2026-11-03T22:32:33+00:00
+91349,7803,hubspot,inbound,succeeded,,,,,2026-11-03T22:36:59+00:00,2026-11-03T22:37:02+00:00
+91350,7808,hubspot,inbound,skipped,,call type not eligible,,,2026-11-04T00:21:30+00:00,2026-11-04T00:21:31+00:00
+91351,7809,hubspot,inbound,succeeded,,,,,2026-11-04T00:25:46+00:00,2026-11-04T00:25:47+00:00
+91352,7810,hubspot,inbound,skipped,,call type not eligible,,,2026-11-04T01:10:55+00:00,2026-11-04T01:10:56+00:00
+91353,7811,hubspot,inbound,skipped,,call type not eligible,,,2026-11-04T01:48:57+00:00,2026-11-04T01:48:57+00:00
+91354,7812,hubspot,inbound,skipped,,call type not eligible,,,2026-11-04T02:09:33+00:00,2026-11-04T02:09:36+00:00
+91355,7813,hubspot,inbound,succeeded,,,,,2026-11-04T03:34:49+00:00,2026-11-04T03:34:50+00:00
+91356,7814,hubspot,inbound,succeeded,,,,,2026-11-04T03:44:20+00:00,2026-11-04T03:44:22+00:00
+91357,7815,hubspot,inbound,succeeded,,,,,2026-11-04T04:01:23+00:00,2026-11-04T04:01:23+00:00
+91358,7816,hubspot,inbound,skipped,,call type not eligible,,,2026-11-04T04:20:19+00:00,2026-11-04T04:20:21+00:00
+91359,7817,hubspot,inbound,skipped,,call type not eligible,,,2026-11-04T04:23:48+00:00,2026-11-04T04:23:51+00:00
+91360,7818,hubspot,inbound,skipped,,call type not eligible,,,2026-11-04T04:32:30+00:00,2026-11-04T04:32:31+00:00
+91361,7819,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-04T04:32:43+00:00,2026-11-04T04:32:45+00:00
+91362,7820,hubspot,inbound,skipped,,call type not eligible,,,2026-11-04T04:51:32+00:00,2026-11-04T04:51:33+00:00
+91363,7821,hubspot,inbound,succeeded,,,,,2026-11-04T05:19:13+00:00,2026-11-04T05:19:15+00:00
+91364,7822,hubspot,inbound,skipped,,call type not eligible,,,2026-11-04T05:31:25+00:00,2026-11-04T05:31:27+00:00
+91365,7823,hubspot,inbound,succeeded,,,,,2026-11-04T06:13:11+00:00,2026-11-04T06:13:14+00:00
+91366,7824,hubspot,inbound,skipped,,call type not eligible,,,2026-11-04T15:01:30+00:00,2026-11-04T15:01:33+00:00
+91367,7825,hubspot,inbound,blocked,,call shorter than 60s (24s),,,2026-11-04T15:11:02+00:00,2026-11-04T15:11:04+00:00
+91368,7837,hubspot,inbound,skipped,,call type not eligible,,,2026-11-04T16:05:31+00:00,2026-11-04T16:05:34+00:00
+91369,7840,hubspot,inbound,blocked,,vendor call,,,2026-11-04T17:11:17+00:00,2026-11-04T17:11:18+00:00
+91370,7842,hubspot,inbound,blocked,,vendor call,,,2026-11-04T17:19:50+00:00,2026-11-04T17:19:53+00:00
+91371,7847,hubspot,inbound,blocked,,vendor call,,,2026-11-04T18:11:28+00:00,2026-11-04T18:11:31+00:00
+91372,7848,hubspot,inbound,succeeded,,,,,2026-11-04T18:23:15+00:00,2026-11-04T18:23:16+00:00
+91373,7850,hubspot,inbound,skipped,,call type not eligible,,,2026-11-04T18:52:59+00:00,2026-11-04T18:53:00+00:00
+91374,7853,hubspot,inbound,blocked,,vendor call,,,2026-11-04T19:32:15+00:00,2026-11-04T19:32:18+00:00
+91375,7856,hubspot,inbound,blocked,,call shorter than 60s (14s),,,2026-11-04T20:59:46+00:00,2026-11-04T20:59:47+00:00
+91376,7861,hubspot,inbound,succeeded,,,,,2026-11-04T22:49:05+00:00,2026-11-04T22:49:06+00:00
+91377,7865,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-04T23:30:17+00:00,2026-11-04T23:30:19+00:00
+91378,7866,hubspot,inbound,skipped,,call type not eligible,,,2026-11-04T23:42:03+00:00,2026-11-04T23:42:06+00:00
+91379,7867,hubspot,inbound,succeeded,,,,,2026-11-04T23:59:10+00:00,2026-11-04T23:59:12+00:00
+91380,7871,hubspot,inbound,skipped,,call type not eligible,,,2026-11-05T02:02:56+00:00,2026-11-05T02:02:56+00:00
+91381,7872,hubspot,inbound,succeeded,,,,,2026-11-05T02:33:26+00:00,2026-11-05T02:33:28+00:00
+91382,7873,hubspot,inbound,skipped,,call type not eligible,,,2026-11-05T02:55:28+00:00,2026-11-05T02:55:30+00:00
+91383,7874,hubspot,inbound,succeeded,,,,,2026-11-05T03:10:26+00:00,2026-11-05T03:10:28+00:00
+91384,7875,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-05T04:05:16+00:00,2026-11-05T04:05:19+00:00
+91385,7876,hubspot,inbound,succeeded,,,,,2026-11-05T04:38:29+00:00,2026-11-05T04:38:31+00:00
+91386,7877,hubspot,inbound,succeeded,,,,,2026-11-05T11:25:28+00:00,2026-11-05T11:25:29+00:00
+91387,7878,hubspot,inbound,succeeded,,,,,2026-11-05T14:38:53+00:00,2026-11-05T14:38:55+00:00
+91388,7879,hubspot,inbound,succeeded,,,,,2026-11-05T14:46:15+00:00,2026-11-05T14:46:16+00:00
+91389,7880,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-05T15:07:00+00:00,2026-11-05T15:07:02+00:00
+91390,7893,hubspot,inbound,succeeded,,,,,2026-11-05T15:45:03+00:00,2026-11-05T15:45:05+00:00
+91391,7898,hubspot,inbound,skipped,,call type not eligible,,,2026-11-05T16:19:40+00:00,2026-11-05T16:19:42+00:00
+91392,7899,hubspot,inbound,blocked,,call shorter than 60s (11s),,,2026-11-05T16:25:36+00:00,2026-11-05T16:25:38+00:00
+91393,7901,hubspot,inbound,succeeded,,,,,2026-11-05T16:42:52+00:00,2026-11-05T16:42:53+00:00
+91394,7907,hubspot,inbound,blocked,,call shorter than 60s (47s),,,2026-11-05T19:13:52+00:00,2026-11-05T19:13:54+00:00
+91395,7908,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-05T19:20:58+00:00,2026-11-05T19:20:59+00:00
+91396,7913,hubspot,inbound,skipped,,call type not eligible,,,2026-11-05T20:44:20+00:00,2026-11-05T20:44:22+00:00
+91397,7916,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-05T22:01:26+00:00,2026-11-05T22:01:28+00:00
+91398,7917,hubspot,inbound,skipped,,call type not eligible,,,2026-11-05T22:50:06+00:00,2026-11-05T22:50:09+00:00
+91399,7918,hubspot,inbound,skipped,,call type not eligible,,,2026-11-05T22:54:29+00:00,2026-11-05T22:54:30+00:00
+91400,7921,hubspot,inbound,failed,0,HubSpot 409: Contact already exists. Existing ID: 310007,,,2026-11-06T00:12:43+00:00,2026-11-06T00:12:44+00:00
+91401,7925,hubspot,inbound,skipped,,call type not eligible,,,2026-11-06T00:59:53+00:00,2026-11-06T00:59:55+00:00
+91402,7926,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-06T01:08:12+00:00,2026-11-06T01:08:14+00:00
+91403,7927,hubspot,inbound,skipped,,call type not eligible,,,2026-11-06T01:32:51+00:00,2026-11-06T01:32:53+00:00
+91404,7928,hubspot,inbound,skipped,,call type not eligible,,,2026-11-06T01:45:00+00:00,2026-11-06T01:45:02+00:00
+91405,7929,hubspot,inbound,skipped,,call type not eligible,,,2026-11-06T02:51:21+00:00,2026-11-06T02:51:23+00:00
+91406,7930,hubspot,inbound,skipped,,call type not eligible,,,2026-11-06T02:54:40+00:00,2026-11-06T02:54:41+00:00
+91407,7931,hubspot,inbound,skipped,,call type not eligible,,,2026-11-06T02:55:38+00:00,2026-11-06T02:55:40+00:00
+91408,7932,hubspot,inbound,succeeded,,,,,2026-11-06T03:16:23+00:00,2026-11-06T03:16:24+00:00
+91409,7933,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-06T04:16:52+00:00,2026-11-06T04:16:55+00:00
+91410,7935,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-06T04:30:36+00:00,2026-11-06T04:30:38+00:00
+91411,7934,hubspot,inbound,skipped,,call type not eligible,,,2026-11-06T04:32:01+00:00,2026-11-06T04:32:04+00:00
+91412,7936,hubspot,inbound,blocked,,call shorter than 60s (17s),,,2026-11-06T04:35:53+00:00,2026-11-06T04:35:54+00:00
+91413,7937,hubspot,inbound,skipped,,call type not eligible,,,2026-11-06T04:57:29+00:00,2026-11-06T04:57:30+00:00
+91414,7938,hubspot,inbound,skipped,,call type not eligible,,,2026-11-06T05:03:09+00:00,2026-11-06T05:03:10+00:00
+91415,7939,hubspot,inbound,skipped,,call type not eligible,,,2026-11-06T05:03:48+00:00,2026-11-06T05:03:51+00:00
+91416,7940,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-06T05:09:30+00:00,2026-11-06T05:09:31+00:00
+91417,7941,hubspot,inbound,skipped,,call type not eligible,,,2026-11-06T06:41:27+00:00,2026-11-06T06:41:28+00:00
+91418,7942,hubspot,inbound,skipped,,call type not eligible,,,2026-11-06T06:51:52+00:00,2026-11-06T06:51:54+00:00
+91419,7943,hubspot,inbound,succeeded,,,,,2026-11-06T07:12:28+00:00,2026-11-06T07:12:29+00:00
+91420,7944,hubspot,inbound,skipped,,call type not eligible,,,2026-11-06T10:06:25+00:00,2026-11-06T10:06:25+00:00
+91421,7945,hubspot,inbound,succeeded,,,,,2026-11-06T13:20:05+00:00,2026-11-06T13:20:08+00:00
+91422,7946,hubspot,inbound,succeeded,,,,,2026-11-06T15:00:07+00:00,2026-11-06T15:00:09+00:00
+91423,7968,hubspot,inbound,succeeded,,,,,2026-11-06T16:48:16+00:00,2026-11-06T16:48:17+00:00
+91424,7971,hubspot,inbound,succeeded,,,,,2026-11-06T17:13:11+00:00,2026-11-06T17:13:13+00:00
+91425,7984,hubspot,inbound,succeeded,,,,,2026-11-06T20:59:14+00:00,2026-11-06T20:59:16+00:00
+91426,7987,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-06T22:25:31+00:00,2026-11-06T22:25:32+00:00
+91427,7988,hubspot,inbound,skipped,,call type not eligible,,,2026-11-06T22:28:05+00:00,2026-11-06T22:28:08+00:00
+91428,7992,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-06T22:46:42+00:00,2026-11-06T22:46:43+00:00
+91429,7993,hubspot,inbound,skipped,,call type not eligible,,,2026-11-07T00:36:16+00:00,2026-11-07T00:36:17+00:00
+91430,7994,hubspot,inbound,skipped,,call type not eligible,,,2026-11-07T01:23:36+00:00,2026-11-07T01:23:37+00:00
+91431,7995,hubspot,inbound,skipped,,call type not eligible,,,2026-11-07T02:00:17+00:00,2026-11-07T02:00:20+00:00
+91432,7996,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-07T02:17:38+00:00,2026-11-07T02:17:40+00:00
+91433,7997,hubspot,inbound,succeeded,,,,,2026-11-07T03:15:30+00:00,2026-11-07T03:15:31+00:00
+91434,7998,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-07T03:17:55+00:00,2026-11-07T03:17:55+00:00
+91435,7999,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-07T03:26:25+00:00,2026-11-07T03:26:28+00:00
+91436,8000,hubspot,inbound,skipped,,call type not eligible,,,2026-11-07T03:32:02+00:00,2026-11-07T03:32:04+00:00
+91437,8001,hubspot,inbound,succeeded,,,,,2026-11-07T03:43:55+00:00,2026-11-07T03:43:57+00:00
+91438,8002,hubspot,inbound,blocked,,call shorter than 60s (8s),,,2026-11-07T03:50:07+00:00,2026-11-07T03:50:08+00:00
+91439,8003,hubspot,inbound,skipped,,call type not eligible,,,2026-11-07T03:54:43+00:00,2026-11-07T03:54:45+00:00
+91440,8004,hubspot,inbound,succeeded,,,,,2026-11-07T04:00:36+00:00,2026-11-07T04:00:37+00:00
+91441,8005,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-07T04:57:52+00:00,2026-11-07T04:57:55+00:00
+91442,8006,hubspot,inbound,skipped,,call type not eligible,,,2026-11-07T05:02:46+00:00,2026-11-07T05:02:48+00:00
+91443,8007,hubspot,inbound,skipped,,call type not eligible,,,2026-11-07T06:03:08+00:00,2026-11-07T06:03:09+00:00
+91444,8008,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-07T14:48:18+00:00,2026-11-07T14:48:20+00:00
+91445,8009,hubspot,inbound,succeeded,,,,,2026-11-07T15:18:57+00:00,2026-11-07T15:18:58+00:00
+91446,8010,hubspot,inbound,succeeded,,,,,2026-11-07T18:04:07+00:00,2026-11-07T18:04:08+00:00
+91447,8011,hubspot,inbound,succeeded,,,,,2026-11-07T19:44:50+00:00,2026-11-07T19:44:50+00:00
+91448,8012,hubspot,inbound,skipped,,call type not eligible,,,2026-11-07T20:11:02+00:00,2026-11-07T20:11:05+00:00
+91449,8013,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-07T20:13:58+00:00,2026-11-07T20:14:01+00:00
+91450,8014,hubspot,inbound,skipped,,call type not eligible,,,2026-11-07T20:50:33+00:00,2026-11-07T20:50:33+00:00
+91451,8015,hubspot,inbound,succeeded,,,,,2026-11-07T21:17:44+00:00,2026-11-07T21:17:45+00:00
+91452,8016,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-07T21:44:58+00:00,2026-11-07T21:44:59+00:00
+91453,8017,hubspot,inbound,succeeded,,,,,2026-11-07T22:21:29+00:00,2026-11-07T22:21:31+00:00
+91454,8018,hubspot,inbound,succeeded,,,,,2026-11-07T23:58:14+00:00,2026-11-07T23:58:16+00:00
+91455,8019,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-08T00:34:56+00:00,2026-11-08T00:34:58+00:00
+91456,8020,hubspot,inbound,succeeded,,,,,2026-11-08T02:19:28+00:00,2026-11-08T02:19:30+00:00
+91457,8021,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-08T03:53:50+00:00,2026-11-08T03:53:51+00:00
+91458,8022,hubspot,inbound,skipped,,call type not eligible,,,2026-11-08T05:30:32+00:00,2026-11-08T05:30:32+00:00
+91459,8023,hubspot,inbound,succeeded,,,,,2026-11-08T05:53:13+00:00,2026-11-08T05:53:16+00:00
+91460,8024,hubspot,inbound,skipped,,call type not eligible,,,2026-11-08T08:49:13+00:00,2026-11-08T08:49:15+00:00
+91461,8025,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-08T16:09:43+00:00,2026-11-08T16:09:44+00:00
+91462,8026,hubspot,inbound,succeeded,,,,,2026-11-08T16:41:14+00:00,2026-11-08T16:41:15+00:00
+91463,8027,hubspot,inbound,succeeded,,,,,2026-11-08T16:50:35+00:00,2026-11-08T16:50:36+00:00
+91464,8028,hubspot,inbound,succeeded,,,,,2026-11-08T16:56:12+00:00,2026-11-08T16:56:15+00:00
+91465,8029,hubspot,inbound,succeeded,,,,,2026-11-08T20:11:04+00:00,2026-11-08T20:11:06+00:00
+91466,8030,hubspot,inbound,blocked,,call shorter than 60s (27s),,,2026-11-08T20:17:54+00:00,2026-11-08T20:17:55+00:00
+91467,8031,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-08T21:13:11+00:00,2026-11-08T21:13:13+00:00
+91468,8032,hubspot,inbound,skipped,,call type not eligible,,,2026-11-08T22:29:33+00:00,2026-11-08T22:29:35+00:00
+91469,8033,hubspot,inbound,blocked,,junk call (hang_up),,,2026-11-09T00:10:52+00:00,2026-11-09T00:10:54+00:00
+91470,8034,hubspot,inbound,succeeded,,,,,2026-11-09T01:00:08+00:00,2026-11-09T01:00:10+00:00
+91471,8035,hubspot,inbound,succeeded,,,,,2026-11-09T02:06:44+00:00,2026-11-09T02:06:45+00:00
+91472,8036,hubspot,inbound,skipped,,call type not eligible,,,2026-11-09T03:19:30+00:00,2026-11-09T03:19:30+00:00
+91473,8037,hubspot,inbound,blocked,,junk call (robocall),,,2026-11-09T03:30:20+00:00,2026-11-09T03:30:21+00:00
+91474,8038,hubspot,inbound,succeeded,,,,,2026-11-09T04:01:36+00:00,2026-11-09T04:01:37+00:00
+91475,8039,hubspot,inbound,succeeded,,,,,2026-11-09T04:29:47+00:00,2026-11-09T04:29:50+00:00
+91476,8040,hubspot,inbound,skipped,,call type not eligible,,,2026-11-09T05:13:40+00:00,2026-11-09T05:13:43+00:00

@@ -1,0 +1,82 @@
+# Call data review
+
+Marlowe & Finch Family Law is a family law firm in Phoenix, Arizona. On
+August 31 they put our AI receptionist, Ava, on their phones. Ava answers when
+the office is closed and when staff do not pick up. She runs a new-client
+intake, offers a paid Discovery Call, transfers to staff during business hours,
+and writes a summary of each call into the firm's CRM.
+
+The managing partner, Rebecca Marlowe, has a review meeting with us today. Her
+email:
+
+> I need to know two things. Is Ava actually making us money, and where are we
+> losing clients? I have five minutes between hearings. Don't send me a
+> spreadsheet.
+
+All data here is made up. The firm, staff, and callers are fictional.
+
+## What to do
+
+1. **40 minutes.** Analyze the data. Use any LLM and any tools you like. Keep
+   your screen shared.
+2. **5 minutes.** Present to Rebecca. We play her. She is smart, busy, and not
+   technical.
+3. **15 minutes.** Talk with us about how you would turn this into a repeatable
+   process.
+
+What you present, and in what format, is up to you. A few findings you can
+stand behind are worth more than covering everything.
+
+You can ask us questions at any point, the way you would ask a colleague or
+the client.
+
+## Files
+
+Call data from our side, covering August 31 to November 8, 2026. This is a
+simplified sample made for this exercise:
+
+- `data/cicero.db` — the sample tables as one SQLite file
+- `data/cicero/` — the same tables as CSV files, if you prefer those
+
+| Table | What it holds |
+|---|---|
+| `cases` | One row per call: Ava's calls and the staff lines. Transcript, raw call data, CRM push status. |
+| `data_sources` | Which kind of call a row is |
+| `case_analysis` | Our summary and follow-up actions for each call |
+| `case_enhanced_analysis` | Our labels for each call: category, how it ended, transfers, qualification |
+| `case_status` | The status staff set for the call in our dashboard |
+| `case_push_events` | Every attempt to write a call into the firm's CRM |
+| `sent_messages` | Texts we sent to callers |
+| `case_appointments` | Appointments Ava booked |
+| `transcription_lines` | The staff members' recorded lines |
+| `law_firms` | The firm's settings |
+
+The firm's side, covering July 6 to November 8, 2026:
+
+- `data/crm/contacts.csv` and `data/crm/deals.csv` — one deal per potential
+  new client, with its current stage, consultation, and retainer fields
+- `data/crm/deal_stage_history.csv` — every stage change and what made it
+- `data/crm/engagements.csv` — calls, notes, tasks, and meetings logged on
+  contacts and deals
+- `data/crm/owners.csv` — the firm's CRM users
+- `data/callrail_calls.csv` — the firm's call-tracking log for its ad numbers
+
+There is no data dictionary. Look at the data, and ask us when something is
+unclear.
+
+## Firm facts
+
+- Business hours are Monday to Friday, 8:30 AM to 5:30 PM, Phoenix time.
+  Phoenix is UTC-7 all year. There is no daylight saving.
+- Intake staff: Dana Whitlock, Marcus Bell, Priya Nair. Each has a recorded
+  line, so their calls are in this data too.
+- Paralegals: Elena Ruiz, Tom Givens. Attorneys: Rebecca Marlowe, Owen Finch.
+- Firm main line: `+16025550199`. Ava's own line: `+16025550150`.
+- Ad tracking numbers: Google Local Services `+16025550111`, Google Ads
+  `+16025550112`, Google Business Profile `+16025550113`. When a new number
+  calls one of these, a CRM workflow creates a contact and a deal right away.
+- Our own team tests the lines from `+16025550100` and `+16025550101`.
+- Ava was upgraded from version 12 to version 13 on Monday, October 5.
+- The firm's fees: Discovery Call $150, Consultation $350, Case Strategy
+  Session $1,500. A client hires the firm by signing and paying a retainer.
+- The firm pays us $1,500 a month.
