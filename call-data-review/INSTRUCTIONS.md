@@ -10,7 +10,7 @@ The pilot is ending. The managing partner, Rebecca Marlowe, is deciding this
 week whether to keep going with us. Her email:
 
 > We need to decide whether to keep Ava after the pilot. Show me what she has
-> actually done for us since we went live. I have five minutes between
+> actually done for us since we went live. I have fifteen minutes between
 > hearings. Don't send me a spreadsheet.
 
 You just got this email, and your meeting with her is in 40 minutes. Your job
@@ -24,7 +24,7 @@ All data here is made up. The firm, staff, and callers are fictional.
 
 1. **40 minutes.** Analyze the data. Use any LLM and any tools you like. Keep
    your screen shared.
-2. **5 minutes.** Present your case to Rebecca. We play her. She is smart,
+2. **15 minutes.** Present your case to Rebecca. We play her. She is smart,
    busy, and not technical.
 3. **15 minutes.** Talk with us about how you would turn this into a repeatable
    process.
