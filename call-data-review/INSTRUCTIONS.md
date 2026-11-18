@@ -1,17 +1,21 @@
 # Call data review
 
 Marlowe & Finch Family Law is a family law firm in Phoenix, Arizona. On
-August 31 they put our AI receptionist, Ava, on their phones. Ava answers when
+August 31 they started a pilot of our AI receptionist, Ava. Ava answers when
 the office is closed and when staff do not pick up. She runs a new-client
 intake, offers a paid Discovery Call, transfers to staff during business hours,
 and writes a summary of each call into the firm's CRM.
 
-The managing partner, Rebecca Marlowe, has a review meeting with us today. Her
-email:
+The pilot is ending. The managing partner, Rebecca Marlowe, is deciding this
+week whether to keep going with us. Her email:
 
-> I need to know two things. Is Ava actually making us money, and where are we
-> losing clients? I have five minutes between hearings. Don't send me a
-> spreadsheet.
+> We need to decide whether to keep Ava after the pilot. Show me what she has
+> actually done for us since we went live. I have five minutes between
+> hearings. Don't send me a spreadsheet.
+
+You work for us. Your job is to make the case for continuing: the impact and
+benefits we have created since going live. Rebecca knows her own firm and will
+question your numbers, so make a case that holds up.
 
 All data here is made up. The firm, staff, and callers are fictional.
 
@@ -19,13 +23,13 @@ All data here is made up. The firm, staff, and callers are fictional.
 
 1. **40 minutes.** Analyze the data. Use any LLM and any tools you like. Keep
    your screen shared.
-2. **5 minutes.** Present to Rebecca. We play her. She is smart, busy, and not
-   technical.
+2. **5 minutes.** Present your case to Rebecca. We play her. She is smart,
+   busy, and not technical.
 3. **15 minutes.** Talk with us about how you would turn this into a repeatable
    process.
 
-What you present, and in what format, is up to you. A few findings you can
-stand behind are worth more than covering everything.
+What you present, and in what format, is up to you. A few points you can stand
+behind are worth more than covering everything.
 
 You can ask us questions at any point, the way you would ask a colleague or
 the client.
@@ -79,4 +83,4 @@ unclear.
 - Ava was upgraded from version 12 to version 13 on Monday, October 5.
 - The firm's fees: Discovery Call $150, Consultation $350, Case Strategy
   Session $1,500. A client hires the firm by signing and paying a retainer.
-- The firm pays us $1,500 a month.
+- The pilot costs the firm $1,500 a month.
