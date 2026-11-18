@@ -70,17 +70,7 @@ unclear.
 
 ## Firm facts
 
-- Business hours are Monday to Friday, 8:30 AM to 5:30 PM, Phoenix time.
-  Phoenix is UTC-7 all year. There is no daylight saving.
-- Intake staff: Dana Whitlock, Marcus Bell, Priya Nair. Each has a recorded
-  line, so their calls are in this data too.
-- Paralegals: Elena Ruiz, Tom Givens. Attorneys: Rebecca Marlowe, Owen Finch.
-- Firm main line: `+16025550199`. Ava's own line: `+16025550150`.
-- Ad tracking numbers: Google Local Services `+16025550111`, Google Ads
-  `+16025550112`, Google Business Profile `+16025550113`. When a new number
-  calls one of these, a CRM workflow creates a contact and a deal right away.
-- Our own team tests the lines from `+16025550100` and `+16025550101`.
-- Ava was upgraded from version 12 to version 13 on Monday, October 5.
 - The firm's fees: Discovery Call $150, Consultation $350, Case Strategy
   Session $1,500. A client hires the firm by signing and paying a retainer.
 - The pilot costs the firm $1,500 a month.
+- Our own team tests the lines from `+16025550100` and `+16025550101`.
