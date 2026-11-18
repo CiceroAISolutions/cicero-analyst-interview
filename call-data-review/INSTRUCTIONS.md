@@ -36,8 +36,7 @@ the client.
 
 ## Files
 
-Call data from our side, covering August 31 to November 8, 2026. This is a
-simplified sample made for this exercise:
+Call data from our side. This is a simplified sample made for this exercise:
 
 - `data/cicero.db` — the sample tables as one SQLite file
 - `data/cicero/` — the same tables as CSV files, if you prefer those
@@ -55,7 +54,7 @@ simplified sample made for this exercise:
 | `transcription_lines` | The staff members' recorded lines |
 | `law_firms` | The firm's settings |
 
-The firm's side, covering July 6 to November 8, 2026:
+The firm's side:
 
 - `data/crm/contacts.csv` and `data/crm/deals.csv` — one deal per potential
   new client, with its current stage, consultation, and retainer fields
