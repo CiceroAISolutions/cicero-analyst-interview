@@ -13,8 +13,9 @@ week whether to keep going with us. Her email:
 > actually done for us since we went live. I have five minutes between
 > hearings. Don't send me a spreadsheet.
 
-You work for us. Your job is to make the case for continuing: the impact and
-benefits we have created since going live. Rebecca knows her own firm and will
+You just got this email, and your meeting with her is in 40 minutes. Your job
+is to make the case for continuing: the impact and benefits we have created
+since going live. Rebecca knows her own firm and will
 question your numbers, so make a case that holds up.
 
 All data here is made up. The firm, staff, and callers are fictional.
